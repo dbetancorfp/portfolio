@@ -17,7 +17,8 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <router-link class="nav-link" to="/about">Sobre mí</router-link>
+              <router-link class="nav-link" to="aboutme">{{ $t("aboutme") }}</router-link>
+              <!-- <router-link class="nav-link" to="/about">Sobre mí</router-link> -->
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/projects"
@@ -37,6 +38,8 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/contact">Contacto</router-link>
             </li>
+            <button @click="changeLanguage('en')">English</button>
+            <button @click="changeLanguage('es')">Español</button>
           </ul>
         </div>
       </div>
@@ -47,7 +50,15 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+  import { useI18n } from "vue-i18n";
+ // Extraer locale y t desde useI18n
+ const { locale, t } = useI18n(); // Esta t es la que usamos en el Template como $t
+ // Cambiar el idioma dinámicamente
+ const changeLanguage = (lang) => {
+ locale.value = lang;
+ };
+</script>
 
 <style scoped>
 /* Ajustar el espaciado superior para el contenido dinámico */
