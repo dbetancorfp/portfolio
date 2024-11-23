@@ -3,5 +3,12 @@
     "projects": "Projects",
     "skills": "Skills",
     "experience": "Experience",
-    "contact": "Contact"
+    "contact": "Contact",
+    "about-page": {
+        "title": "About me",
+        "p1": "I'm Jesús Lugo, video game developer and web programmer. Since I was 15 years old I have been studying self-taught and experimenting with different engines such as Unity or Gamemaker Studio.",
+        "p2": "I am currently a student of web application development at the IES Telesforo Bravo, in Santa Cruz de Tenerife, Spain, and I keep enriching my knowledge with my personal projects using Godot Engine.",
+        "p3": "I love creating and living experiences; a need that I have nurtured with video games since I was a child. My favorite experiences are Red Dead Redemption 2, Sekiro: Shadows Die Twice, Bloodborne, Minecraft, and Cult of the Lamb.",
+        "p4": "Right now I am available for job opportunities, so if you are interested in an enthusiast of creativity, suspense and unforgettable experiences, do not hesitate to contact ;)"
+    }
 }

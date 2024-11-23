@@ -1,5 +1,11 @@
 <script setup>
-
+  import { useI18n } from "vue-i18n";
+  
+  const { locale, t } = useI18n();    
+  
+  const changeLanguage = (lang) => {
+  locale.value = lang;
+  };
 </script>
 
 <template>
@@ -9,12 +15,22 @@
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item"><RouterLink to="/about" class="nav-link">Sobre mi</RouterLink></li>
-        <li class="nav-item"><RouterLink to="/projects" class="nav-link">Proyectos</RouterLink></li>
-        <li class="nav-item"><RouterLink to="/skills" class="nav-link">Habilidades</RouterLink></li>
-        <li class="nav-item"><RouterLink to="/experience" class="nav-link">Experiencia</RouterLink></li>
-        <li class="nav-item"><RouterLink to="/contact" class="nav-link">Contacto</RouterLink></li>
+        <li class="nav-item"><RouterLink to="/about" class="nav-link">{{ $t("aboutme") }}</RouterLink></li>
+        <li class="nav-item"><RouterLink to="/projects" class="nav-link">{{ $t("projects") }}</RouterLink></li>
+        <li class="nav-item"><RouterLink to="/skills" class="nav-link">{{ $t("skills") }}</RouterLink></li>
+        <li class="nav-item"><RouterLink to="/experience" class="nav-link">{{ $t("experience") }}</RouterLink></li>
+        <li class="nav-item"><RouterLink to="/contact" class="nav-link">{{ $t("contact") }}</RouterLink></li>
       </ul>
+
+      <div class="dropdown">
+        <button class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-globe-americas"></i>
+        </button>
+        <ul class="dropdown-menu">
+          <li><button class="dropdown-item" @click="changeLanguage('en')">English</button></li>
+          <li><button class="dropdown-item" @click="changeLanguage('es')">Español</button></li>
+        </ul>
+      </div>
     </header>
 </template>
 

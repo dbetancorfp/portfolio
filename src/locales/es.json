@@ -3,5 +3,12 @@
     "projects": "Proyectos",
     "skills": "Habilidades",
     "experience": "Experiencia",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "about-page": {
+        "title": "Sobre mi",
+        "p1": "Soy Jesús Lugo, desarrollador de videojuegos y programador web. Desde los 15 años he estado estudiando de forma autodidacta y experimentado con distintos motores como Unity o Gamemaker Studio.",
+        "p2": "Actualmente soy estudiante de desarrollo de aplicaciones web en el IES Telesforo Bravo, en Santa Cruz de Tenerife, España, y mantengo enriqueciendo mis conocimientos con mis proyectos personales usando Godot Engine.",
+        "p3": "Me encanta crear y vivir experiencias; una necesidad que desde pequeño he alimentado con los videojuegos. Mis experiencias favoritas son Red Dead Redemption 2, Sekiro: Shadows Die Twice, Bloodborne, Minecraft y Cult of the Lamb.",
+        "p4": "Ahora mismo me encuentro disponible para oportunidades laborales, por lo que si está interesado en un entusiasta de la creatividad, el suspenso y las experiencias innolvidables, no dude en contactar ;)"
+    }
 }
