@@ -1,9 +1,5 @@
 <template>
-  <section>
-    <h1>Página no encontrada</h1>
-  </section>
+    <section id="error">
+        <h1>Error 404</h1>
+    </section>
 </template>
-
-<script setup></script>
-
-<style></style>

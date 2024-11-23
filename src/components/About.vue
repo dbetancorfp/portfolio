@@ -1,15 +1,5 @@
 <template>
-  <section id="about">
-    <h2>Sobre mí</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut enim sed
-      justo ultricies elementum.
-    </p>
-  </section>
+    <section id="about">
+        <h1>Sobre mi</h1>
+    </section>
 </template>
-
-<script setup></script>
-
-<style scoped>
-/* Estilos específicos */
-</style>

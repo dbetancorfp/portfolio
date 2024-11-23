@@ -1,57 +1,23 @@
-<template>
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Portafolio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <router-link class="nav-link" to="/about">Sobre mí</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/projects"
-                >Proyectos</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/skills"
-                >Habilidades</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/experience"
-                >Experiencia</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/contact">Contacto</router-link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<script setup>
 
-    <!-- Espaciado para evitar que el contenido quede detrás del navbar -->
-    <div class="mt-5 pt-3"></div>
-  </div>
+</script>
+
+<template>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none fs-3">
+        <i class="bi bi-file-earmark-person"></i>Jesús Lugo
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><RouterLink to="/about" class="nav-link">Sobre mi</RouterLink></li>
+        <li class="nav-item"><RouterLink to="/projects" class="nav-link">Proyectos</RouterLink></li>
+        <li class="nav-item"><RouterLink to="/skills" class="nav-link">Habilidades</RouterLink></li>
+        <li class="nav-item"><RouterLink to="/experience" class="nav-link">Experiencia</RouterLink></li>
+        <li class="nav-item"><RouterLink to="/contact" class="nav-link">Contacto</RouterLink></li>
+      </ul>
+    </header>
 </template>
 
-<script setup></script>
-
 <style scoped>
-/* Ajustar el espaciado superior para el contenido dinámico */
-.mt-5 {
-  margin-top: 4rem; /* Ajusta el valor según la altura del navbar */
-}
+
 </style>
