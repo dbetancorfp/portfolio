@@ -5,7 +5,7 @@ import es from './locales/es.json';
 // Configura Vue I18n
 const i18n = createI18n({
  legacy: false, // Usar la API Composition
- locale: 'es', // Idioma por defecto
+ locale: localStorage.getItem('language') || 'es', // Recuperar idioma guardado en localStorage
  fallbackLocale: 'es', // Idioma de respaldo
  messages: { en, es }, // Mensajes cargados manualmente
 });

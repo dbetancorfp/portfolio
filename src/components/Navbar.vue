@@ -17,47 +17,79 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <router-link class="nav-link" to="aboutme">{{ $t("aboutme") }}</router-link>
-              <!-- <router-link class="nav-link" to="/about">Sobre mí</router-link> -->
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/projects"
-                >Proyectos</router-link
+              <router-link
+                class="nav-link"
+                v-bind:to="{ name: 'Aboutme', params: { lang: currentLang } }"
               >
+                {{ $t("aboutme") }}
+              </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/skills"
-                >Habilidades</router-link
+              <router-link
+                class="nav-link"
+                :to="{ name: 'Projects', params: { lang: currentLang } }"
               >
+                {{ $t("projects") }}
+              </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/experience"
-                >Experiencia</router-link
+              <router-link
+                class="nav-link"
+                :to="{ name: 'Skills', params: { lang: currentLang } }"
               >
+                {{ $t("skills") }}
+              </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/contact">Contacto</router-link>
+              <router-link
+                class="nav-link"
+                :to="{ name: 'Experience', params: { lang: currentLang } }"
+              >
+                {{ $t("experience") }}
+              </router-link>
             </li>
-            <button @click="changeLanguage('en')">English</button>
-            <button @click="changeLanguage('es')">Español</button>
+            <li class="nav-item">
+              <router-link
+                class="nav-link"
+                :to="{ name: 'Contact', params: { lang: currentLang } }"
+              >
+                {{ $t("contact") }}
+              </router-link>
+            </li>
+            <select  @change="changeLanguage($event.target.value)" class="form-select form-select-sm" aria-label="Small select example" style="width: 150px;">
+              <option value="en" :selected="currentLang === 'en'">English</option>
+              <option value="es" :selected="currentLang === 'es'">Español</option>
+            </select>
           </ul>
         </div>
       </div>
     </nav>
-
     <!-- Espaciado para evitar que el contenido quede detrás del navbar -->
     <div class="mt-5 pt-3"></div>
   </div>
 </template>
 
 <script setup>
-  import { useI18n } from "vue-i18n";
- // Extraer locale y t desde useI18n
- const { locale, t } = useI18n(); // Esta t es la que usamos en el Template como $t
- // Cambiar el idioma dinámicamente
- const changeLanguage = (lang) => {
- locale.value = lang;
- };
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRouter, useRoute } from "vue-router";
+
+// Extraer locale y t desde useI18n
+const { locale, t } = useI18n();
+const router = useRouter();
+const route = useRoute();
+
+// Cuando cambie route.params.lang se actualiza currentLang, cambiando de idioma
+const currentLang = computed(() => route.params.lang || "es");
+
+// Cambiar el idioma dinámicamente
+const changeLanguage = (lang) => {
+  if (locale.value !== lang) {
+    locale.value = lang; // Actualiza el idioma en Vue I18n
+    localStorage.setItem("language", lang); // Guarda el idioma en localStorage
+    router.push({ name: route.name, params: { ...route.params, lang } }); // Actualiza la URL
+  }
+};
 </script>
 
 <style scoped>
