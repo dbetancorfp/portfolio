@@ -63,6 +63,14 @@
                     {{ $t("chinese") }}
                   </button>
                 </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <button class="dropdown-item" @click="changeLanguage('mc')">
+                    {{ $t("minecraft") }}
+                  </button>
+                </li>
               </ul>
             </li>
           </ul>

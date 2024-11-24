@@ -19,7 +19,7 @@ const routes = [
 
 function validateLang(to, from, next) {
   const lang = to.params.lang;
-  const supportedLanguages = ["en", "es", "zh"];
+  const supportedLanguages = ["en", "es", "zh", "mc"];
   if (!supportedLanguages.includes(lang)) {
   return next("/es/about");
   }
