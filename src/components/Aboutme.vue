@@ -3,11 +3,7 @@
     <div class="d-flex flex-column row align-items-center">
       <!-- Imagen de perfil -->
       <div class="col-md-4 text-center mb-5">
-        <img
-          src="../assets/veinteañitostengo.jpg"
-          alt="Foto de perfil"
-          class="img-fluid rounded-circle shadow"
-        />
+        <img src="../assets/veinteañitostengo.jpg" alt="Foto de perfil" class="img-fluid rounded-circle shadow" />
       </div>
 
       <!-- Información personal -->
@@ -17,18 +13,17 @@
           {{ $t("description") }}
         </p>
         <ul class="list-unstyled">
-          <li>
-            <b><b-icon-person /> {{ $t("name") }}:</b> {{ $t("name_value") }}
+          <li class="d-flex align-items-center justify-content-center mb-2">
+            <b><b-icon-person class="mr-2" /> {{ $t("name") }}:</b> {{ $t("name_value") }}
           </li>
-          <li>
-            <b><b-icon-envelope-at /> {{ $t("email") }}:</b> 
+          <li class="d-flex align-items-center justify-content-center mb-2">
+            <b><b-icon-envelope-at class="mr-2" /> {{ $t("email") }}:</b>
             <a href="mailto:elreekdev33@gmail.com"> elreekdev33@gmail.com</a>
           </li>
-          <li>
-            <b><b-icon-geo-alt /> {{ $t("location") }}:</b> {{ $t("location_value") }}
+          <li class="d-flex align-items-center justify-content-center mb-2">
+            <b><b-icon-geo-alt class="mr-2" /> {{ $t("location") }}:</b> {{ $t("location_value") }}
           </li>
         </ul>
-
         <h2 class="mt-4">{{ $t("interests_title") }}</h2>
         <p>{{ $t("interests_description") }}</p>
       </div>
