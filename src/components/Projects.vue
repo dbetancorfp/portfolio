@@ -1,15 +1,5 @@
 <template>
-  <section id="projects">
-    <h2>Proyectos</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-      varius, justo sed consectetur sollicitudin.
-    </p>
-  </section>
+    <header>
+        <h1>Projects</h1>
+    </header>
 </template>
-
-<script setup></script>
-
-<style scoped>
-/* Estilos específicos */
-</style>

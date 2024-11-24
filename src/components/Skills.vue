@@ -1,15 +1,5 @@
 <template>
-  <section id="skills">
-    <h2>Habilidades</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae elit ac
-      neque viverra bibendum.
-    </p>
-  </section>
+    <header>
+        <h1>Skills</h1>
+    </header>
 </template>
-
-<script setup></script>
-
-<style scoped>
-/* Estilos específicos */
-</style>
