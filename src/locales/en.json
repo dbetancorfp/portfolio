@@ -10,9 +10,10 @@
     "birthdate": "Birthdate",
     "address": "Address",
     "email": "Email",   
-    "phone": "Phone"
-    
+    "phone": "Phone",
 
+    "WhoAmI": "Who Am I",
+    "description": "My name is David Luis Mora. I am a developer of cross-platform applications and websites, I am a resident of the Canary Islands in Tenerife and I am very passionate and dedicated to my work. I have development skills on both the client side and the server side."
     
    }
    
