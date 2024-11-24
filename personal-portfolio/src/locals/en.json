@@ -1,0 +1,27 @@
+{
+    "home": {
+        "greetings": "Hi, I’m",
+        "occupation": "Spanish web development student",
+        "currentlyDoing": "Studying at IES PUERTO DE LA CRUZ TELESFORO BRAVO"
+    },
+    "aboutme": {
+        "title": "About me",
+        "introduction": "Hello! I am a web development student passionate about programming and the digital world in general. I’m always eager to learn from mistakes in order to bring code closer to perfection",
+        "objectives": {
+            "title": "My objectives",
+            "text": "Currently I’m living in Spain and as a web application development student, I aim to become a full-stack developer who can meet all the requirements to perform any task assigned to me in the best possible way."
+        },
+        "mind": {
+            "title": "About working",
+            "text": "I believe in the power of teamwork and the necessity of collaboration, as it is the foundation of every project that successfully reaches its goal."
+        },
+        "knowledge": {
+            "title": "About my knowledge",
+            "text": "Throughout my learning journey, I have worked with various tools of all kinds, including databases, frameworks, programming languages, and systems... If you're curious, feel free to check out my skills page."
+        }
+    },
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+}

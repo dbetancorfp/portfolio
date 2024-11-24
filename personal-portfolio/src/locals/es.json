@@ -1,0 +1,27 @@
+{
+    "home": {
+        "greetings": "Hola, soy",
+        "occupation": "Estudiante de desarrollo web en España",
+        "currentlyDoing": "Cursando los estudios en IES PUERTO DE LA CRUZ TELESFORO BRAVO"
+    },
+    "aboutme": {
+        "title": "Sobre mí",
+        "introduction": "¡Hola! Soy un estudiante de desarrollo web apasionado por la programación y el mundo digital en general. Siempre dispuesto a aprender de los errores para intentar acercar la perfección al código",
+        "objectives": {
+            "title": "Mis objetivos",
+            "text": "Actualmente me encuentro en España y como estudiante de desarrollo de aplicaciones web apunto a convertirme en un desarrollador <i>full stack</i> que reuna todas las necesidades para ejercer el trabajo que se me encargue de la mejor manera posible."
+        },
+        "mind": {
+            "title": "Sobre el trabajo",
+            "text": "Creo en el poder del trabajo en equipo y en la necesidad de que la colaboración es la base de todo proyecto que llega a buen puerto."
+        },
+        "knowledge": {
+            "title": "Mis conocimientos",
+            "text": "A lo largo de mi aprendizaje he trabajado con varias herramientas de todo tipo, bases de datos, frameworks, lenguajes de programación, sistemas... Si tienes curiosidad pásate por mi página de habilidades."
+        }
+    },
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+}
