@@ -17,41 +17,49 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <router-link class="nav-link" to="/about">Sobre mí</router-link>
+              <router-link class="nav-link" to="/about">{{ $t('navbar.about') }}</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/projects"
-                >Proyectos</router-link
-              >
+              <router-link class="nav-link" to="/projects">{{ $t('navbar.projects') }}</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/skills"
-                >Habilidades</router-link
-              >
+              <router-link class="nav-link" to="/skills">{{ $t('navbar.skills') }}</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/experience"
-                >Experiencia</router-link
-              >
+              <router-link class="nav-link" to="/experience">{{ $t('navbar.experience') }}</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/contact">Contacto</router-link>
+              <router-link class="nav-link" to="/contact">{{ $t('navbar.contact') }}</router-link>
             </li>
           </ul>
+          <button @click="switchLanguage" class="btn btn-outline-secondary ms-auto">
+            {{ currentLanguage === 'es' ? $t('navbar.switchToEnglish') : $t('navbar.switchToSpanish') }}
+          </button>
         </div>
       </div>
     </nav>
 
-    <!-- Espaciado para evitar que el contenido quede detrás del navbar -->
+   
     <div class="mt-5 pt-3"></div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from 'vue';
+import { useI18n } from 'vue-i18n';
+
+const { locale } = useI18n();
+const currentLanguage = ref(locale.value);
+
+const switchLanguage = () => {
+  currentLanguage.value = currentLanguage.value === 'es' ? 'en' : 'es';
+  locale.value = currentLanguage.value; 
+};
+</script>
 
 <style scoped>
-/* Ajustar el espaciado superior para el contenido dinámico */
+
 .mt-5 {
-  margin-top: 4rem; /* Ajusta el valor según la altura del navbar */
+  margin-top: 4rem; 
 }
 </style>
