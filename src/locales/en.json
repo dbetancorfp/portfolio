@@ -1,8 +1,18 @@
 {
+    "portfolio": "Portfolio",
     "aboutme": "About Me",
     "projects": "Projects",
     "skills": "Skills",
     "experience": "Experience",
-    "contact": "Contact"
+    "contact": "Contact",
+
+    "name": "Name",
+    "birthdate": "Birthdate",
+    "address": "Address",
+    "email": "Email",   
+    "phone": "Phone"
+    
+
+    
    }
    

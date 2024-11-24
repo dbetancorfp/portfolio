@@ -1,8 +1,7 @@
 <template>
   <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Portafolio</a>
+      <div class="container-fluid"> {{ $t("portfolio") }}
         <button
           class="navbar-toggler"
           type="button"

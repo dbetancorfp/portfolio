@@ -1,8 +1,17 @@
 {
+    "portfolio": "Portafolio",
     "aboutme": "Sobre mí",
     "projects": "Proyectos",
     "skills": "Habilidades",
     "experience": "Experiencia",
-    "contact": "Contacto"
+    "contact": "Contacto",
+
+    "name": "Nombre",
+    "birthdate": "Fecha de nacimiento",
+    "address": "Dirección",
+    "email": "Correo electrónico",
+    "phone": "Telefono"
+
+    
    }
    
