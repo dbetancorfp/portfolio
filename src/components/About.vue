@@ -1,15 +1,7 @@
 <template>
-  <section id="about">
-    <h2>Sobre mí</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut enim sed
-      justo ultricies elementum.
-    </p>
-  </section>
+    <div class="container text-center">
+        <img src="../assets/foto.jpeg" class="img-fluid" alt="...">
+        <h5>Owen Daniel Hernández Hanrahan</h5>
+        <p>Soy una persona muy trabajadora y que le gusta programar</p>
+    </div>
 </template>
-
-<script setup></script>
-
-<style scoped>
-/* Estilos específicos */
-</style>

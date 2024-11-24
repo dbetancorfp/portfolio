@@ -1,15 +1,16 @@
 <template>
-  <section id="projects">
-    <h2>Proyectos</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-      varius, justo sed consectetur sollicitudin.
-    </p>
-  </section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header">MasterPCBuilder</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Java - Spring y React Native</h5>
+                        <p class="card-text">Es un montador de pcs, pero te coge piezas de multiples tiendas</p>
+                        <a href="https://github.com/OwenHernandez/Master-PCBuilder" class="btn btn-primary">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
-
-<script setup></script>
-
-<style scoped>
-/* Estilos específicos */
-</style>
