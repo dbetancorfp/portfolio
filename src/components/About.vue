@@ -8,7 +8,7 @@
         <div class="col-md-8">
           <h1>{{ $t('WhoAmI') }}</h1>
           <p>{{ $t('description') }}</p>
-          <a href="#" class="btn btn-download mt-4">Download CV</a>
+          <a href="#" class="btn btn-download mt-4">{{ $t('CV') }}</a>
         </div>
       </div>
     </section>

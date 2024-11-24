@@ -63,7 +63,6 @@
         </div>
       </div>
     </nav>
-    <!-- Espaciado para evitar que el contenido quede detrás del navbar -->
     <div class="mt-5 pt-3"></div>
   </div>
 </template>
