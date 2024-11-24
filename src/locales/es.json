@@ -10,5 +10,22 @@
         "p2": "Actualmente soy estudiante de desarrollo de aplicaciones web en el IES Telesforo Bravo, en Santa Cruz de Tenerife, España, y mantengo enriqueciendo mis conocimientos con mis proyectos personales usando Godot Engine.",
         "p3": "Me encanta crear y vivir experiencias; una necesidad que desde pequeño he alimentado con los videojuegos. Mis experiencias favoritas son Red Dead Redemption 2, Sekiro: Shadows Die Twice, Bloodborne, Minecraft y Cult of the Lamb.",
         "p4": "Ahora mismo me encuentro disponible para oportunidades laborales, por lo que si está interesado en un entusiasta de la creatividad, el suspenso y las experiencias innolvidables, no dude en contactar ;)"
-    }
+    },
+    "project-cards": [
+        {
+            "title": "Jukabox",
+            "description": "Una red social enfocada a la música",
+            "url": "www.google.com"
+        },
+        {
+            "title": "TRIBU",
+            "description": "Una red social compacta y rápida",
+            "url": "www.google.com"
+        },
+        {
+            "title": "Post It",
+            "description": "Aplicación web ToDo",
+            "url": "www.google.com"
+        }
+    ]
 }
