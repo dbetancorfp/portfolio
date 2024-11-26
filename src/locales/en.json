@@ -10,5 +10,22 @@
         "p2": "I am currently a student of web application development at the IES Telesforo Bravo, in Santa Cruz de Tenerife, Spain, and I keep enriching my knowledge with my personal projects using Godot Engine.",
         "p3": "I love creating and living experiences; a need that I have nurtured with video games since I was a child. My favorite experiences are Red Dead Redemption 2, Sekiro: Shadows Die Twice, Bloodborne, Minecraft, and Cult of the Lamb.",
         "p4": "Right now I am available for job opportunities, so if you are interested in an enthusiast of creativity, suspense and unforgettable experiences, do not hesitate to contact ;)"
-    }
+    },
+    "project-cards": [
+        {
+            "title": "JavaSpotify",
+            "description": "Testing music playback using JavaScript",
+            "url": "https://github.com/JesusLugo2002/DOR-JavaSpotify"
+        },
+        {
+            "title": "TRIBU",
+            "description": "A compact and fast social network",
+            "url": "https://github.com/JesusLugo2002/DSW-Tribu"
+        },
+        {
+            "title": "Post It",
+            "description": "ToDo Web application",
+            "url": "https://github.com/JesusLugo2002/DSW-PostIt"
+        }
+    ]
 }

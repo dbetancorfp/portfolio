@@ -1,13 +1,13 @@
 <script setup>
-defineProps(['title', 'description', 'url'])
+const props = defineProps(['title', 'description', 'url'])
 </script>
 
 <template>
-    <div class="card" style="width: 18rem;">
+    <div class="card">
         <div class="card-body">
             <h5 class="card-title">{{ title }}</h5>
             <p class="card-text">{{ description }}</p>
-            <a href="{{ url }}" class="card-link">GitHub</a>
+            <a :href="url" class="card-link">Source code</a>
         </div>
     </div>
 </template>

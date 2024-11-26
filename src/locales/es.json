@@ -13,19 +13,19 @@
     },
     "project-cards": [
         {
-            "title": "Jukabox",
-            "description": "Una red social enfocada a la música",
-            "url": "www.google.com"
+            "title": "JavaSpotify",
+            "description": "Prueba de reproducción de música usando JavaScript",
+            "url": "https://github.com/JesusLugo2002/DOR-JavaSpotify"
         },
         {
             "title": "TRIBU",
             "description": "Una red social compacta y rápida",
-            "url": "www.google.com"
+            "url": "https://github.com/JesusLugo2002/DSW-Tribu"
         },
         {
             "title": "Post It",
             "description": "Aplicación web ToDo",
-            "url": "www.google.com"
+            "url": "https://github.com/JesusLugo2002/DSW-PostIt"
         }
     ]
 }
