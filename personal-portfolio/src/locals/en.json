@@ -20,7 +20,24 @@
             "text": "Throughout my learning journey, I have worked with various tools of all kinds, including databases, frameworks, programming languages, and systems... If you're curious, feel free to check out my skills page."
         }
     },
-    "projects": "Projects",
+    "projects": {
+        "title": "Projects",
+        "data": {
+            "project_1": {
+                "title": "JavaSpotify",
+                "description": "A project for a music player in a browser made with HTML, CSS, and JavaScript, although it is primarily a project to practice advanced CSS exclusively.",
+                "link": "https://github.com/IsaiasTolP/Music-player-project",
+                "tools": "CSS, HTML, JS"
+            },
+            "project_2": {
+                "title": "League Stats",
+                "description": "Un proyecto para mostrar las estadísticas de los campeones de League of Legends consultando la API oficial, es un proyecto de CSS avanzado para practicar",
+                "link": "https://github.com/IsaiasTolP/LOL-Project",
+                "tools": "CSS, HTML, JS"
+            }
+        },
+        "link_text": "Go to repository"
+    },
     "skills": "Skills",
     "experience": "Experience",
     "contact": "Contact"
