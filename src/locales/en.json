@@ -27,5 +27,25 @@
             "description": "ToDo Web application",
             "url": "https://github.com/JesusLugo2002/DSW-PostIt"
         }
+    ],
+    "skill-cards": [
+        {
+            "logo": "/src/assets/img/python.svg",
+            "name": "Python",
+            "description": "Practiced since the beginning of Web Application Development course",
+            "level": "5"
+        },
+        {
+            "logo": "/src/assets/img/bootstrap.svg",
+            "name": "Bootstrap",
+            "description": "Used to quickly and responsively style different web designs",
+            "level": "3"
+        },
+        {
+            "logo": "/src/assets/img/godot.png",
+            "name": "Godot Engine",
+            "description": "Engine that I use for the creation of video games and interactive projects",
+            "level": "5"
+        }
     ]
 }
