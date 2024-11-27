@@ -1,15 +1,13 @@
-<template>
-  <Navbar></Navbar>
-  <!-- Semuestra la navegación de router -->
-  <main>
-    <router-view /> 
-  </main>
-</template>
-
-<script setup>
-import Navbar from "./components/Navbar.vue";
+<script setup lang="ts">
+import { RouterLink, RouterView } from 'vue-router'
+import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/navbar.vue'
 </script>
 
-<style>
-/* Estilos adicionales si se requieren */
-</style>
+<template>
+  <Navbar />
+    <div class="container d-flex flex-column">
+      
+      <RouterView />
+    </div>
+</template>

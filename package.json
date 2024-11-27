@@ -1,21 +1,37 @@
 {
-  "name": "2---pyto-base-vue-con-vite-vue-js",
-  "private": true,
+  "name": "portafolio",
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/free-brands-svg-icons": "^6.7.1",
+    "@fortawesome/free-solid-svg-icons": "^6.7.1",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
     "bootstrap": "^5.3.3",
-    "jquery": "^3.7.1",
+    "bootstrap-icons": "^1.11.3",
+    "html2pdf.js": "^0.10.2",
+    "jspdf": "^2.5.2",
+    "pinia": "^2.2.6",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.9.0",
     "@vitejs/plugin-vue": "^5.1.4",
-    "vite": "^5.4.10"
+    "@vue/tsconfig": "^0.5.1",
+    "npm-run-all2": "^7.0.1",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11",
+    "vite-plugin-vue-devtools": "^7.5.4",
+    "vue-tsc": "^2.1.10"
   }
 }
