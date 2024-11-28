@@ -14,14 +14,20 @@
         </p>
         <ul class="list-unstyled">
           <li class="d-flex align-items-center justify-content-center mb-2">
-            <b><b-icon-person class="mr-2" /> {{ $t("name") }}:</b> {{ $t("name_value") }}
+            <p>
+              <b><b-icon-person class="mr-2" /> {{ $t("name") }}:</b> {{ $t("name_value") }}
+            </p>
           </li>
           <li class="d-flex align-items-center justify-content-center mb-2">
-            <b><b-icon-envelope-at class="mr-2" /> {{ $t("email") }}:</b>
-            <a href="mailto:elreekdev33@gmail.com"> elreekdev33@gmail.com</a>
+            <p>
+              <b><b-icon-envelope-at class="mr-2" /> {{ $t("email") }}:</b>
+              <a href="mailto:elreekdev33@gmail.com"> elreekdev33@gmail.com</a>
+            </p>
           </li>
           <li class="d-flex align-items-center justify-content-center mb-2">
-            <b><b-icon-geo-alt class="mr-2" /> {{ $t("location") }}:</b> {{ $t("location_value") }}
+            <p>
+              <b><b-icon-geo-alt class="mr-2" /> {{ $t("location") }}:</b> {{ $t("location_value") }}
+            </p>
           </li>
         </ul>
         <h2 class="mt-4">{{ $t("interests_title") }}</h2>
