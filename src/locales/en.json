@@ -1,8 +1,99 @@
 {
-    "home": "Home",
     "aboutme": "About Me",
     "projects": "Projects",
     "skills": "Skills",
     "experience": "Experience",
-    "contact": "Contact"
+    "contact": "Contact",
+
+    "home-page": {
+        "h": "Hi there!",
+        "p": "I'm Rashi Chugani, A senior Web Developing student at I.E.S Puerto de la Cruz with an interest in Web development, UI/UX Design, Front-end developing and maybe Back-end developing"
+    },
+
+    "about-page": {
+        "tag": "Web Developer & Student",
+        "p1": "Hello! My name is Rashi Chugani Narwani, and I am a passionate web developer currently studying at. I enjoy crafting user-friendly, visually appealing websites and applications, always striving to learn the latest technologies and best practices.",
+        "p2": "As a student, I am constantly expanding my skills in front-end and back-end development, including technologies like HTML, CSS, JavaScript, Django, Python and more.",
+        "p3": "When I'm not coding, I enjoy exploring my creative side through reading, baking, building Legos, painting, and photography. Whether it's crafting delicious treats, capturing moments with my camera, or bringing designs to life with colors or bricks, these hobbies let me relax and express myself in unique ways.",
+        "p4": "Feel free to check out my work or connect with me to collaborate on exciting web development projects!"
+    },
+
+    "project-cards": [
+        {
+            "title": "Tribu",
+            "description": "Tribu is a social network allowing users to post 'echos' (posts) and 'waves' (comments) while maintaining their own personal profiles.",
+            "url": "https://github.com/Chugani05/Tribu.git"
+        },
+        {
+            "title": "JavaSpotify",
+            "description": "Spotify-like website that allows you to play three songs by clicking on their covers.",
+            "url": "https://github.com/Chugani05/JavaSpotify.git"
+        },
+        {
+            "title": "PokemonShop",
+            "description": "Pokémon store including wishlist, shopping cart, and user profile for a personalized shopping experience.",
+            "url": "https://github.com/Chugani05/PokemonShop.git"
+        },
+        {
+            "title": "ToyTravel",
+            "description": "An interactive web page created with HTML and Bootstrap that showcases Toy Travel, a fictional travel agency for toys. Users can explore unique travel packages, destinations, and services.",
+            "url": "https://github.com/mdiogc-JesusLugo2002-Chugani05/ToyTravel.git"
+        },
+        {
+            "title": "CheckMate",
+            "description": "Tasks app to create, organize and mark tasks as completed.",
+            "url": "https://github.com/Chugani05/CheckMate.git"
+        },
+        {
+            "title": "MyProjects",
+            "description": "This repository features a variety of projects developed to learn, practice, and explore different technologies, showcasing my progress and versatility as a developer.",
+            "url": "https://github.com/Chugani05/MyProjects.git"
+        }
+    ],
+
+    "skill-cards": [
+        {
+            "logo": "/src/assets/imgs/python.png",
+            "name": "Python",
+            "description": "I have been using it since the beginning of the web application development course. It’s essential for programming logic and backend development.",
+            "level": "3"
+        },
+        {
+            "logo": "/src/assets/imgs/bootstrap.png",
+            "name": "Bootstrap",
+            "description": "We recently started using it to design web pages more quickly and efficiently.",
+            "level": "3"
+        },
+        {
+            "logo": "/src/assets/imgs/html.png",
+            "name": "HTML",
+            "description": "I have been using it since the start of the course to structure and design web pages.",
+            "level": "4"
+        },
+        {
+            "logo": "/src/assets/imgs/django.svg",
+            "name": "Django",
+            "description": "Although I have only recently started using it, I’ve used it extensively to create dynamic web applications.",
+            "level": "4"
+        },
+        {
+            "logo": "/src/assets/imgs/vue.svg",
+            "name": "Vue",
+            "description": "We’ve just started learning this progressive framework for building web applications.",
+            "level": "1"
+        },
+        {
+            "logo": "/src/assets/imgs/javascript.png",
+            "name": "JavaScript",
+            "description": "It’s new to me, and I’ve used it sparingly so far, but it’s great for adding interactivity.",
+            "level": "2"
+        },
+        {
+            "logo": "/src/assets/imgs/css.png",
+            "name": "CSS",
+            "description": "I have been using it since the beginning of the course to style and customize web pages.",
+            "level": "3"
+        }
+]
+
 }

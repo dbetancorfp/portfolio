@@ -1,8 +1,99 @@
 {
-    "home": "Home",
     "aboutme": "Sobre mí",
     "projects": "Proyectos",
     "skills": "Habilidades",
     "experience": "Experiencia",
-    "contact": "Contacto"
+    "contact": "Contacto",
+
+    "home-page": {
+        "h": "¡Hola!",
+        "p": "Soy Rashi Chugani, estudiante de último año de Desarrollo Web en I.E.S Puerto de la Cruz, con interés en el desarrollo web, diseño UI/UX, desarrollo front-end y quizás desarrollo back-end."
+    },
+
+
+    "about-page": {
+        "tag": "Desarrolladora Web y Estudiante",
+        "p1": "¡Hola! Mi nombre es Rashi Chugani Narwani, y soy una apasionada desarrolladora web que actualmente está estudiando. Disfruto creando sitios web y aplicaciones intuitivas y visualmente atractivas, siempre esforzándome por aprender las tecnologías más recientes y las mejores prácticas.",
+        "p2": "Como estudiante, estoy en constante expansión de mis habilidades en desarrollo front-end y back-end, incluyendo tecnologías como HTML, CSS, JavaScript, Django, Python y más.",
+        "p3": "Cuando no estoy programando, me gusta explorar mi lado creativo leyendo, horneando, construyendo con Legos, pintando y haciendo fotografía. Ya sea creando deliciosos postres, capturando momentos con mi cámara o dando vida a diseños con colores o bloques, estos pasatiempos me permiten relajarme y expresarme de maneras únicas.",
+        "p4": "¡No dudes en echar un vistazo a mi trabajo o ponerte en contacto conmigo para colaborar en proyectos emocionantes!"
+    },
+
+    "project-cards": [
+        {
+            "title": "Tribu",
+            "description": "Tribu es una red social que permite a los usuarios publicar 'echos' (publicaciones) y 'waves' (comentarios), mientras mantienen sus propios perfiles personales.",
+            "url": "https://github.com/Chugani05/Tribu.git"
+        },
+        {
+            "title": "JavaSpotify",
+            "description": "Sitio web similar a Spotify que te permite reproducir tres canciones haciendo clic en sus portadas.",
+            "url": "https://github.com/Chugani05/JavaSpotify.git"
+        },
+        {
+            "title": "PokemonShop",
+            "description": "Tienda de Pokémon que incluye lista de deseos, carrito de compras y perfil de usuario para una experiencia de compra personalizada.",
+            "url": "https://github.com/Chugani05/PokemonShop.git"
+        },
+        {
+            "title": "ToyTravel",
+            "description": "Una página web interactiva creada con HTML y Bootstrap que muestra Toy Travel, una agencia de viajes ficticia para juguetes. Los usuarios pueden explorar paquetes de viaje únicos, destinos y servicios.",
+            "url": "https://github.com/mdiogc-JesusLugo2002-Chugani05/ToyTravel.git"
+        },
+        {
+            "title": "CheckMate",
+            "description": "Aplicación de tareas para crear, organizar y marcar tareas como completadas.",
+            "url": "https://github.com/Chugani05/CheckMate.git"
+        },
+        {
+            "title": "MyProjects",
+            "description": "Este repositorio presenta una variedad de proyectos desarrollados para aprender, practicar y explorar diferentes tecnologías, mostrando mi progreso y versatilidad como desarrollador.",
+            "url": "https://github.com/Chugani05/MyProjects.git"
+        }
+    ],
+
+    "skill-cards": [
+        {
+            "logo": "/src/assets/imgs/python.png",
+            "name": "Python",
+            "description": "Lo he estado usando desde el inicio del curso de desarrollo de aplicaciones web. Es clave para la lógica de programación y el backend.",
+            "level": "3"
+        },
+        {
+            "logo": "/src/assets/imgs/bootstrap.png",
+            "name": "Bootstrap",
+            "description": "Recientemente comenzamos a usarlo para diseñar páginas web de manera más rápida y eficaz.",
+            "level": "3"
+        },
+        {
+            "logo": "/src/assets/imgs/html.png",
+            "name": "HTML",
+            "description": "Lo he estado utilizando desde el inicio del curso para estructurar y diseñar páginas web.",
+            "level": "4"
+        },
+        {
+            "logo": "/src/assets/imgs/django.svg",
+            "name": "Django",
+            "description": "Aunque lo he usado mucho desde hace poco, es genial para crear aplicaciones web dinámicas.",
+            "level": "4"
+        },
+        {
+            "logo": "/src/assets/imgs/vue.svg",
+            "name": "Vue",
+            "description": "Recién empezamos a utilizarlo como framework progresivo para aplicaciones web.",
+            "level": "1"
+        },
+        {
+            "logo": "/src/assets/imgs/javascript.png",
+            "name": "JavaScript",
+            "description": "Es nuevo para mí y lo he usado poco hasta ahora, pero es útil para crear interactividad.",
+            "level": "2"
+        },
+        {
+            "logo": "/src/assets/imgs/css.png",
+            "name": "CSS",
+            "description": "Lo he utilizado desde el inicio del curso para personalizar y estilizar páginas web.",
+            "level": "3"
+        }
+    ]
 }
