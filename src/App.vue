@@ -1,15 +1,22 @@
+<!-- src/App.vue -->
 <template>
-  <Navbar></Navbar>
-  <!-- Semuestra la navegación de router -->
-  <main>
-    <router-view /> 
-  </main>
+  <div id="app">
+    <Navbar /> 
+    <div class="container-fluid">
+      <router-view/>
+    </div>
+  </div>
 </template>
 
-<script setup>
-import Navbar from "./components/Navbar.vue";
-</script>
 
-<style>
-/* Estilos adicionales si se requieren */
-</style>
+
+<script lang="ts">
+import Navbar from './components/Navbar.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Navbar,
+  }
+}
+</script>

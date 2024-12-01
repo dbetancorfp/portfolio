@@ -1,0 +1,143 @@
+{
+    "aboutme": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact",
+    "aboutMe_content": {
+      "title": "About Me",
+      "description": "Learn more about my professional profile, experience, and goals.",
+      "content": "I am a developer passionate about creating innovative and efficient solutions. With several years of experience in web development, I specialize in building dynamic and optimized applications that solve real problems. I love learning new technologies and collaborating on impactful projects. In my free time, I enjoy exploring technology trends and contributing to open-source communities."
+    },
+    "projects_title": "Projects",
+    "projects_description": "Discover some of the projects I have worked on.",
+    "projects_content":[
+      {
+        "name": "Real-Time Task Management",
+        "description": "An application to manage team tasks, where users can add, edit, and complete tasks in real time. I used Vue.js for the interactive interface, JavaScript for event logic, and Git for version control and team collaboration.",
+        "technologies": ["vue", "js", "git"]
+      },
+      {
+        "name": "Dynamic Contact Form",
+        "description": "I developed a contact form where users can submit inquiries, and the interface adapts dynamically based on the responses. I used jQuery for DOM interactions and JavaScript to manage the form behavior.",
+        "technologies": ["jq", "js", "git"]
+      },
+      {
+        "name": "Interactive Data Dashboard",
+        "description": "I built an interactive dashboard to display statistical data and real-time graphs. I used Vue.js to create reactive interfaces, JavaScript to handle the application logic, and Git for version control during development.",
+        "technologies": ["vue", "js", "git"]
+      },
+      {
+        "name": "Real-Time Notes Application",
+        "description": "I developed an application for taking and storing notes that synchronize in real time across different devices. I used TypeScript to ensure better scalability and robustness in the code, and Git for version control.",
+        "technologies": ["ts", "git"]
+      },
+      {
+        "name": "Dynamic Comment System",
+        "description": "I built a real-time comment system where users can add, delete, and reply to comments smoothly. I used jQuery to manipulate the DOM and JavaScript to handle user interactions.",
+        "technologies": ["jq", "js", "fb"]
+      }
+    ],
+    "projects_headings": "Technologies", 
+    "project_link": "More",
+    "skills_title": "Skills",
+    "skills_description": "These are the main technical skills and competencies I excel in.",
+    "skills_content": [
+      {
+        "name": "Firebase",
+        "logo": "src/img/skills/fb.png",
+        "level": "80%",
+        "description": "Platform for developing mobile and web apps, with a real-time database."
+      },
+        {
+          "name": "JavaScript",
+          "logo": "img/skills/js.png",
+          "level": "70%",
+          "description": "Versatile programming for dynamic web development."
+        },
+        {
+          "name": "TypeScript",
+          "logo": "src/img/skills/ts.png",
+          "level": "50%",
+          "description": "Typed superset of JavaScript for scalable applications."
+        },
+        {
+          "name": "Vue.js",
+          "logo": "src/img/skills/vue.png",
+          "level": "80%",
+          "description": "Framework for building modern and responsive UIs."
+        },
+        {
+          "name": "jQuery",
+          "logo": "src/img/skills/jq.png",
+          "level": "80%",
+          "description": "Simplifies DOM manipulation and AJAX requests."
+        },
+        {
+          "name": "Git",
+          "logo": "src/img/skills/git.png",
+          "level": "80%",
+          "description": "Version control for efficient team collaboration."
+        }
+      ], 
+    "experience_title": "Experience",
+    "experience_description": "An overview of the roles and jobs that have shaped my career.",
+    "experience_content":[
+        {
+          "role": "Frontend Developer",
+          "company": "TechNova Solutions",
+          "period": "January 2020 – Present",
+          "responsibilities": [
+            "Designed and implemented responsive user interfaces using Vue.js and TypeScript.",
+            "Optimized application performance, achieving a 25% reduction in load times.",
+            "Collaborated with designers and backend developers to create seamless user experiences."
+          ]
+        },
+        {
+          "role": "Junior Web Developer",
+          "company": "InnovWeb Agency",
+          "period": "June 2018 – December 2019",
+          "responsibilities": [
+            "Implemented interactive functionalities on websites using jQuery and JavaScript.",
+            "Contributed to creating reusable modular systems, improving efficiency for future projects.",
+            "Supported the integration of REST APIs into web applications."
+          ]
+        }
+      ],
+      "experience_headings": {
+        "role": "Role",
+        "company": "Company",
+        "period": "Period",
+        "responsibilities": "Responsibilities",
+        "degree": "Degree",
+        "institution": "Institution",
+        "description": "Description",
+        "education": "Education",
+        "experience": "Work experience"
+      },
+      "experience_info": {
+        "name": "Carlos Martínez",
+        "linkedin": "https://www.linkedin.com/in/carlos-martinez-dev",
+        "github": "https://github.com/carlosmartinezdev"
+    },
+        "education": [
+          {
+            "degree": "Bachelor's Degree in Computer Engineering",
+            "institution": "Universidad Politécnica de Madrid",
+            "period": "September 2014 – June 2018",
+            "description": "During my academic training, I acquired fundamental knowledge in programming, data structures, algorithms, and web development, with a specialization in front-end and back-end technologies."
+          },
+          {
+            "degree": "Full Stack Web Development Certificate",
+            "institution": "Ironhack",
+            "period": "January 2020 – April 2020",
+            "description": "An intensive course that allowed me to deepen my knowledge of technologies such as Node.js, Express, MongoDB, React.js, and Vue.js, gaining practical skills for full web application development."
+          }
+        ],    
+  "contact_title": "Contact",
+  "contact_description": "Here you can reach me to collaborate or resolve any inquiries.",
+  "contact_name": "Name",
+  "contact_msg": "Message",
+  "contact_btn": "Send"
+  }
+  
