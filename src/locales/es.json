@@ -1,0 +1,143 @@
+{
+      "aboutme": "Sobre mí",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "experience": "Experiencia",
+      "contact": "Contacto",
+      "aboutMe_content": {
+      "title": "Sobre mí",
+      "description": "Conoce más sobre mi perfil profesional, experiencia y objetivos.",
+      "content": "Soy un desarrollador apasionado por la creación de soluciones innovadoras y eficientes. Con varios años de experiencia en el desarrollo web, me especializo en construir aplicaciones dinámicas y optimizadas que resuelvan problemas reales. Me encanta aprender nuevas tecnologías y colaborar en proyectos que generen impacto. En mi tiempo libre, disfruto explorar tendencias tecnológicas y contribuir a comunidades de código abierto."
+    },
+    "projects_title": "Proyectos",
+    "projects_description": "Descubre algunos de los proyectos en los que he trabajado.",
+    "projects_content": [
+      {
+        "name": "Gestión de Tareas en Tiempo Real",
+        "description": "Aplicación para gestionar tareas en equipo, donde los usuarios pueden agregar, editar y completar tareas en tiempo real. Usé Vue.js para la interfaz interactiva, JavaScript para la lógica de eventos y Git para el control de versiones y colaboración en equipo.",
+        "technologies": ["vue", "js", "git"]
+      },
+      {
+        "name": "Formulario de Contacto Dinámico",
+        "description": "Desarrollé un formulario de contacto donde los usuarios pueden enviar consultas, y la interfaz se adapta dinámicamente según las respuestas. Usé jQuery para las interacciones en el DOM y JavaScript para gestionar el comportamiento del formulario.",
+        "technologies": ["jq", "js", "git"]
+      },
+      {
+        "name": "Dashboard Interactivo de Datos",
+        "description": "Construí un dashboard interactivo para mostrar datos estadísticos y gráficos en tiempo real. Utilicé Vue.js para la creación de interfaces reactivas, JavaScript para manejar la lógica de la aplicación, y Git para el control de versiones durante el desarrollo.",
+        "technologies": ["vue", "js", "git"]
+      },
+      {
+        "name": "Aplicación de Notas con Sincronización en Tiempo Real",
+        "description": "Desarrollé una aplicación para tomar y almacenar notas que se sincronizan en tiempo real entre diferentes dispositivos. Utilicé TypeScript para asegurar una mejor escalabilidad y robustez en el código, y Git para el control de versiones.",
+        "technologies": ["ts", "git"]
+      },
+      {
+        "name": "Sistema de Comentarios Dinámicos",
+        "description": "Construí un sistema de comentarios en tiempo real donde los usuarios pueden agregar, eliminar y responder comentarios de manera fluida. Usé jQuery para manipular el DOM y JavaScript para manejar las interacciones de los usuarios.",
+        "technologies": ["jq", "js", "fb"]
+      }
+    ],
+    "projects_headings": "Tecnologías", 
+    "project_link": "Mas",
+  "skills_title": "Habilidades",
+  "skills_description": "Estas son las principales habilidades técnicas y competencias que domino.",
+  "skills_content":[
+    {
+      "name": "Firebase",
+      "logo": "src/img/skills/fb.png",
+      "level": "80%",
+      "description": "Plataforma para el desarrollo de aplicaciones móviles y web, con base de datos en tiempo real."
+    },
+      {
+        "name": "JavaScript",
+        "logo": "src/img/skills/js.png",
+        "level": "70%",
+        "description": "Lenguaje versátil para el desarrollo web dinámico."
+      },
+      {
+        "name": "TypeScript",
+        "logo": "src/img/skills/ts.png",
+        "level": "50%",
+        "description": "Superset tipado de JavaScript para aplicaciones escalables."
+      },
+      {
+        "name": "Vue.js",
+        "logo": "src/img/skills/vue.png",
+        "level": "80%",
+        "description": "Framework para construir interfaces modernas y responsivas."
+      },
+      {
+        "name": "jQuery",
+        "logo": "src/img/skills/jq.png",
+        "level": "80%",
+        "description": "Simplifica la manipulación del DOM y las solicitudes AJAX."
+      },
+      {
+        "name": "Git",
+        "logo": "src/img/skills/git.png",
+        "level": "80%",
+        "description": "Control de versiones para una colaboración eficiente en equipo."
+      }
+    ],
+    "experience_title": "Experiencia",
+    "experience_description": "Un recorrido por los roles y empleos que han definido mi carrera.",
+    "experience_content": [
+        {
+          "role": "Desarrollador Frontend",
+          "company": "TechNova Solutions",
+          "period": "Enero 2020 – Actualidad",
+          "responsibilities": [
+            "Diseñé e implementé interfaces de usuario responsivas usando Vue.js y TypeScript.",
+            "Optimicé el rendimiento de aplicaciones, logrando una reducción del 25% en los tiempos de carga.",
+            "Colaboré con diseñadores y desarrolladores backend para crear experiencias de usuario fluidas."
+          ]
+        },
+        {
+          "role": "Desarrollador Web Junior",
+          "company": "InnovWeb Agency",
+          "period": "Junio 2018 – Diciembre 2019",
+          "responsibilities": [
+            "Implementé funcionalidades interactivas en sitios web mediante jQuery y JavaScript.",
+            "Participé en la creación de sistemas modulares reutilizables, mejorando la eficiencia en futuros proyectos.",
+            "Apoyé en la integración de APIs REST en aplicaciones web."
+          ]
+        }
+      ],
+    "experience_headings": {
+      "role": "Puesto",
+      "company": "Empresa",
+      "period": "Período",
+      "responsibilities": "Responsabilidades",
+      "degree": "Grado",
+      "institution": "Institución",
+      "description": "Descripción",
+      "education": "Educacion",
+      "experience": "Experiencia laboral"
+    },   
+    "experience_info": {
+      "name": "Carlos Martínez",
+      "linkedin": "https://www.linkedin.com/in/carlos-martinez-dev",
+      "github": "https://github.com/carlosmartinezdev"
+  },
+  "education": [
+    {
+      "degree": "Grado en Ingeniería Informática",
+      "institution": "Universidad Politécnica de Madrid",
+      "period": "Septiembre 2014 – Junio 2018",
+      "description": "Durante mi formación académica, adquirí conocimientos fundamentales en programación, estructuras de datos, algoritmos y desarrollo web, con especialización en tecnologías front-end y back-end."
+    },
+    {
+      "degree": "Certificado en Desarrollo Web Full Stack",
+      "institution": "Ironhack",
+      "period": "Enero 2020 – Abril 2020",
+      "description": "Curso intensivo que me permitió profundizar en tecnologías como Node.js, Express, MongoDB, React.js y Vue.js, adquiriendo habilidades prácticas para el desarrollo completo de aplicaciones web."
+    }
+  ],
+    "contact_title": "Contacto",
+    "contact_description": "Aquí puedes contactarme para colaborar o resolver cualquier duda.",
+    "contact_name": "Nombre",
+    "contact_msg": "Mensaje",
+    "contact_btn": "Enviar"
+  }
+  
