@@ -1,7 +1,7 @@
 <template>
     <div class="container mt-3">
         <div class="row">
-            <div class="col-4" v-for="(project, key) in projectList" :key="key">
+            <div class="col-4 mb-2" v-for="(project, key) in projectList" :key="key">
                 <Card :data="project"/>
             </div>
         </div>
@@ -12,7 +12,7 @@
     import Card from '../components/projectCard.vue';
     
     export default {
-        name: "Projects",
+        name: 'Projects',
         components: { Card },
         computed: {
             projectList() {

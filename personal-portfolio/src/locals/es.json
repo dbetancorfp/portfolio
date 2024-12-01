@@ -34,11 +34,86 @@
                 "description": "Un proyecto para mostrar las estadísticas de los campeones de League of Legends consultando la API oficial, es un proyecto de CSS avanzado para practicar",
                 "link": "https://github.com/IsaiasTolP/LOL-Project",
                 "tools": "CSS, HTML, JS"
+            },
+            "project_3": {
+                "title": "Todo",
+                "description": "Un proyecto hecho en Django(Python) que simula un gestor de tareas sencillo",
+                "link": "https://github.com/IsaiasTolP/Todo-project",
+                "tools": "CSS, HTML, BOOTSTRAP, PYTHON, DJANGO, SQLITE3"
+            },
+            "project_4": {
+                "title": "Pokemon Store",
+                "description": "Un proyecto que simula una tienda donde se pueden comprar pokemons mediante una base de datos no relacional (Firebase)",
+                "link": "https://github.com/IsaiasTolP/Pokemon-Store-Project",
+                "tools": "CSS, HTML, JS, FIREBASE"
+            },
+            "project_5": {
+                "title": "Tribu",
+                "description": "Un proyecto que simula una red social sencilla llamada Tribu que contiene perfiles, posts y comentarios",
+                "link": "https://github.com/IsaiasTolP/Tribu-social-network-project",
+                "tools": "CSS, HTML, BOOTSTRAP, PYTHON, DJANGO, SQLITE3"
             }
         },
         "link_text": "Ir al repositorio"
     },
-    "skills": "Habilidades",
-    "experience": "Experiencia",
-    "contact": "Contacto"
+    "skills": {
+        "title": "Habilidades",
+        "data": {
+            "skill_1": {
+                "name": "Python",
+                "description": "Python es el primer lenguaje de programación que aprendí y lo he usado en múltiples proyectos.",
+                "level": "Nivel: 1 año de uso en proyectos",
+                "logo": "<img src='https://skillicons.dev/icons?i=python&theme=light' alt='Logo Python' />"
+            },
+            "skill_2": {
+                "name": "HTML5, CSS",
+                "description": "Lenguajes de marcado para hacer páginas web, esenciales para cualquier proyecto web.",
+                "level": "Nivel: Desde comienzo de los estudios",
+                "logo": "<img src='https://skillicons.dev/icons?i=html,css' alt='Logo html y css' />"
+            },
+            "skill_3": {
+                "name": "Javascript, Typescript",
+                "description": "Lenguajes de programación esenciales para el front-end de aplicaciones web de navegador, aunque no completamente imprescindible, por lo que no los he usado en todos los proyectos.",
+                "level": "Nivel: Intermedio, conociendo el lenguaje",
+                "logo": "<img src='https://skillicons.dev/icons?i=js,ts' alt='Logo javascript y typescript' />"
+            },
+            "skill_4": {
+                "name": "Bases de datos SQL",
+                "description": "Todo proyecto que pretenda cierto grado de complejidad necesitará de una base de datos y las de tipo SQL son muy intuitivas de manejar, por lo que manejar al menos uno de los motores SQL es imprescindible.",
+                "level": "Nivel: 1 año de uso en proyectos",
+                "logo": "<img src='https://skillicons.dev/icons?i=sqlite,mysql&theme=light' alt='Logo SQLite y MySQL' />"
+            },
+            "skill_5": {
+                "name": "Frameworks Web",
+                "description": "Los frameworks web facilitan el trabajo de desarrollo de aplicaciones web por eso los he incluido en los proyectos más complejos que he desarrollado y que desarrollaré.",
+                "level": "Nivel: Aprendiendo",
+                "logo": "<img src='https://skillicons.dev/icons?i=django,vue&theme=light' alt='Logo Django y Vue' />"
+            }
+        }
+    },
+    "experience": {
+        "title": "Experiencia",
+        "download": "Descargar CV",
+        "data": {
+            "exp_1": "Nivel B2 Ingles, Puerto de la Cruz - 2020/2021",
+            "exp_2": "Desarrollo de aplicaciones web (DAW), Puerto de la Cruz - Actualmente",
+            "exp_3": "Bachillerato, Ciencias de la Salud - 2019/2021"
+        }
+    },
+    "contact": "Contacto",
+    "footer": {
+        "categories": {
+            "socials": "Redes sociales"
+        }
+    },
+    "form": {
+        "title": "Formulario de contacto",
+        "email": "Correo electrónico",
+        "emailplaceholder": "Tu correo electrónico",
+        "message": "Mensaje",
+        "messagePlaceholder": "Escribe tu mensaje aquí",
+        "sendBtn": "Enviar",
+        "successMessage": "¡Mensaje enviado con éxito!", 
+        "errorMessage": "Ocurrió un error al enviar el mensaje."
+    }
 }

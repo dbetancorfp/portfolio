@@ -31,14 +31,89 @@
             },
             "project_2": {
                 "title": "League Stats",
-                "description": "Un proyecto para mostrar las estadísticas de los campeones de League of Legends consultando la API oficial, es un proyecto de CSS avanzado para practicar",
+                "description": "A project to display the statistics of League of Legends champions by querying the official API; it is an advanced CSS project for practice.",
                 "link": "https://github.com/IsaiasTolP/LOL-Project",
                 "tools": "CSS, HTML, JS"
+            },
+            "project_3": {
+                "title": "Todo",
+                "description": "A project made in Django (Python) that simulates a simple task manager.",
+                "link": "https://github.com/IsaiasTolP/Todo-project",
+                "tools": "CSS, HTML, BOOTSTRAP, PYTHON, DJANGO, SQLITE3"
+            },
+            "project_4": {
+                "title": "Pokemon Store",
+                "description": "A project that simulates a store where Pokémon can be purchased using a non-relational database (Firebase).",
+                "link": "https://github.com/IsaiasTolP/Pokemon-Store-Project",
+                "tools": "CSS, HTML, JS, FIREBASE"
+            },
+            "project_5": {
+                "title": "Tribu",
+                "description": "A project that simulates a simple social network called Tribu, which includes profiles, posts, and comments.",
+                "link": "https://github.com/IsaiasTolP/Tribu-social-network-project",
+                "tools": "CSS, HTML, BOOTSTRAP, PYTHON, DJANGO, SQLITE3"
             }
         },
         "link_text": "Go to repository"
     },
-    "skills": "Skills",
-    "experience": "Experience",
-    "contact": "Contact"
+    "skills": {
+        "title": "Habilidades",
+        "data": {
+            "skill_1": {
+                "name": "Python",
+                "description": "Python is the first programming language I learned, and I have used it in multiple projects.",
+                "level": "Level: 1 year of use in proyects",
+                "logo": "<img src='https://skillicons.dev/icons?i=python&theme=light' alt='Logo Python' />"
+            },
+            "skill_2": {
+                "name": "HTML5, CSS",
+                "description": "Markup languages for creating web pages, essential for any web project.",
+                "level": "Level: Used from the start of my studies",
+                "logo": "<img src='https://skillicons.dev/icons?i=html,css' alt='Logo html and css' />"
+            },
+            "skill_3": {
+                "name": "Javascript, Typescript",
+                "description": "Essential programming languages for the front end of web browser applications, although not completely indispensable, which is why I haven't used them in all projects.",
+                "level": "Level: Intermediate, learning the languages",
+                "logo": "<img src='https://skillicons.dev/icons?i=js,ts' alt='Logo javascript and typescript' />"
+            },
+            "skill_4": {
+                "name": "Bases de datos SQL",
+                "description": "Any project that aims for a certain degree of complexity will require a database, and SQL-type databases are very intuitive to manage, so being familiar with at least one SQL engine is essential.",
+                "level": "Level: 1 year of use in proyects",
+                "logo": "<img src='https://skillicons.dev/icons?i=sqlite,mysql&theme=light' alt='Logo SQLite and MySQL' />"
+            },
+            "skill_5": {
+                "name": "Frameworks Web",
+                "description": "Web frameworks facilitate the development of web applications, which is why I have included them in the more complex projects I have developed and will develop.",
+                "level": "Level: Learning",
+                "logo": "<img src='https://skillicons.dev/icons?i=django,vue&theme=light' alt='Logo Django and Vue' />"
+            }
+        }
+    },
+    "experience": {
+        "title": "Experience",
+        "download": "Download CV",
+        "data": {
+            "exp_1": "B2 Level english, Puerto de la Cruz - 2020/2021",
+            "exp_2": "Web applications development (DAW), Puerto de la Cruz - Currently",
+            "exp_3": "Baccalaureate, Health Sciences - 2024"
+        }
+    },
+    "contact": "Contact",
+    "footer": {
+        "categories": {
+            "socials": "Social networks"
+        }
+    },
+    "form": {
+        "title": "Contact Form",
+        "email": "Email",
+        "emailPlaceholder": "Your email",
+        "message": "Message",
+        "messagePlaceholder": "Write your message here",
+        "sendBtn": "Send",
+        "successMessage": "Message sent successfully!",
+        "errorMessage": "An error occurred while sending the message."
+    }
 }
