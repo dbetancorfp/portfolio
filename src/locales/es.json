@@ -47,5 +47,9 @@
             "description": "Motor que utilizo para la creación de videojuegos y proyectos interactivos",
             "level": "5"
         }
-    ]
+    ],
+    "experience-page": {
+        "description": "A continuación puede encontrar mi currículum vitae. Puede descargarlo también clickando en el botón 'Descargar'",
+        "download": "Descargar"
+    }
 }

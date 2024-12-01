@@ -47,5 +47,9 @@
             "description": "Engine that I use for the creation of video games and interactive projects",
             "level": "5"
         }
-    ]
+    ],
+    "experience-page": {
+        "description": "Below you can find my resume. You can also download it by clicking on the 'Download' button",
+        "download": "Download"
+    }
 }
