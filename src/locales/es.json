@@ -51,5 +51,10 @@
     "experience-page": {
         "description": "A continuación puede encontrar mi currículum vitae. Puede descargarlo también clickando en el botón 'Descargar'",
         "download": "Descargar"
+    },
+    "contact-page": {
+        "username-label": "Nombre de usuario / autor",
+        "message-label": "Mensaje",
+        "submit": "Enviar mensaje"
     }
 }

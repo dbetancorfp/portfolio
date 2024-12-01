@@ -51,5 +51,10 @@
     "experience-page": {
         "description": "Below you can find my resume. You can also download it by clicking on the 'Download' button",
         "download": "Download"
+    },
+    "contact-page": {
+        "username-label": "Username / Author",
+        "message-label": "Message",
+        "submit": "Send message"
     }
 }
