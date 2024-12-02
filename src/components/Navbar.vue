@@ -59,16 +59,16 @@
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <button class="dropdown-item" @click="changeLanguage('zh')">
-                    {{ $t("chinese") }}
+                  <button class="dropdown-item" @click="changeLanguage('it')">
+                    {{ $t("italian") }}
                   </button>
                 </li>
                 <li>
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <button class="dropdown-item" @click="changeLanguage('mc')">
-                    {{ $t("minecraft") }}
+                  <button class="dropdown-item" @click="changeLanguage('zh')">
+                    {{ $t("chinese") }}
                   </button>
                 </li>
               </ul>
