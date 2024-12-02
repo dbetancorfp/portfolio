@@ -1,14 +1,18 @@
 <template>
   <section id="skills">
-    <h2>Habilidades</h2>
+    <TarjetaHabilidad></TarjetaHabilidad>
+    <!-- <h2>Habilidades</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae elit ac
       neque viverra bibendum.
-    </p>
+    </p> -->
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import TarjetaHabilidad from "./TarjetaHabilidad.vue";
+
+</script>
 
 <style scoped>
 /* Estilos específicos */
