@@ -1,0 +1,93 @@
+{
+    "nav": {
+        "aboutme": "Sobre mí",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "experience": "Experiencia",
+        "contact": "Contacto"
+    },
+    "profile": {
+        "greeting": "¡Hola, soy Ángel!",
+        "profession": "Desarrollador especializado en React y Java."
+    },
+    "projects": [
+        {
+            "title": "Antscape",
+            "body": "Un proyecto que utiliza Java, React y React Native para hacer un jueguito móvil.",
+            "link": "https://github.com/Angel-L-G/Ant-Project"
+        },
+        {
+            "title": "Aplicación E-Commerce",
+            "body": "Aplicación completa de comercio electrónico con Vue.js, Pinia para la gestión del estado y una API RESTful.",
+            "link": "https://github.com/Angel-L-G"
+        },
+        {
+            "title": "Plataforma de Blogs",
+            "body": "Una plataforma para bloggers que permite crear, editar y compartir publicaciones. Implementada con Vue Router.",
+            "link": "https://github.com/Angel-L-G"
+        },
+        {
+            "title": "Aplicación del Clima",
+            "body": "Aplicación meteorológica interactiva que utiliza APIs externas para mostrar datos del clima en tiempo real.",
+            "link": "https://github.com/Angel-L-G"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Java",
+            "description": "Desarrollo de java, por dos años",
+            "color": "rgb(255, 178, 71)",
+            "icon": ["fab", "java"]
+        },
+        {
+            "title": "React",
+            "description": "Desarrollo de React, por dos años",
+            "color": "aqua",
+            "icon": ["fab", "react"]
+        },
+        {
+            "title": "JS",
+            "description": "Desarrollo de Javascript, por dos años",
+            "color": "Yellow",
+            "icon": ["fab", "js"]
+        },
+        {
+            "title": "Github",
+            "description": "Uso de Github, por dos años",
+            "color": "white",
+            "icon": ["fab", "github"]
+        }
+    ],
+    "experiences": [
+        {
+          "title": "Desarrollador Frontend en Tech Solutions",
+          "duration": "Junio 2022 - Actualidad",
+          "description": "Desarrollo de interfaces web interactivas utilizando Vue.js, Vue Router y Pinia para la gestión del estado. Implementación de sistemas de diseño responsivo con Bootstrap y mejora del rendimiento en producción.",
+          "email": "ejemplo@correo.com"
+        },
+        {
+          "title": "Desarrollador Full Stack Freelance",
+          "duration": "Enero 2021 - Mayo 2022",
+          "description": "Colaboré con startups y pequeñas empresas desarrollando aplicaciones web completas. Usé tecnologías como Node.js, Vue.js, y bases de datos SQL/NoSQL.",
+          "email": "ejemplo@correo.com"
+        },
+        {
+          "title": "Prácticas en Desarrollo Web en Innovatech",
+          "duration": "Marzo 2020 - Diciembre 2020",
+          "description": "Creación de prototipos funcionales y mantenimiento de aplicaciones existentes. Aprendí buenas prácticas de desarrollo y testing automatizado.",
+          "email": "ejemplo@correo.com"
+        }
+    ],
+    "contact": {
+        "title": "Contacto",
+        "form": {
+            "nameLabel": "Nombre",
+            "namePlaceholder": "Introduce tu nombre",
+            "emailLabel": "Correo",
+            "emailPlaceholder": "Introduce tu correo",
+            "messageLabel": "Mensaje",
+            "messagePlaceholder": "Escribe tu mensaje",
+            "submitButton": "Enviar"
+        }
+    }
+}

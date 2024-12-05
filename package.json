@@ -17,10 +17,11 @@
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "firebase": "^11.0.2",
     "html2pdf.js": "^0.10.2",
-    "jspdf": "^2.5.2",
     "pinia": "^2.2.6",
     "vue": "^3.5.12",
+    "vue-i18n": "^10.0.5",
     "vue-router": "^4.4.5"
   },
   "devDependencies": {

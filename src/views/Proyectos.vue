@@ -1,30 +1,12 @@
 <script setup lang="ts">
 import ProjectCard from '@/components/ProjectComp/ProjectCard.vue';
 import type { Project } from '@/components/ProjectComp/Project';
+import { useI18n } from 'vue-i18n';
 
+const { locale, messages } = useI18n();
 
-const projects: Array<Project> = [
-    {
-        title: 'Antscape',
-        body: 'Un proyecto que utiliza java, react y react native para hacer un juegito movil.',
-        link: 'https://github.com/Angel-L-G/Ant-Project',
-    },
-    {
-        title: 'E-Commerce App',
-        body: 'Aplicación completa de comercio electrónico con Vue.js, Pinia para la gestión del estado y API RESTful.',
-        link: 'https://github.com/Angel-L-G',
-    },
-    {
-        title: 'Blog Platform',
-        body: 'Una plataforma para bloggers que permite crear, editar y compartir publicaciones. Implementada con Vue Router.',
-        link: 'https://github.com/Angel-L-G',
-    },
-    {
-        title: 'Weather App',
-        body: 'Aplicación meteorológica interactiva que utiliza APIs externas para mostrar datos del clima en tiempo real.',
-        link: 'https://github.com/Angel-L-G',
-    },
-];
+const projects = messages.value[locale.value].projects as Array<Project>;
+
 </script>
 
 <template>
