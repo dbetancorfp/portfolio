@@ -9,26 +9,35 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <router-link class="nav-link" :to="{ name: 'About', params: { lang: currentLang } }">{{
-                            $t("aboutme") }}</router-link>
+                        <router-link class="nav-link" :to="{ name: 'About', params: { lang: currentLang } }">
+                            {{ $t("aboutme") }}
+                        </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" :to="{ name: 'Projects', params: { lang: currentLang } }">{{
-                            $t("projects") }}</router-link>
+                        <router-link class="nav-link" :to="{ name: 'Projects', params: { lang: currentLang } }">
+                            {{ $t("projects") }}
+                        </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" :to="{ name: 'Skills', params: { lang: currentLang } }">{{
-                            $t("skills") }}</router-link>
+                        <router-link class="nav-link" :to="{ name: 'Skills', params: { lang: currentLang } }">
+                            {{ $t("skills") }}
+                        </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="aboutme">{{ $t("experience") }}</router-link>
+                        <router-link class="nav-link" :to="{ name: 'Experience', params: { lang: currentLang } }">
+                            {{ $t("experience") }}
+                        </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="aboutme">{{ $t("contact") }}</router-link>
+                        <router-link class="nav-link" :to="{ name: 'Contact', params: { lang: currentLang } }">
+                            {{ $t("contact") }}
+                        </router-link>
                     </li>
                 </ul>
-                <button @click="changeLanguage('en')">English</button>
-                <button @click="changeLanguage('es')">Español</button>
+                <div class="btn-group">
+                    <button @click="changeLanguage('en')" class="btn btn-outline-dark">English</button>
+                    <button @click="changeLanguage('es')" class="btn btn-outline-dark">Español</button>
+                </div>
             </div>
         </div>
     </nav>

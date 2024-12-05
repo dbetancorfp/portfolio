@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import Aboutme from "./components/About.vue";
 import Projects from "./components/Projects.vue";
 import Skills from "./components/Skills.vue";
+import Experience from "./components/Experience.vue";
+import Contact from "./components/Contact.vue";
 
 const routes = [
   { path: "/", redirect: "/es/about" },
@@ -23,6 +25,18 @@ const routes = [
     component: Skills,
     beforeEnter: validateLang,
   },
+  {
+    path: "/:lang/experience",
+    name: "Experience",
+    component: Experience,
+    beforeEnter: validateLang,
+  },
+  {
+    path: "/:lang/contact",
+    name: "Contact",
+    component: Contact,
+    beforeEnter: validateLang,
+  }
 ];
 
 function validateLang(to: any) {
