@@ -1,0 +1,15 @@
+{
+  "about": "About Me",
+  "projects": "Projects",
+  "skills": "Skills",
+  "experience": "Experience",
+  "contact": "Contact",
+  "content": "Carlos Aday",
+  "description": "I am Aday, a passionate web developer who loves building creative and functional projects. In my spare time, I enjoy exploring new technologies and playing video games.",
+  "image": "/images/profile.jpg",
+
+  "name": "Name",
+  "email": "Email",
+  "phone": "Phone",
+  "followMe": "Follow me on"
+}
