@@ -20,3 +20,6 @@ A dynamic and engaging web portfolio built with **Vue.js** and **Bootstrap**, de
 - **Responsive:** Tailored for flawless display across all devices.
 - **Modern and Clean:** A professional aesthetic achieved through Bootstrap's sleek design elements.
 - **Interactive:** Enhanced with Vue.js animations and smooth transitions for an engaging user experience.
+
+
+#### By Rashi Chugani Narwani.4

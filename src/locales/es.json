@@ -95,5 +95,15 @@
             "description": "Lo he utilizado desde el inicio del curso para personalizar y estilizar páginas web.",
             "level": "3"
         }
-    ]
+    ], 
+
+    "experience-page": {
+        "download": "Descargar CV (PDF)"
+    },
+
+    "contact-page": {
+        "email": "Correo electronico",
+        "message": "Mensaje",
+        "submit": "Enviar"
+    }
 }

@@ -94,6 +94,15 @@
             "description": "I have been using it since the beginning of the course to style and customize web pages.",
             "level": "3"
         }
-]
+    ],
 
+    "experience-page": {
+        "download": "Download CV (PDF)"
+    },
+
+    "contact-page": {
+        "email": "Email address",
+        "message": "Message",
+        "submit": "Send"
+    }
 }
