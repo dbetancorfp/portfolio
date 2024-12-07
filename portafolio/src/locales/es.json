@@ -1,6 +1,23 @@
 {
   "about": "Sobre mí",
-  "skills": "Habilidades",
+  "skills": {
+    "title": "Habilidades",
+    "MySQL": {
+      "name": "MySQL",
+      "icon": "bi bi-database",
+      "description": "He utilizado MySQL de manera extensiva para gestionar bases de datos, crear consultas complejas y asegurar un almacenamiento y recuperación de datos eficientes en diversas aplicaciones web."
+    },
+    "Python": {
+      "name": "Python",
+      "icon": "bi bi-file-earmark-code",
+      "description": "Python es uno de mis lenguajes principales para desarrollo backend, análisis de datos y automatización, utilizando frameworks como Django y Flask para aplicaciones web."
+    },
+    "HTML": {
+      "name": "HTML",
+      "icon": "bi bi-filetype-html",
+      "description": "Tengo una sólida base en HTML, utilizándolo para estructurar páginas web y garantizar un contenido semántico y accesible para los usuarios en diversos dispositivos."
+    }
+  },
   "experience": "Experiencia",
   "contact": "Contacto",
   "content": "Carlos Aday",
@@ -28,18 +45,20 @@
   "downloadCV": "Descargar CV",
   "projects": {
     "title": "Proyectos",
+    "description": "Explora algunos de mis proyectos más destacados y descubre cómo he trabajado en ellos.",
+
     "cards": [
       {
-        "title": "Proyecto 1",
-        "description": "Descripción del primer proyecto.",
+        "title": "Supertodo",
+        "description": "Este es un proyecto hecho con django y hace cosas",
         "link": "https://github.com/Ergwynt/supertodo"
       },
       {
-        "title": "Proyecto 2",
-        "description": "Descripción del segundo proyecto.",
-        "link": "https://github.com/usuario/proyecto2"
+        "title": "Libreria",
+        "description": "Proyecto hecho con un compañero de una libreria. Hecho con tkinter y el uso de una base de datos",
+        "link": "https://github.com/Miguelcg03/proyectobasededatos"
       }
     ],
-    "viewMore": "Ver más"
+    "viewMore": "Ver mas"
   }
 }

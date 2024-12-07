@@ -1,6 +1,23 @@
 {
   "about": "About Me",
-  "skills": "Skills",
+  "skills": {
+    "title": "Skills",
+    "MySQL": {
+      "name": "MySQL",
+      "icon": "bi bi-database",
+      "description": "I have extensively used MySQL for managing databases, creating complex queries, and ensuring efficient data storage and retrieval in various web applications."
+    },
+    "Python": {
+      "name": "Python",
+      "icon": "bi bi-file-earmark-code",
+      "description": "Python is one of my main languages for backend development, data analysis, and automation, using frameworks like Django and Flask for web applications."
+    },
+    "HTML": {
+      "name": "HTML",
+      "icon": "bi bi-filetype-html",
+      "description": "I have a solid foundation in HTML, using it to structure web pages and ensure semantic and accessible content for users across devices."
+    }
+  },
   "experience": "Experience",
   "contact": "Contact",
   "content": "Carlos Aday",
@@ -29,16 +46,17 @@
   "downloadCV": "Download CV",
   "projects": {
     "title": "Projects",
+    "description": "Explore some of my most notable projects and discover how I worked on them..",
     "cards": [
       {
-        "title": "Project 1",
-        "description": "Description of the first project.",
+        "title": "Supertodo",
+        "description": "This is a project made with Django and it does things.",
         "link": "https://github.com/Ergwynt/supertodo"
       },
       {
-        "title": "Project 2",
-        "description": "Description of the second project.",
-        "link": "https://github.com/username/project2"
+        "title": "Library",
+        "description": "Project done with a colleague from a library. Made with tkinter and the use of a database",
+        "link": "https://github.com/Miguelcg03/proyectobasededatos"
       }
     ],
     "viewMore": "View More"

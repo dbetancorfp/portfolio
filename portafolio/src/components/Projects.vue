@@ -1,41 +1,78 @@
+<script lang="ts">
+import { defineComponent, watch, ref } from 'vue'
+import { useI18n } from 'vue-i18n'
+import TarjetaProyecto from './TarjetaProyecto.vue'
+
+export default defineComponent({
+  name: 'Proyectos',
+  components: {
+    TarjetaProyecto,
+  },
+  setup() {
+    const { t, locale } = useI18n()
+
+    // Estado reactivo para los proyectos
+    const proyectos = ref([
+      {
+        title: t('projects.cards.0.title'), // Traducción del título
+        description: t('projects.cards.0.description'), // Traducción de la descripción
+        link: 'https://github.com/Ergwynt/supertodo',
+      },
+      {
+        title: t('projects.cards.1.title'),
+        description: t('projects.cards.1.description'),
+        link: 'https://github.com/Miguelcg03/proyectobasededatos',
+      },
+    ])
+
+    // Función para actualizar los proyectos
+    const actualizarProyectos = () => {
+      proyectos.value = [
+        {
+          title: t('projects.cards.0.title'),
+          description: t('projects.cards.0.description'),
+          link: 'https://github.com/Ergwynt/supertodo',
+        },
+        {
+          title: t('projects.cards.1.title'),
+          description: t('projects.cards.1.description'),
+          link: 'https://github.com/Miguelcg03/proyectobasededatos',
+        },
+      ]
+    }
+
+    // Watch para detectar cambios en el idioma
+    watch(
+      () => locale.value, // Observar el cambio de idioma
+      () => {
+        // Actualizamos los proyectos al cambiar el idioma
+        actualizarProyectos()
+      },
+    )
+
+    return { proyectos, locale, t, actualizarProyectos }
+  },
+})
+</script>
+
 <template>
-  <section id="projects">
-    <h2>{{ $t('projects.title') }}</h2>
-    <div class="project-list">
-      <TarjetaProyecto v-for="(project, index) in projects" :key="index" :project="project" />
+  <section class="proyectos bg-light" :key="locale.value">
+    <div class="proyectos-header text-center bg-primary text-white py-5">
+      <div class="container">
+        <h1 class="display-4 mb-3">{{ $t('projects.title') }}</h1>
+        <p class="lead">{{ $t('projects.description') }}</p>
+      </div>
+    </div>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4" v-for="(proyecto, index) in proyectos" :key="index">
+          <TarjetaProyecto :proyecto="proyecto" />
+        </div>
+      </div>
     </div>
   </section>
 </template>
 
-<script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-import TarjetaProyecto from '@/components/TarjetaProyecto.vue'
-
-const { t } = useI18n()
-
-// Obtenemos los proyectos como un arreglo puro desde las traducciones.
-const projects = t('projects.cards', []) as unknown as Array<{
-  title: string
-  description: string
-  link: string
-}>
-
-// Debug para verificar que los datos son correctos.
-console.log('Proyectos cargados:', projects)
-</script>
-
 <style scoped>
-.project-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-h2 {
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  color: #333;
-}
+/* Estilo aquí */
 </style>
