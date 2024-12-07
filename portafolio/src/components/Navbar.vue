@@ -20,7 +20,7 @@
               <router-link class="nav-link" to="about">{{ $t('about') }}</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="projects">{{ $t('projects') }}</router-link>
+              <router-link class="nav-link" to="projects">{{ $t('projects.title') }}</router-link>
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="skills">{{ $t('skills') }}</router-link>

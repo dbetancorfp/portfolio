@@ -1,6 +1,5 @@
 {
   "about": "Sobre mí",
-  "projects": "Proyectos",
   "skills": "Habilidades",
   "experience": "Experiencia",
   "contact": "Contacto",
@@ -10,5 +9,37 @@
   "name": "Nombre",
   "email": "Correo electrónico",
   "phone": "Teléfono",
-  "followMe": "Sígueme en"
+  "followMe": "Sígueme en",
+  "sendMessage": "Enviar mensaje",
+  "subject": "Asunto",
+  "message": "Mensaje",
+  "send": "Enviar",
+  "messageSent": "¡Tu mensaje ha sido enviado!",
+  "errorSendingMessage": "Error al enviar el mensaje",
+
+  "jobTitle1": "Desarrollador Frontend",
+  "company1": "Tech Corp",
+  "duration1": "2024 - Actualidad",
+  "jobDescription1": "Trabajé en la creación de sitios web responsivos usando Vue.js, HTML, CSS y JavaScript.",
+  "jobTitle2": "Desarrollador Web",
+  "company2": "Web Solutions",
+  "duration2": "2021 - 2023",
+  "jobDescription2": "Desarrollé sitios web dinámicos y aplicaciones web usando PHP, MySQL y JavaScript.",
+  "downloadCV": "Descargar CV",
+  "projects": {
+    "title": "Proyectos",
+    "cards": [
+      {
+        "title": "Proyecto 1",
+        "description": "Descripción del primer proyecto.",
+        "link": "https://github.com/Ergwynt/supertodo"
+      },
+      {
+        "title": "Proyecto 2",
+        "description": "Descripción del segundo proyecto.",
+        "link": "https://github.com/usuario/proyecto2"
+      }
+    ],
+    "viewMore": "Ver más"
+  }
 }

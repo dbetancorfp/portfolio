@@ -1,15 +1,46 @@
 {
   "about": "About Me",
-  "projects": "Projects",
   "skills": "Skills",
   "experience": "Experience",
   "contact": "Contact",
   "content": "Carlos Aday",
   "description": "I am Aday, a passionate web developer who loves building creative and functional projects. In my spare time, I enjoy exploring new technologies and playing video games.",
   "image": "/images/profile.jpg",
-
   "name": "Name",
   "email": "Email",
   "phone": "Phone",
-  "followMe": "Follow me on"
+  "followMe": "Follow me on",
+
+  "sendMessage": "Send Message",
+  "subject": "Subject",
+  "message": "Message",
+  "send": "Send",
+  "messageSent": "Your message has been sent!",
+  "errorSendingMessage": "Error sending message",
+
+  "jobTitle1": "Frontend Developer",
+  "company1": "Tech Corp",
+  "duration1": "2024 - Present",
+  "jobDescription1": "Worked on building responsive websites using Vue.js, HTML, CSS, and JavaScript.",
+  "jobTitle2": "Web Developer",
+  "company2": "Web Solutions",
+  "duration2": "2021 - 2023",
+  "jobDescription2": "Developed dynamic websites and web applications using PHP, MySQL, and JavaScript.",
+  "downloadCV": "Download CV",
+  "projects": {
+    "title": "Projects",
+    "cards": [
+      {
+        "title": "Project 1",
+        "description": "Description of the first project.",
+        "link": "https://github.com/Ergwynt/supertodo"
+      },
+      {
+        "title": "Project 2",
+        "description": "Description of the second project.",
+        "link": "https://github.com/username/project2"
+      }
+    ],
+    "viewMore": "View More"
+  }
 }
