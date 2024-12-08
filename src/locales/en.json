@@ -1,0 +1,125 @@
+{
+    "navbar": {
+        "about": "About Me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience",
+        "contact": "Contact",
+        "switchToSpanish": "Switch to Spanish"
+    },
+    "proyectos": {
+        "card1": {
+            "title": "Tribu",
+            "description": "Tribu is a social network that connects people with common interests, allowing them to share content and build communities easily and quickly.",
+            "link": "https://github.com/nicholelouis/tribu2.0"
+        },
+        "card2": {
+            "title": "Lumino",
+            "description": "Lumino simplifies the management of educational centers, organizing activities, events, and resources for students, teachers, and administrators.",
+            "link": "https://github.com/usuario/proyecto2"
+        },
+        "card3": {
+            "title": "TrackTask",
+            "description": "TrackTask is an app for managing daily tasks, helping to organize, prioritize, and track what you need to do.",
+            "link": "https://github.com/nicholelouis/supertodo"
+        },
+        "btn": "More"
+    },
+    "habilidades": [
+        {
+            "name": "Python",
+            "description": "Programming language used for web development, data analysis, and automation.",
+            "level": 5,
+            "logo": "path/to/python-logo.png"
+        },
+        {
+            "name": "Django",
+            "description": "Python framework for building secure and scalable web applications quickly.",
+            "level": 5,
+            "logo": "path/to/django-logo.png"
+        },
+        {
+            "name": "JavaScript",
+            "description": "Programming language used for web development to create interactive applications.",
+            "level": 4,
+            "logo": "path/to/javascript-logo.png"
+        },
+        {
+            "name": "Vue.js",
+            "description": "Framework for building dynamic user interfaces in modern web applications.",
+            "level": 3,
+            "logo": "path/to/vue-logo.png"
+        },
+        {
+            "name": "CSS",
+            "description": "Language used to define the style and presentation of web pages written in HTML.",
+            "level": 4,
+            "logo": "path/to/css-logo.png"
+        },
+        {
+            "name": "HTML",
+            "description": "Standard markup language used to structure and display content on the web.",
+            "level": 5,
+            "logo": "path/to/html-logo.png"
+        },
+        {
+            "name": "Bootstrap",
+            "description": "CSS framework for developing responsive and mobile-first web designs quickly.",
+            "level": 4,
+            "logo": "path/to/bootstrap-logo.png"
+        },
+        {
+            "name": "TypeScript",
+            "description": "Programming language that extends JavaScript with static typing for better application development.",
+            "level": 3,
+            "logo": "path/to/typescript-logo.png"
+        },
+        {
+            "name": "Bash",
+            "description": "Scripting language used for automating tasks on Unix and Linux systems.",
+            "level": 4,
+            "logo": "path/to/bash-logo.png"
+        }
+    ],
+    "experiencia": {
+        "cientifico_datos": {
+            "titulo": "Data Scientist",
+            "empresa": "Inditex",
+            "fecha": "Date: January 2023 - Present",
+            "responsabilidades": [
+                "Developed predictive models using Python and libraries such as scikit-learn and TensorFlow.",
+                "Conducted exploratory data analysis (EDA) to identify trends and patterns in large datasets.",
+                "Collaborated with multidisciplinary teams to implement data-driven solutions that improved strategic decision-making.",
+                "Optimized data cleaning and transformation processes, reducing data preparation time by 30%."
+            ]
+        },
+        "desarrollador_web": {
+            "titulo": "Web Developer",
+            "empresa": "Apple",
+            "fecha": "Date: June 2021 - December 2022",
+            "responsabilidades": [
+                "Developed web applications using HTML, CSS, and JavaScript.",
+                "Collaborated in an agile team to improve project efficiency.",
+                "Implemented innovative solutions that increased customer satisfaction."
+            ]
+        },
+        "btn": "Download CV PDF"
+    },
+    "aboutMe": {
+        "description": "I am <strong>Nichole Louis</strong>, 24 years old, and I hold a Higher Degree in Web Development. I am currently pursuing a master's degree in Data Science, where I am expanding my knowledge in data analysis, machine learning, and advanced technologies to solve complex problems. My education and passion for technology allow me to approach projects with creativity and a focus on innovative solutions."
+    },
+    "contact": {
+        "name": {
+            "label": "Name"
+        },
+        "email": {
+            "label": "Email"
+        },
+        "message": {
+            "label": "Message"
+        },
+        "send": {
+            "button": "Send Message"
+        }
+    }
+}
