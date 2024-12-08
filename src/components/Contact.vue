@@ -1,8 +1,18 @@
 <template>
-  <section id="contact" class="d-flex align-items-center justify-content-center min-vh-100 bg-dark text-white">
+  <section
+    id="contact"
+    class="d-flex align-items-center justify-content-center min-vh-100 bg-dark text-white"
+  >
     <div class="container text-center">
-      <h2 class="display-4 text-warning mb-4">{{ $t('contact.title') }}</h2>
-      <form @submit.prevent="handleSubmit" class="bg-light p-4 rounded shadow-lg">
+      <h2
+        class="display-4 text-warning mb-4 animate__animated animate__fadeInDown"
+      >
+        {{ $t('contact.title') }}
+      </h2>
+      <form
+        @submit.prevent="handleSubmit"
+        class="bg-light p-4 rounded shadow-lg animate__animated animate__zoomIn"
+      >
         <div class="mb-3">
           <label for="name" class="form-label">{{ $t('contact.name') }}</label>
           <input
@@ -36,62 +46,65 @@
             required
           ></textarea>
         </div>
-        <button type="submit" class="btn btn-warning w-100">{{ $t('contact.submit') }}</button>
+        <button
+          type="submit"
+          class="btn btn-warning w-100 animate__animated animate__pulse animate__infinite"
+        >
+          {{ $t('contact.submit') }}
+        </button>
       </form>
     </div>
   </section>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import { db } from '../firebase'; // Asegúrate de que el archivo `firebase.ts` está configurado correctamente
-import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+import { defineComponent } from "vue";
+import { db } from "../firebase"; // Asegúrate de que el archivo `firebase.ts` está configurado correctamente
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 export default defineComponent({
-  name: 'Contact',
+  name: "Contact",
   data() {
     return {
       form: {
-        name: '',
-        email: '',
-        message: '',
+        name: "",
+        email: "",
+        message: "",
       },
     };
   },
   methods: {
     async handleSubmit() {
       try {
-        const docRef = await addDoc(collection(db, 'contacts'), {
+        const docRef = await addDoc(collection(db, "contacts"), {
           name: this.form.name,
           email: this.form.email,
           message: this.form.message,
           timestamp: serverTimestamp(),
         });
-        alert(this.$t('contact.success') + ` ID: ${docRef.id}`);
+        alert(this.$t("contact.success") + ` ID: ${docRef.id}`);
         this.resetForm();
       } catch (error) {
-        console.error('Error submitting contact form: ', error);
-        alert(this.$t('contact.error'));
+        console.error("Error submitting contact form: ", error);
+        alert(this.$t("contact.error"));
       }
     },
     resetForm() {
-      this.form.name = '';
-      this.form.email = '';
-      this.form.message = '';
+      this.form.name = "";
+      this.form.email = "";
+      this.form.message = "";
     },
   },
 });
 </script>
 
 <style scoped>
-
 #contact {
-  background-color: #333; 
-  min-height: 100vh; 
+  background-color: #333;
+  min-height: 100vh;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-
 
 h2 {
   font-size: 2.5rem;
@@ -99,17 +112,16 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
-  color: #ffc107; 
+  color: #ffc107;
 }
 
-
 form {
-  max-width: 600px; 
-  margin: 0 auto; 
-  background-color: #f8f9fa; 
-  border-radius: 10px; 
-  padding: 30px; 
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .form-label {
@@ -124,14 +136,13 @@ form {
 }
 
 .form-control:focus {
-  border-color: #ffc107; 
-  box-shadow: 0 0 5px rgba(255, 193, 7, 0.5); 
+  border-color: #ffc107;
+  box-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
 }
-
 
 button {
   font-weight: 600;
-  background-color: #ffc107; 
+  background-color: #ffc107;
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -139,7 +150,7 @@ button {
 }
 
 button:hover {
-  background-color: #e0a800; 
+  background-color: #e0a800;
   transform: translateY(-2px);
 }
 
@@ -147,8 +158,7 @@ button:active {
   transform: translateY(0);
 }
 
-
 textarea {
-  resize: none; 
+  resize: none;
 }
 </style>

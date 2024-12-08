@@ -24,10 +24,15 @@ export default {
 }
 
 .hero h1 {
-  font-size: 3.5rem; 
   text-transform: uppercase;
-  letter-spacing: 1px;
-  animation-duration: 1s;
+  color: white;
+  background: url(../../public/assets/portfolio.webp);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-position: center;
+  background-size:cover;
+  -webkit-text-stroke: 1px white;
+
 }
 
 .hero p {

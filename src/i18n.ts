@@ -19,6 +19,8 @@ const messages = {
     about: {
       title: "About Me",
       content: "I am a passionate 22-year-old developer with a love of programming, who likes to work a lot as a team and above all learn.",
+      skills: 'Skills',
+      contact: 'Contact'
     },
     skills: {
       title: "My Skills",
@@ -49,6 +51,8 @@ const messages = {
     about: {
       title: "Sobre Mí",
       content: "Soy un desarrollador de 22 años apasionado con amor por la programación, que le gusta trabajar mucho en equipo y sobre todo aprender.",
+      skills: 'Habilidades',
+      contact: 'Contactame'
     },
     skills: {
       title: "Mis Habilidades",

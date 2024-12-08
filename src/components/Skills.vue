@@ -1,13 +1,32 @@
 <template>
-  <section id="skills" class="skills-section bg-dark text-light d-flex flex-column justify-content-center align-items-center py-5">
+  <section
+    id="skills"
+    class="skills-section bg-dark text-light d-flex flex-column justify-content-center align-items-center py-5"
+  >
     <div class="container text-center">
-      <h2 class="display-4 text-warning mb-4">{{ $t('skills.title') }}</h2>
-      <p class="lead text-light">{{ $t('skills.content') }}</p>
+      <h2
+        class="display-4 text-warning mb-4 animate__animated animate__fadeInDown"
+      >
+        {{ $t('skills.title') }}
+      </h2>
+      <p class="lead text-light animate__animated animate__fadeInUp">
+        {{ $t('skills.content') }}
+      </p>
       <div class="row mt-4">
-        <div class="col-md-4 mb-4" v-for="skill in skills" :key="skill.name">
-          <div class="card shadow-lg border-warning">
-            <div class="card-img-container d-flex justify-content-center align-items-center">
-              <img :src="skill.image" class="card-img-top rounded-circle border-warning" alt="Skill Image" />
+        <div
+          class="col-md-4 mb-4 animate__animated animate__zoomIn"
+          v-for="skill in skills"
+          :key="skill.name"
+        >
+          <div class="card shadow-lg border-warning skill-card">
+            <div
+              class="card-img-container d-flex justify-content-center align-items-center"
+            >
+              <img
+                :src="skill.image"
+                class="card-img-top rounded-circle border-warning"
+                alt="Skill Image"
+              />
             </div>
             <div class="card-body text-center">
               <h5 class="card-title text-warning">{{ skill.name }}</h5>
@@ -22,68 +41,80 @@
 
 <script lang="ts">
 export default {
-  name: 'Skills',
+  name: "Skills",
   data() {
     return {
       skills: [
-        { name: 'JavaScript', description: 'Front-end development', image: '../../public/assets/js.png' },
-        { name: 'Python', description: 'Coding Language', image: '../../public/assets/python.png' },
-        { name: 'TypeScript', description: 'Backend development', image: '../../public/assets/typescript.png' },
+        {
+          name: "JavaScript",
+          description: "Front-end development",
+          image: "../../public/assets/js.png",
+        },
+        {
+          name: "Python",
+          description: "Coding Language",
+          image: "../../public/assets/python.png",
+        },
+        {
+          name: "TypeScript",
+          description: "Backend development",
+          image: "../../public/assets/typescript.png",
+        },
       ],
     };
   },
-}
+};
 </script>
 
 <style scoped>
-
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%;
 }
-main{
+main {
   background-color: #333;
 }
 
 .skills-section {
-  background-color: #333; 
-  min-height: 100vh; 
-  padding-bottom: 0; 
+  background-color: #333;
+  min-height: 100vh;
+  padding-bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
-  color: #ffc107; 
+  color: #ffc107;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   line-height: 1.75;
-  color: #e0e0e0; 
+  color: #e0e0e0;
 }
 
 .card {
   border-radius: 10px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-img-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px; 
+  height: 200px;
 }
 
 .card-img-top {
-  height: 150px; 
-  width: auto; 
-  object-fit: contain; 
+  height: 150px;
+  width: auto;
+  object-fit: contain;
 }
 
 .card-title {
@@ -92,11 +123,28 @@ p {
 
 .card-text {
   font-size: 1rem;
-  color: #e0e0e0; 
+  color: #e0e0e0;
 }
 
 .card:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px rgba(255, 193, 7, 0.3);
 }
 
+.skill-card:hover {
+  animation: bounce 1s;
+}
+
+/* Agregando una animación personalizada de hover */
+@keyframes bounce {
+  0% {
+    transform: scale(1.05) translateY(0);
+  }
+  50% {
+    transform: scale(1.1) translateY(-10px);
+  }
+  100% {
+    transform: scale(1.05) translateY(0);
+  }
+}
 </style>

@@ -60,6 +60,16 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.navbar-brand{
+  text-transform: uppercase;
+  color: white;
+  background: url(../../public/assets/python.png);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-position: center;
+  background-size:cover;
+  -webkit-text-stroke: 1px white;
+}
 .navbar {
   background-color: #333 !important;
 }
