@@ -14,7 +14,142 @@
 
     "WhoAmI": "¿Quién soy yo?",
     "description": "Mi nombre es David Luis Mora. Soy un desarrollador de aplicaciones multiplataforma  y paginas web, soy  residente en las Islas Canarias en Tenerife y soy muy apasionado y dedicado a mi trabajo. Tengo habilidades de desarrollo tanto del lado del cliente como del lado del servidor.",
-    "CV": "Descargar CV"
+    "CV": "Descargar CV",
+
+    "skill": "Habilidades",
+
+    "habilidades": [
+        {
+          "logo": "/img/html.png",
+          "nombre": "HTML",
+          "descripcion": "Tecnologia que uso para el desarrollo de la parte cliente",
+          "nivel": 80
+        },
+        {
+            "logo": "/img/css.png",
+            "nombre": "CSS",
+            "descripcion": "Ponerle el estilo a las paginas web",
+            "nivel": 70
+        },
+        {
+            "logo": "/img/boostrap.jpg",
+            "nombre": "Bootstrap",
+            "descripcion": "Framework para agilizar y disminuir los tiempos de creación de las páginas web",
+            "nivel": 60
+        },
+        {
+            "logo": "/img/js.png",
+            "nombre": "JavaScript",
+            "descripcion": "El lenguaje de programacion para la parte front de la aplicacion",
+            "nivel": 75
+        },
+        {
+            "logo": "/img/tscript.png",
+            "nombre": "TypeScript",
+            "descripcion": "El uso de esta tecnologia es darle la robustez que le falta a JavaScript como complemento hacia este",
+            "nivel": 55
+          },
+          {
+              "logo": "/img/jquery.png",
+              "nombre": "jQuery",
+              "descripcion": "La facilitar de la navegación por un documento, seleccionar elementos DOM, crear animaciones, manejar eventos y desarrollar aplicaciones ",
+              "nivel": 60
+          },
+          {
+              "logo": "/img/mysql.png",
+              "nombre": "MySQL",
+              "descripcion": "Un sistema de bases de datos de Oracle que utilizo habituarmente para mis projectos",
+              "nivel": 90
+          },
+          {
+              "logo": "/img/postgres.png",
+              "nombre": "Postgres",
+              "descripcion": "Un sistema de gestor de bases de datos orientado a objeto que uso para projecto especifico  ",
+              "nivel": 95
+          },
+          {
+            "logo": "/img/docker.png",
+            "nombre": "Docker",
+            "descripcion": "En el que desee ejecutar contenedores y proporciona un conjunto sencillo de comandos que puede utilizar para crear, iniciar o detener contenedores de manera sensilla para probar en produccion",
+            "nivel": 88
+          },
+          {
+              "logo": "/img/php.png",
+              "nombre": "PHP",
+              "descripcion": "Un lenguaje de programacion para el desarrollo de paginas web",
+              "nivel": 77
+          },
+          {
+              "logo": "/img/python.png",
+              "nombre": "Python",
+              "descripcion": "Lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning ",
+              "nivel": 90
+          },
+          {
+              "logo": "/img/github.png",
+              "nombre": "GitHub",
+              "descripcion": "Puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código y controlar versiones",
+              "nivel": 70
+          }
+        
+    ],
+
+    "cards": [
+        {
+            "title": "WCAG y WAI-ARIA",
+            "description": "Modelo de paginas accesibles",
+            "link": "https://github.com/David-Luis-Mora/WCAG_y_WAI-ARIA.git"
+        },
+        {
+            "title": "Pelican",
+            "description": "Generado de pagina estática",
+            "link": "https://github.com/David-Luis-Mora/Pelican"
+        },
+        {
+            "title": "Persona5",
+            "description": "Diseño de pagina web de Persona5",
+            "link": "https://github.com/David-Luis-Mora/Persona5"
+        },
+        {
+            "title": "Lol",
+            "description": "Pagina web con tematica de League of Legends",
+            "link": "https://github.com/David-Luis-Mora/Lol"
+        }
+    ],
+
+    
+    "technical": "tecnico",
+    "qualification": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
+    "Competencies":"Competencias",
+    "Autodidact":"Autodidacta",
+    "Problemsolvingskills":"Capacidad de resolución de problemas",
+    "Teamwork":" Trabajo en equipo",
+    "Adaptability":"Capacidad de adaptación",
+    "Objetives":"Orientación a resultados y objetivos",
+    "Training":"Formación",
+    "CFGS":"CFGS-Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
+    "IES": "IES San Juan de la Rambla | 2023 - 2024",
+    "Languages":"Idiomas",
+    "Castilian":"Castellano",
+    "Download ":"Descargar CV en PDF",
+    "updated ": "Currículum actualizado en 2024",
+
+    "ContactForm":"Formulario de Contacto",
+    "Affair":"Asunto",
+    "Message":"Mensaje",
+    "SendMessage":"Enviar Mensaje",
+
+    "feedback":"¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto."
+
+
+    
+
+
+
+
+
+
+
 
 
 

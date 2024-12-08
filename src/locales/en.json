@@ -14,6 +14,34 @@
 
     "WhoAmI": "Who Am I",
     "description": "My name is David Luis Mora. I am a developer of cross-platform applications and websites, I am a resident of the Canary Islands in Tenerife and I am very passionate and dedicated to my work. I have development skills on both the client side and the server side.",
-    "CV": "Download CV"
-   }
+    "CV": "Download CV",
+
+    "skill": "Skills",
+
+    "technical": "technical",
+    "qualification": "Senior Technician in Multiplatform Application Development",
+    "Email":"Email",
+    "Competencies":"Competencies",
+    "Autodidact":"Autodidact",
+    "Problemsolvingskills":"Problem solving skills",
+    "Teamwork":"Teamwork",
+    "Adaptability":"Adaptability",
+    "Objetives":"Orientation to results and objectives",
+    "Training":"Training",
+    "CFGS":"CFGS-Senior Technician in Multiplatform Application Development",
+    "IES": "IES San Juan de la Rambla | 2023 - 2024",
+    "Languages":"Languages",
+    "Castilian":"Castilian",
+    "Download ":"Download CV in PDF",
+    "updated ": "Curriculum updated in 2024",
+
+    "ContactForm":"Contact Form",
+    "Affair":"Affair",
+    "Message":"Message",
+    "SendMessage":"Send Message",
+
+    "feedback":"¡Message sent successfully! We will contact you soon."
+
+
+}
    

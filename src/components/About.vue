@@ -3,12 +3,12 @@
     <section class="about-section container">
       <div class="row align-items-center">
         <div class="col-md-4 text-center">
-          <img src="../img/avatar.png" alt="Profile Picture" class="profile-pic">
+          <img src="../../public/img/avatar.png" alt="Profile Picture" class="profile-pic">
         </div>
         <div class="col-md-8">
           <h1>{{ $t('WhoAmI') }}</h1>
           <p>{{ $t('description') }}</p>
-          <a href="#" class="btn btn-download mt-4">{{ $t('CV') }}</a>
+          <!-- <a href="#" class="btn btn-download mt-4">{{ $t('CV') }}</a> -->
         </div>
       </div>
     </section>

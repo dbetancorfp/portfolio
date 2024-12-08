@@ -1,129 +1,62 @@
 <template>
-   <div class="container py-5">
-    <h1 class="text-center mb-5">Skills</h1>
-    <div class="row justify-content-center">
-      <!-- HTML Skill -->
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">Python</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">JavaScript</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">HTML</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">CSS</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">PHP</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">PostgreSQL</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div> 
-
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">MySQL</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">GITHUB</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">C#</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">Docker</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">Boostrap</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">Typescript</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 skill-card">
-        <h5 class="mt-5">JQuery</h5>
-        <img src="../img/html.png" alt="HTML Logo" class="img-fluid">
-        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%; margin-left: 30%;">
-          <div class="progress-bar bg-success" style="width: 80%">80%</div>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
+  <div class="tarjeta-habilidad">
+    <img :src="logo" :alt="nombre" class="logo" />
+    <h3>{{ nombre }}</h3>
+    <p>{{ descripcion }}</p>
+    <div class="nivel">
+      <div class="nivel-barra" :style="{ width: nivel + '%' }"></div>
     </div>
   </div>
 </template>
-<script setup>
+
+<script>
+export default {
+  props: {
+    logo: {
+      type: String,
+      required: true,
+    },
+    nombre: {
+      type: String,
+      required: true,
+    },
+    descripcion: {
+      type: String,
+      required: true,
+    },
+    nivel: {
+      type: Number,
+      required: true,
+    },
+  },
+};
 </script>
+
 <style scoped>
+.tarjeta-habilidad {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.nivel {
+  background-color: #f0f0f0;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.nivel-barra {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.3s ease;
+}
 </style>
-  
