@@ -77,3 +77,67 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.item{
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa; 
+  color: #333;
+}
+.about-section {
+  padding: 4rem 2rem;
+}
+.about-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #0d6efd; 
+}
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+.icon-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.icon-box i {
+  font-size: 1.5rem;
+  color: #0d6efd; 
+}
+.profile-img {
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.projects-section {
+  padding: 4rem 2rem;
+}
+.projects-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #0d6efd; 
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}

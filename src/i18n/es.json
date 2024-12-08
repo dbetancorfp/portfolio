@@ -1,0 +1,89 @@
+{
+  "projectsTitle": "Mis Proyectos",
+  "viewProject": "Ver Proyecto",
+  "projects": [
+    {
+      "title": "Tribu",
+      "description": "Nuestra red social personalizada, creada con Django y Bootstrap. La mejor forma de conectar con tu entorno."
+    },
+    {
+      "title": "Poker",
+      "description": "Un juego de poker hecho con Python vanilla, utilizando la terminal con más de 1000 pruebas de cobertura."
+    },
+    {
+      "title": "Todo",
+      "description": "Organiza todas tus tareas, con creación y actualización por parte del usuario. Hecho con Django y Bootstrap."
+    }
+  ],
+  "navbar": {
+    "brand": "Mi Portafolio",
+    "about": "Sobre Mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "experiences": "Experiencia",
+    "contact": "Contacto"
+  },
+  "skillsTitle": "Mis habilidades",
+  "habilidades": [
+    {
+      "title": "JavaScript",
+      "description": "Desarrollo web con JavaScript, manejo de funciones, objetos y eventos."
+    },
+    {
+      "title": "Vue.js",
+      "description": "Creación de interfaces interactivas y dinámicas con Vue.js."
+    },
+    {
+      "title": "Node.js",
+      "description": "Desarrollo de aplicaciones backend con Node.js y Express."
+    },
+    {
+      "title": "CSS3",
+      "description": "Estilización de interfaces web con CSS3 y Flexbox."
+    },
+    {
+      "title": "Django",
+      "description": "Desarrollo web con Django, framework de Python para crear aplicaciones web escalables y seguras."
+    },
+    {
+      "title": "Python",
+      "description": "Lenguaje de programación versátil y fácil de aprender, utilizado en desarrollo web, automatización, análisis de datos y más."
+    },
+    {
+      "title": "TypeScript",
+      "description": "Superset de JavaScript que agrega tipado estático, lo que mejora la mantenibilidad y escalabilidad del código."
+    }
+  ],
+  
+    "experienceTitle": "Experiencia Laboral",
+    "downloadCV": "Descargar CV",
+    "experience": [
+      {
+        "title": "Desarrollador Frontend",
+        "company": "Tech Solutions",
+        "description": "Desarrollo y mantenimiento de aplicaciones web utilizando Vue.js, JavaScript y CSS.",
+        "date": "Enero 2022 - Actualidad"
+      },
+      {
+        "title": "Desarrollador Backend",
+        "company": "Code Lab",
+        "description": "Desarrollo de API RESTful usando Node.js y Express, integración con bases de datos SQL.",
+        "date": "Febrero 2021 - Diciembre 2021"
+      },
+      {
+        "title": "Desarrollador Backend",
+        "company": "Code Lab",
+        "description": "Desarrollo de API RESTful usando Node.js y Express, integración con bases de datos SQL.",
+        "date": "Febrero 2021 - Diciembre 2021"
+      }
+    ],
+    "contactTitle": "Contacto",
+    "nameLabel": "Nombre",
+    "emailLabel": "Correo Electrónico",
+    "messageLabel": "Mensaje",
+    "submitButton": "Enviar",
+    "successMessage": "¡Tu mensaje ha sido enviado correctamente!",
+    "errorMessage": "Hubo un error al enviar el mensaje. Por favor, intenta de nuevo más tarde."
+    
+  
+}
