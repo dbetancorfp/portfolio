@@ -1,57 +1,82 @@
 <template>
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Portafolio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">David Riccio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <router-link class="nav-link" :to="'/'">{{ $t('navbar.home') }}</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" :to="'/about'">{{ $t('navbar.about') }}</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" :to="'/skills'">{{ $t('navbar.skills') }}</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" :to="'/contact'">{{ $t('navbar.contact') }}</router-link>
+          </li>
+        </ul>
+        <button @click="toggleLanguage" class="btn btn-outline-light ms-3">
+          {{ currentLanguage === 'en' ? 'ES' : 'EN' }}
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <router-link class="nav-link" to="/about">Sobre mí</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/projects"
-                >Proyectos</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/skills"
-                >Habilidades</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/experience"
-                >Experiencia</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/contact">Contacto</router-link>
-            </li>
-          </ul>
-        </div>
       </div>
-    </nav>
-
-    <!-- Espaciado para evitar que el contenido quede detrás del navbar -->
-    <div class="mt-5 pt-3"></div>
-  </div>
+    </div>
+  </nav>
 </template>
 
-<script setup></script>
+<script lang="ts">
+import { defineComponent } from 'vue';
+import { useI18n } from 'vue-i18n';
+
+export default defineComponent({
+  name: 'Navbar',
+  setup() {
+    const { locale } = useI18n();
+
+    const toggleLanguage = () => {
+      const newLocale = locale.value === 'en' ? 'es' : 'en';
+      locale.value = newLocale;
+      localStorage.setItem('locale', newLocale); 
+    };
+
+    return {
+      toggleLanguage,
+      currentLanguage: locale, 
+    };
+  },
+});
+</script>
 
 <style scoped>
-/* Ajustar el espaciado superior para el contenido dinámico */
-.mt-5 {
-  margin-top: 4rem; /* Ajusta el valor según la altura del navbar */
+.navbar {
+  background-color: #333 !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+button {
+  background-color: #ffc107;
+  border-radius: 30px;
+  color: #333;
+}
+
+button:hover {
+  background-color: #ff8f00;
+  color: #fff;
 }
 </style>
