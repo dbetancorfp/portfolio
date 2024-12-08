@@ -16,5 +16,18 @@
   "location": "Location",
   "location_value": "Canary Islands, Spain",
   "interests_title": "My Interests",
-  "interests_description": "I love exploring new technologies, developing innovative applications and learning about artificial intelligence. In my free time, I enjoy playing video games and playing the guitar."
+  "interests_description": "I love exploring new technologies, developing innovative applications and learning about artificial intelligence. In my free time, I enjoy playing video games and playing the guitar.",
+  "viewMore": "View More",
+  "cards": [
+    {
+      "title": "Card 1",
+      "description": "Description of the first card.",
+      "link": "/ruta1"
+    },
+    {
+      "title": "Card 2",
+      "description": "Description of the second card.",
+      "link": "/ruta2"
+    }
+  ]
 }

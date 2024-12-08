@@ -10,11 +10,24 @@
     "chinese": "中国人",
     "italian": "简体中文",
     "description": "我是一名热衷于技术的开发者，擅长创造创新解决方案并快速适应新挑战。我始终渴望学习并参与令人兴奋的项目。",
-    "name": "姓名",   
+    "name": "姓名",
     "name_value": "Samuel Pérez",
     "email": "电子邮件",
     "location": "地点",
     "location_value": "西班牙加那利群岛",
     "interests_title": "我的兴趣",
-    "interests_description": "我喜欢探索新技术、开发创新应用程序和学习人工智能。在空闲时间，我喜欢玩电子游戏和弹吉他。"
+    "interests_description": "我喜欢探索新技术、开发创新应用程序和学习人工智能。在空闲时间，我喜欢玩电子游戏和弹吉他。",
+    "viewMore": "查看更多",
+    "cards": [
+        {
+            "title": "卡片 1",
+            "description": "第一张卡的描述。",
+            "link": "/ruta1"
+        },
+        {
+            "title": "卡片 2",
+            "description": "第二张卡的描述。",
+            "link": "/ruta2"
+        }
+    ]
 }

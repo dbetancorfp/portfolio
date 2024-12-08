@@ -1,14 +1,13 @@
 <template>
   <section id="projects">
     <h2>{{ $t("projects") }}</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-      varius, justo sed consectetur sollicitudin.
-    </p>
+    <CardList></CardList>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+  import CardList from './CardList.vue';
+</script>
 
 <style scoped>
 /* Estilos específicos */
