@@ -1,0 +1,7 @@
+export default {
+    "aboutme": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+}

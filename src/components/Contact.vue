@@ -1,15 +1,13 @@
 <template>
-  <section id="contact">
-    <h2>Contacto</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum
-      magna ut purus posuere, vitae sodales nulla feugiat.
-    </p>
-  </section>
+    <h1>Contacto</h1>
+    <form>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </form>
 </template>
-
-<script setup></script>
-
-<style scoped>
-/* Estilos específicos */
-</style>
