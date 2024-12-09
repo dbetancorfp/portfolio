@@ -20,16 +20,18 @@
           </p>
           <div class="d-flex justify-content-center gap-3">
             <a
-              href="#"
+              href="assets/CV-Moises.pdf"
               class="btn btn-primary"
               role="button"
-              >Descargar CV</a
+              download="CV-Moises.pdf"
             >
-            <a
-              href="mailto:tucorreo@example.com"
+              Descargar CV
+            </a>
+
+            <router-link to="/contact"
               class="btn btn-outline-secondary"
               role="button"
-              >Contactarme</a
+              >Contactarme</router-link
             >
           </div>
         </div>
