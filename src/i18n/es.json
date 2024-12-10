@@ -1,0 +1,49 @@
+{
+    "sobreMi": {
+      "title": "Sobre mí",
+      "description": "Soy un estudiante de Desarrollo de Aplicaciones Web con un gran entusiasmo en la Informatica y todo lo relacionado con ello y que tiene muchas ganas de aprender diferentes lenguajes y herramientas para poder trabajar de la manera mas eficiente y optima en mi futuro"
+    },
+    "proyectos": {
+      "title": "Proyectos",
+      "cards": [
+        {
+          "title": "Proyecto 1",
+          "description": "Descripción del proyecto 1.",
+          "link": "/ruta1"
+        },
+        {
+          "title": "Proyecto 2",
+          "description": "Descripción del proyecto 2.",
+          "link": "/ruta2"
+        }
+      ]
+    },
+    "habilidades": {
+      "title": "Habilidades",
+      "cards": [
+        {
+          "logo": "ruta/logo.png",
+          "name": "JavaScript",
+          "description": "He utilizado JavaScript en varios proyectos."
+        },
+        {
+          "logo": "ruta/logo.png",
+          "name": "Vue .js",
+          "description": "Tengo experiencia en Vue.js."
+        }
+      ]
+    },
+    "experiencia": {
+      "title": "Experiencia",
+      "description": "Aqui esta mi Curriculum para que puedan observar que e estudiado y donde e trabajado"
+    },
+    "contacto": {
+      "title": "Contacto",
+      "form": {
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "message": "Mensaje",
+        "submit": "Enviar"
+      }
+    }
+  }

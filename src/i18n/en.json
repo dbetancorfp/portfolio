@@ -1,0 +1,49 @@
+{
+    "sobreMi": {
+      "title": "About Me",
+      "description": "I am a Web Application Development student with a great enthusiasm for Computer Science and everything related to it, and I am eager to learn different languages and tools to work in the most efficient and optimal way in my future."
+    },
+    "proyectos": {
+      "title": "Projects",
+      "cards": [
+        {
+          "title": "Project 1",
+          "description": "Description of project 1.",
+          "link": "/ruta1"
+        },
+        {
+          "title": "Project 2",
+          "description": "Description of project 2.",
+          "link": "/ruta2"
+        }
+      ]
+    },
+    "habilidades": {
+      "title": "Skills",
+      "cards": [
+        {
+          "logo": "ruta/logo.png",
+          "name": "JavaScript",
+          "description": "I have used JavaScript in several projects."
+        },
+        {
+          "logo": "ruta/logo.png",
+          "name": "Vue.js",
+          "description": "I have experience in Vue.js."
+        }
+      ]
+    },
+    "experiencia": {
+      "title": "Experience",
+      "description": "Here is my resume so you can see what I have studied and where I have worked."
+    },
+    "contacto": {
+      "title": "Contact",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Send"
+      }
+    }
+  }
