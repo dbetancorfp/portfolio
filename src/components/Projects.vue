@@ -1,15 +1,14 @@
 <template>
-  <section id="projects">
-    <h2>Proyectos</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-      varius, justo sed consectetur sollicitudin.
-    </p>
-  </section>
-</template>
-
-<script setup></script>
-
-<style scoped>
-/* Estilos específicos */
-</style>
+    <section class="resume-section" id="interests">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Proyectos</h2>
+     </div>
+    </section>
+  </template>
+  
+  <script setup lang="ts">
+  </script>
+  
+  <style scoped>
+  </style>
+  

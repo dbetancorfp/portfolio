@@ -1,15 +1,21 @@
 <template>
-  <Navbar></Navbar>
-  <!-- Semuestra la navegación de router -->
-  <main>
-    <router-view /> 
-  </main>
+  <div id="app">
+    <Navbar />
+    <router-view />
+  </div>
 </template>
 
-<script setup>
-import Navbar from "./components/Navbar.vue";
+<script lang="ts">
+import { defineComponent } from 'vue';
+import Navbar from './components/Navbar.vue'; 
+
+export default defineComponent({
+  components: {
+    Navbar,
+  },
+});
 </script>
 
-<style>
-/* Estilos adicionales si se requieren */
+<style scoped>
+
 </style>

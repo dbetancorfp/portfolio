@@ -1,9 +1,9 @@
+<script setup lang="ts">
+</script>
+
 <template>
-  <section>
-    <h1>Página no encontrada</h1>
-  </section>
+ <div>Error404</div>
 </template>
 
-<script setup></script>
-
-<style></style>
+<style scoped>
+</style>
