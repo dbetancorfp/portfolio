@@ -9,14 +9,14 @@
             width="150"
             height="150"
           />
-          <h1 class="display-4">Hola, soy Moises</h1>
+          <h1 class="display-4">{{ $t('profile.greeting') }}</h1>
           <p class="lead text-muted">
-            Soy un desarrollador apasionado por crear aplicaciones web y móviles. Me especializo en tecnologías modernas como Vue.js, Django y más.
+            {{ $t('profile.introduction') }}
           </p>
           <hr />
-          <h2 class="h5 mt-4">¿Qué hago?</h2>
+          <h2 class="h5 mt-4">{{ $t('profile.whatIDo') }}</h2>
           <p>
-            Desarrollo soluciones de software para empresas y personas que buscan transformar ideas en realidad. Trabajo con herramientas modernas para crear proyectos escalables y eficientes.
+            {{ $t('profile.description') }}
           </p>
           <div class="d-flex justify-content-center gap-3">
             <a
@@ -25,13 +25,13 @@
               role="button"
               download="CV-Moises.pdf"
             >
-              Descargar CV
+            {{ $t('profile.downloadCV') }}
             </a>
 
             <router-link to="/contact"
               class="btn btn-outline-secondary"
               role="button"
-              >Contactarme</router-link
+              >{{ $t('profile.contactMe') }}</router-link
             >
           </div>
         </div>
@@ -39,26 +39,23 @@
       <div class="row mt-5">
         <div class="col-md-4 text-center">
           <i class="bi bi-code-slash display-4 text-primary"></i>
-          <h3 class="h5 mt-3">Desarrollo Web</h3>
+          <h3 class="h5 mt-3">{{ $t('profile.webDevelopmentTitle') }}</h3>
           <p>
-            Creo sitios y aplicaciones web modernas con tecnologías como
-            Vue.js, React y Django.
+            {{ $t('profile.webDevelopmentDescription') }}
           </p>
         </div>
         <div class="col-md-4 text-center">
           <i class="bi bi-phone display-4 text-primary"></i>
-          <h3 class="h5 mt-3">Aplicaciones Móviles</h3>
+          <h3 class="h5 mt-3">{{ $t('profile.mobileAppsTitle') }}</h3>
           <p>
-            Desarrollo apps para iOS y Android con React Native y otras
-            herramientas.
+            {{ $t('profile.mobileAppsDescription') }}
           </p>
         </div>
         <div class="col-md-4 text-center">
           <i class="bi bi-back display-4 text-primary"></i>
-          <h3 class="h5 mt-3">Backend</h3>
+          <h3 class="h5 mt-3">{{ $t('profile.backendTitle') }}</h3>
           <p>
-            Creo APIs y servicios web con Django, Spring y otras tecnologías
-            modernas.
+            {{ $t('profile.backendDescription') }}
           </p>
         </div>
       </div>

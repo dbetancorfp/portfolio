@@ -31,7 +31,7 @@
       description: 'Una aplicación para gestionar tus tareas diarias con funcionalidades avanzadas.',
       technologies: [ 'Django', 'Bootstrap'],
       image: 'https://mala.ae/wp-content/uploads/2023/02/img.jpg',
-      repoLink: 'https://github.com/tuusuario/todo-app',
+      repoLink: 'https://github.com/MoisesALH/todo-app',
       liveLink: 'https://todo-app-demo.com',
     },
     {
@@ -40,7 +40,7 @@
       description: 'Consulta información sobre Pokémon en una aplicación moderna e interactiva.',
       technologies: ['HTML', 'JS', 'Firebase'],
       image: 'https://mala.ae/wp-content/uploads/2023/02/img.jpg',
-      repoLink: 'https://github.com/tuusuario/pokedex-app',
+      repoLink: 'https://github.com/MoisesALH/pokedex-app',
       liveLink: 'https://pokedex-app-demo.com',
     },
     {
@@ -49,7 +49,7 @@
       description: 'Una plataforma para la venta de cajas usadas, optimizada para SEO.',
       technologies: ['HTML', 'Bootstrap'],
       image: 'https://mala.ae/wp-content/uploads/2023/02/img.jpg',
-      repoLink: 'https://github.com/tuusuario/milcajas',
+      repoLink: 'https://github.com/MoisesALH/milcajas',
       liveLink: 'https://milcajas.com',
     },
     {
@@ -58,7 +58,7 @@
       description: 'El portafolio que estás viendo ahora. Un proyecto personal para destacar mis habilidades.',
       technologies: ['Vue.js', 'Bootstrap'],
       image: 'https://mala.ae/wp-content/uploads/2023/02/img.jpg',
-      repoLink: 'https://github.com/tuusuario/portfolio',
+      repoLink: 'https://github.com/MoisesALH/portfolio',
       liveLink: 'https://tuportfolio.com',
     },
   ];

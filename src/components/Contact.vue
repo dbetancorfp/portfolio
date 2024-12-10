@@ -1,43 +1,40 @@
 <template>
   <div class="container py-5">
-    <h1 class="text-center mb-5">Contáctame</h1>
+    <h1 class="text-center mb-5">{{ $t('contact.title') }}</h1>
     <div class="row justify-content-center">
       <div class="col-md-6">
         <form @submit.prevent="sendMessage">
           <div class="mb-3">
-            <label for="name" class="form-label">Nombre</label>
+            <label for="name" class="form-label">{{ $t('contact.form.name') }}</label>
             <input
               type="text"
               id="name"
               v-model="form.name"
               class="form-control"
-              placeholder="Tu nombre"
               required
             />
           </div>
           <div class="mb-3">
-            <label for="email" class="form-label">Correo electrónico</label>
+            <label for="email" class="form-label">{{ $t('contact.form.email') }}</label>
             <input
               type="email"
               id="email"
               v-model="form.email"
               class="form-control"
-              placeholder="Tu correo"
               required
             />
           </div>
           <div class="mb-3">
-            <label for="message" class="form-label">Mensaje</label>
+            <label for="message" class="form-label">{{ $t('contact.form.message') }}</label>
             <textarea
               id="message"
               v-model="form.message"
               class="form-control"
               rows="5"
-              placeholder="Escribe tu mensaje"
               required
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-primary w-100">Enviar</button>
+          <button type="submit" class="btn btn-primary w-100">{{ $t('contact.form.submit') }}</button>
         </form>
         <div
           v-if="successMessage"

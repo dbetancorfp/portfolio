@@ -5,7 +5,7 @@ import { ref, computed } from 'vue';
 const { locale } = useI18n();
 const currentLanguage = computed(() => (locale.value === 'es' ? 'Español' : 'English'));
 
-const changeLanguage = (lang) => {
+const changeLanguage = (lang: string) => {
   locale.value = lang; // Cambiar idioma
   localStorage.setItem('language', lang); // Guardar preferencia en localStorage
 };
