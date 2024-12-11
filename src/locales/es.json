@@ -13,5 +13,24 @@
     ,"ExperienceT":"Desarrolladora web junior(f"
     ,"Experience":"Intelitec Solutions"
     ,"Experience1":"Ponga sobre la mesa estrategias de supervivencia beneficiosas para todos para garantizar una dominación proactiva. Al fin y al cabo, de cara al futuro, una nueva normalidad que ha evolucionado desde la generación X está en camino hacia una solución de nube optimizada."   
-    ,"Experience2":"Marzo 2024"        
-}
+    ,"Experience2":"Marzo 2024"   
+    ,"name": "Nombre" 
+    ,"email": "Correo electrónico",
+    "ContactForm":"Formulario de Contacto",
+    "Affair":"Asunto",
+    "Message":"Mensaje",
+    "SendMessage":"Enviar Mensaje",
+    "feedback":"¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto."    
+    ,"cards": [
+        {
+            "title": "Pokemon",
+            "description": "Tienda pokemon",
+            "link": "https://github.com/NauzetPM/Proyecto-Compras-Pokemon"
+        },
+        {
+            "title": "Lol",
+            "description": "Pagina web con tematica de League of Legends",
+            "link": "https://github.com/NauzetPM/WikiLol"
+        }
+    ]
+}   
