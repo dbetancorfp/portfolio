@@ -1,39 +1,38 @@
 <template>
-    <div class="container mt-4">
-      <h1>My Projects</h1>
-      <div class="row">
-        <div class="col-md-4" v-for="project in projects" :key="project.id">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">{{ project.name }}</h5>
-              <p class="card-text">{{ project.description }}</p>
-              <a :href="project.url" class="btn btn-primary">View Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="container mt-4">
+    <h1>{{ $t('PORTFOLIO') }}</h1>
+    <div class="row">
+      <TarjetaProyecto
+        v-for="project in projects"
+        :key="project.id"
+        :project="project"
+      />
     </div>
-  </template>
-  
-  <script>
-  export default {
-    data() {
-      return {
-        projects: []
-      };
-    },
-    mounted() {
-      this.fetchProjects();
-    },
-    methods: {
-      fetchProjects() {
-        fetch('./projects.json') 
-          .then(response => response.json())
-          .then(data => {
-            this.projects = data.projects;
-          })
-          .catch(error => console.error('Error fetching the projects:', error));
-      }
-    }
-  };
-  </script>
+  </div>
+</template>
+
+<script setup>
+import { ref, onMounted } from 'vue';
+import { useI18n } from 'vue-i18n';
+import TarjetaProyecto from '../components/TarjetaProyecto.vue';
+import dictionary from '../diccionario.js'; // Asegúrate de que la ruta sea correcta
+
+const { locale } = useI18n();
+const projects = ref([]);
+
+onMounted(() => {
+  // Cargar los proyectos desde el diccionario según el idioma actual
+  projects.value = dictionary[locale.value].PROJECTS_LIST;
+});
+</script>
+
+<style scoped>
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+</style>

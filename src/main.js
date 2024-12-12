@@ -9,7 +9,6 @@ import diccionario from './diccionario'
 const i18n = createI18n({
     messages: diccionario,
     fallbackFormat :'es',
-    locale: localStorage.getItem('language') || 'es',
     locale:navigator.language.startsWith('es')? 'es':'en'
   })
   

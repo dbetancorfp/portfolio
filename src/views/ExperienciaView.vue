@@ -1,28 +1,13 @@
 <template>
-    <div>
-      <h1>Download Example File</h1>
-      <a :href="fileUrl" download class="btn btn-primary">
-        Download PDF
-      </a>
-    </div>
-  </template>
-  
-  <script setup>
-  const fileUrl = '/Joseph Vanegas Caicedo curriculum.pdf'; // Path to your file in the public directory
-  </script>
-  
-  <style scoped>
-  .btn {
-    padding: 10px 20px;
-    color: white;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  .btn:hover {
-    background-color: #0056b3;
-  }
-  </style>
+  <div>
+    <embed style="width: 100vw; height: 100vh" :src="pdf" />
+  </div>
+</template>
+
+<script setup>
+const pdf = "/Joseph Vanegas Caicedo curriculum.pdf"; 
+</script>
+
+<style scoped>
+/* You can add any additional styles here if needed */
+</style>

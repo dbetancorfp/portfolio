@@ -1,13 +1,20 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 
 const { locale } = useI18n();
+const storedLanguage = localStorage.getItem('language') || 'es'; 
+locale.value = storedLanguage; 
 const isEnglish = ref(locale.value === 'en');
+
+watch(locale, (newLocale) => {
+  isEnglish.value = newLocale === 'en';
+});
 
 const toggleLanguage = () => {
   isEnglish.value = !isEnglish.value;
-  locale.value = isEnglish.value ? 'en' : 'es'; // Toggle between English and Spanish
+  locale.value = isEnglish.value ? 'en' : 'es'; 
+  localStorage.setItem('language', locale.value); 
 };
 </script>
 
@@ -43,7 +50,7 @@ const toggleLanguage = () => {
         <div class="d-flex align-items-center"> 
           <label class="form-check form-switch me-2"> 
             <input class="form-check-input" type="checkbox" :checked="isEnglish" @change="toggleLanguage">
-            <span class="form-check-label">{{ isEnglish ? 'EN' : 'ES' }}</span>
+            <span class="form-check-label custom-text">{{ isEnglish ? 'EN' : 'ES' }}</span>
           </label>
         </div>
       </div>
@@ -52,4 +59,7 @@ const toggleLanguage = () => {
 </template>
 
 <style scoped>
+.custom-text {
+  color: white;
+}
 </style>
