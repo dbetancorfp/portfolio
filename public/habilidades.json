@@ -1,0 +1,22 @@
+{
+    "habilidades": [
+      {
+        "id": 1,
+        "name": "JavaScript",
+        "description": "Un lenguaje de programación versátil utilizado principalmente para el desarrollo web.",
+        "level": 3
+      },
+      {
+        "id": 2,
+        "name": "Python",
+        "description": "Un lenguaje de programación de alto nivel conocido por su legibilidad y versatilidad.",
+        "level": 4 
+      },
+      {
+        "id": 3,
+        "name": "Django",
+        "description": "Un marco de trabajo de alto nivel para Python que fomenta el desarrollo rápido y limpio de aplicaciones web.",
+        "level": 2 
+      }
+    ]
+  }

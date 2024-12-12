@@ -1,15 +1,18 @@
+<script setup>
+import Navbar from './components/Navbar.vue'
+</script>
 <template>
-  <Navbar></Navbar>
-  <!-- Semuestra la navegación de router -->
-  <main>
-    <router-view /> 
-  </main>
+  
+  <Navbar />
+  <router-view/>
 </template>
 
-<script setup>
-import Navbar from "./components/Navbar.vue";
-</script>
-
 <style>
-/* Estilos adicionales si se requieren */
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 </style>
