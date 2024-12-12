@@ -63,7 +63,7 @@ export default defineComponent({
 .navbar-brand{
   text-transform: uppercase;
   color: white;
-  background: url(../../public/assets/python.png);
+  background: url(../../public/assets/wallhaven.png);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   background-position: center;

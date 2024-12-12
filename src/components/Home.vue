@@ -26,7 +26,7 @@ export default {
 .hero h1 {
   text-transform: uppercase;
   color: white;
-  background: url(../../public/assets/portfolio.webp);
+  background: url(../../public/assets/wallhaven.png);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   background-position: center;

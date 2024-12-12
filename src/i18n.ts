@@ -71,8 +71,8 @@ const messages = {
 };
 
 const i18n = createI18n({
-  legacy: false, // Usamos el modo composable
-  locale: savedLocale, // Usa el idioma guardado en localStorage o por defecto 'es'
+  legacy: false, 
+  locale: savedLocale, 
   messages,
 });
 
