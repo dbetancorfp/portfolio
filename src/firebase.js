@@ -7,14 +7,25 @@ import {  getFirestore,
     getDocs,
     setDoc, } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore.js";
 
-const firebaseConfig = {
-    apiKey: "AIzaSyC2Nmsb5Lfl04A-BT1sXd6TUD5fU-MfWq0",
-    authDomain: "portfolio-64567.firebaseapp.com",
-    projectId: "portfolio-64567",
-    storageBucket: "portfolio-64567.firebasestorage.app",
-    messagingSenderId: "1037991672637",
-    appId: "1:1037991672637:web:f57257dec41a268fd3a354"
-  };
+    const firebaseConfig = {
+
+      apiKey: "AIzaSyCtJE7U-RoGXBHQtu8MAVXCxF7ZcOqgJew",
+    
+      authDomain: "porfolio2-37af1.firebaseapp.com",
+    
+      projectId: "porfolio2-37af1",
+    
+      storageBucket: "porfolio2-37af1.firebasestorage.app",
+    
+      messagingSenderId: "456348925587",
+    
+      appId: "1:456348925587:web:43df1b6cccbe816bf51766",
+    
+      measurementId: "G-0Z1PM2PVNH"
+    
+    };
+    
+    
 
 
 const app = initializeApp(firebaseConfig);

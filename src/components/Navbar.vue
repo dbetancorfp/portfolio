@@ -27,6 +27,9 @@
           <li class="nav-item">
             <router-link class="nav-link js-scroll-trigger" :to="`/${$i18n.locale}/projects`">{{ $t('projects') }}</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link js-scroll-trigger" :to="`/${$i18n.locale}/contact`">{{ $t('contact') }}</router-link>
+          </li>
           
           <!-- Dropdown de idiomas -->
           <li class="nav-item dropdown">

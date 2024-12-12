@@ -14,7 +14,7 @@ const routes: Array<RouteRecordRaw> = [
   { path: '/:lang/skills', name: 'Skills', component: Skills, beforeEnter: validateLang },
   { path: '/:lang/experience', name: 'Experience', component: Experience, beforeEnter: validateLang },
   { path: '/:lang/projects', name: 'Projects', component: Projects, beforeEnter: validateLang },
-  { path: '/:lang/projects', name: 'Projects', component: Projects, beforeEnter: validateLang },
+  { path: '/:lang/contact', name: 'Contact', component: Contact, beforeEnter: validateLang },
   { path: '/:pathMatch(.*)*', name: 'Error404', component: Error404, beforeEnter: validateLang },
 ];
 

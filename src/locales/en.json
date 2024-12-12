@@ -20,4 +20,16 @@
     "Affair":"Affair",
     "Message":"Message",
     "SendMessage":"Send Message"
+    ,"cards": [
+        {
+            "title": "Pokemon",
+            "description": "Pokemon shop",
+            "link": "https://github.com/NauzetPM/Proyecto-Compras-Pokemon"
+        },
+        {
+            "title": "Lol",
+            "description": "Web Page about league of legends",
+            "link": "https://github.com/NauzetPM/WikiLol"
+        }
+    ]
 }

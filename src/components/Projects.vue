@@ -3,16 +3,11 @@
     <div class="container">
       <h2 class="text-center mb-5 fw-bold">{{ $t('projects') }}</h2>
       <div class="row g-4">
-        <div
-          class="col-12 col-sm-6 col-md-4 col-lg-3"
-          v-for="(project, index) in projects"
-          :key="index"
-        >
-          <ProyectoCard
-            :title="project.title"
-            :description="project.description"
-            :link="project.link"
-          />
+        <div v-for="(project, index) in  projects " :key="index">
+          <ProyectoCard :title=project.title
+           :description=project.description
+          :link=project.link
+           />
         </div>
       </div>
     </div>
@@ -21,15 +16,26 @@
 
 <script lang="ts">
 import ProyectoCard from "./ProyectoCard.vue";
-import data from "../locales/es.json";
+import dataEn from "../locales/en.json";
+import dataEs from "../locales/es.json";
+import { useI18n } from 'vue-i18n';
+
+
 
 export default {
   components: {
     ProyectoCard,
   },
   data() {
+    const { locale } = useI18n();
+    let cards;
+    if (locale.value == "es") {
+      cards = dataEs.cards;
+    } else {
+      cards = dataEn.cards;
+    }
     return {
-      projects: data.cards,
+      projects: cards,
     };
   },
 };

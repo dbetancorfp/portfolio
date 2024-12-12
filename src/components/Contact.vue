@@ -32,7 +32,17 @@
           </form>
         </div>
       </div>
-  
+      <ul class="list-inline dev-icons">
+       <li class="list-inline-item">
+           <a href="https://github.com/"> <img src="../assets/github.svg" alt="GitHub" class="icon" /></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="https://x.com/"><img src="../assets/twitter-alt.svg" alt="twitter" class="icon" /></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="https://www.facebook.com/"><img src="../assets/facebook.svg" alt="twitter" class="icon" /></a>
+        </li>
+      </ul>
       <div v-if="submitted" class="alert alert-success mt-4" role="alert">
         {{ $t("feedback") }}
       </div>  
@@ -80,6 +90,24 @@
   };
   </script>
   <style scoped>
+  .dev-icons {
+  font-size: 2rem; 
+}
+
+.dev-icons li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
   .card {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

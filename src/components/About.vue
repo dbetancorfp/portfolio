@@ -11,17 +11,7 @@
       <p class="lead mb-5">
         {{ $t('textabaout') }}
       </p>
-      <div class="social-icons d-flex justify-content-center gap-3">
-       <li class="list-inline-item">
-            <img src="../assets/github.svg" alt="GitHub" class="icon" />
-        </li>
-        <li class="list-inline-item">
-            <img src="../assets/twitter-alt.svg" alt="twitter" class="icon" />
-        </li>
-        <li class="list-inline-item">
-            <img src="../assets/facebook.svg" alt="twitter" class="icon" />
-        </li>
-     </div>
+
     </div>
     
 </template>
@@ -30,6 +20,7 @@
 </script>
 
 <style scoped>
+
 .social-icon {
   font-size: 1.5rem;
   color: #0073b1; 
