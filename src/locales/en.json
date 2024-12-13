@@ -8,8 +8,6 @@
     "textabaout":"Programmer with advanced knowledge in several languages ​​and lover of the backend"
     ,"languages": "Programming Languages & Tools"
     ,"workflow": "Workflow" 
-    ,"workflow1": "Mobile-First, Responsive Design"    
-    ,"workflow2": "Cross Browser Testing & Debugging"
     ,"ExperienceT":"Junior Web Developer"
     ,"Experience":"Intelitec Solutions"
     ,"Experience1":"Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day,going forward, a new normal that has evolved from generation X is on the runway heading towards astreamlined cloud solution."   
@@ -30,6 +28,16 @@
             "title": "Lol",
             "description": "Web Page about league of legends",
             "link": "https://github.com/NauzetPM/WikiLol"
+        }
+    ]
+    ,"skillsCard": [
+        {
+            "description": "Mobile-First, Responsive Design",
+            "img": "../../src/assets/Responsive.png"
+        },
+        {
+            "description": "Cross Browser Testing & Debugging",
+            "img": "../../src/assets/Depuracion.png"
         }
     ]
 }

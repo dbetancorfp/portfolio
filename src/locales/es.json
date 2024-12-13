@@ -8,8 +8,6 @@
     "textabaout":"Programador con conocimientos avanzados en varios lenguajes y amante del backend"
     ,"languages": "Lenguajes de programacion y herramientas" 
     ,"workflow": "Flujo de trabajo"
-    ,"workflow1": "Diseño responsivo centrado en los dispositivos móviles"    
-    ,"workflow2": "Pruebas y depuración entre navegadores"
     ,"ExperienceT":"Desarrolladora web junior(f"
     ,"Experience":"Intelitec Solutions"
     ,"Experience1":"Ponga sobre la mesa estrategias de supervivencia beneficiosas para todos para garantizar una dominación proactiva. Al fin y al cabo, de cara al futuro, una nueva normalidad que ha evolucionado desde la generación X está en camino hacia una solución de nube optimizada."   
@@ -31,6 +29,16 @@
             "title": "Lol",
             "description": "Pagina web con tematica de League of Legends",
             "link": "https://github.com/NauzetPM/WikiLol"
+        }
+    ]
+    ,"skillsCard": [
+        {
+            "description": "Diseño responsivo centrado en los dispositivos móviles",
+            "img": "../../src/assets/Responsive.png"
+        },
+        {
+            "description": "Pruebas y depuración entre navegadores",
+            "img": "../../src/assets/Depuracion.png"
         }
     ]
 }   

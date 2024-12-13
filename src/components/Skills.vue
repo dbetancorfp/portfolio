@@ -4,90 +4,111 @@
       <h2 class="mb-5">{{ $t('skills') }}</h2>
 
       <div class="subheading mb-3">{{ $t('languages') }}</div>
-        <ul class="list-inline dev-icons">
-          <!-- HTML -->
-          <li class="list-inline-item">
-            <img src="../assets/html5.svg" alt="HTML5" class="icon" />
-          </li>
-
-          <!-- CSS -->
-          <li class="list-inline-item">
-            <img src="../assets/css3.svg" alt="CSS3" class="icon" />
-          </li>
-
-          <!-- JavaScript -->
-          <li class="list-inline-item">
-            <img src="../assets/javascript.svg" alt="JavaScript" class="icon" />
-          </li>
-
-          <!-- TypeScript -->
-          <li class="list-inline-item">
-            <img src="../assets/typescript.svg" alt="TypeScript" class="icon" />
-          </li>
-
-          <!-- Vue -->
-          <li class="list-inline-item">
-            <img src="../assets/vue.svg" alt="Vue.js" class="icon" />
-          </li>
-
-          <!-- Laravel -->
-          <li class="list-inline-item">
-            <img src="../assets/laravel.svg" alt="Laravel" class="icon" />
-          </li>
-
-          <!-- Angular -->
-          <li class="list-inline-item">
-            <img src="../assets/angular.svg" alt="Angular" class="icon" />
-          </li>
-
-          <!-- Python -->
-          <li class="list-inline-item">
-            <img src="../assets/python.svg" alt="Python" class="icon" />
-          </li>
-
-          <!-- PHP -->
-          <li class="list-inline-item">
-            <img src="../assets/php.svg" alt="PHP" class="icon" />
-          </li>
-
-          <!-- Django -->
-          <li class="list-inline-item">
-            <img src="../assets/django.svg" alt="Django" class="icon" />
-          </li>
-
-          <!-- React -->
-          <li class="list-inline-item">
-            <img src="../assets/react.svg" alt="React" class="icon" />
-          </li>
-
-          <!-- Android Studio -->
-          <li class="list-inline-item">
-            <img src="../assets/androidstudio.svg" alt="Android Studio" class="icon" />
-          </li>
-        </ul>
-
-      <div class="subheading mb-3">{{ $t('workflow') }}</div>
-      <ul class="fa-ul mb-0">
-        <li>
-          <span class="fa-li"><i class="fas fa-check"></i></span>
-          {{ $t('workflow1') }}
+      <ul class="list-inline dev-icons">
+        <!-- HTML -->
+        <li class="list-inline-item">
+          <img src="../assets/html5.svg" alt="HTML5" class="icon" />
         </li>
-        <li>
-          <span class="fa-li"><i class="fas fa-check"></i></span>
-          {{ $t('workflow2') }}
+
+        <!-- CSS -->
+        <li class="list-inline-item">
+          <img src="../assets/css3.svg" alt="CSS3" class="icon" />
+        </li>
+
+        <!-- JavaScript -->
+        <li class="list-inline-item">
+          <img src="../assets/javascript.svg" alt="JavaScript" class="icon" />
+        </li>
+
+        <!-- TypeScript -->
+        <li class="list-inline-item">
+          <img src="../assets/typescript.svg" alt="TypeScript" class="icon" />
+        </li>
+
+        <!-- Vue -->
+        <li class="list-inline-item">
+          <img src="../assets/vue.svg" alt="Vue.js" class="icon" />
+        </li>
+
+        <!-- Laravel -->
+        <li class="list-inline-item">
+          <img src="../assets/laravel.svg" alt="Laravel" class="icon" />
+        </li>
+
+        <!-- Angular -->
+        <li class="list-inline-item">
+          <img src="../assets/angular.svg" alt="Angular" class="icon" />
+        </li>
+
+        <!-- Python -->
+        <li class="list-inline-item">
+          <img src="../assets/python.svg" alt="Python" class="icon" />
+        </li>
+
+        <!-- PHP -->
+        <li class="list-inline-item">
+          <img src="../assets/php.svg" alt="PHP" class="icon" />
+        </li>
+
+        <!-- Django -->
+        <li class="list-inline-item">
+          <img src="../assets/django.svg" alt="Django" class="icon" />
+        </li>
+
+        <!-- React -->
+        <li class="list-inline-item">
+          <img src="../assets/react.svg" alt="React" class="icon" />
+        </li>
+
+        <!-- Android Studio -->
+        <li class="list-inline-item">
+          <img src="../assets/androidstudio.svg" alt="Android Studio" class="icon" />
         </li>
       </ul>
+      <div class="container">
+        <h2 class="text-center mb-5 fw-bold">{{ $t('workflow') }}</h2>
+        <div class="row g-4">
+          <div v-for="(skill, index) in  skills " :key="index">
+            <SkillCard 
+           :skill=skill.description
+          :ruta=skill.img
+           />
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
-  
-<script setup lang="ts">
+<script lang="ts">
+import SkillCard from "./SkillCard.vue";
+import dataEn from "../locales/en.json";
+import dataEs from "../locales/es.json";
+import { useI18n } from 'vue-i18n';
 
+
+
+export default {
+  components: {
+    SkillCard,
+  },
+  data() {
+    const { locale } = useI18n();
+    let skills;
+    if (locale.value == "es") {
+      skills = dataEs.skillsCard;
+    } else {
+      skills = dataEn.skillsCard;
+    }
+    return {
+      skills: skills,
+    };
+  },
+};
 </script>
   
 <style scoped>
 .dev-icons {
-  font-size: 2rem; 
+  font-size: 2rem;
 }
 
 .dev-icons li {
@@ -103,5 +124,6 @@
 
 .icon:hover {
   transform: scale(1.1);
-}</style>
+}
+</style>
   
