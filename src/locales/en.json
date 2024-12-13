@@ -1,0 +1,79 @@
+{
+    "language": "Language",
+    "aboutme": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact",
+    "greeting": "Hi, I'm Samuel",
+    "description1": "I am a student passionate about the world of video games, my goal is to dedicate my life to the development and creation of video games.",
+    "description2": "My motto is that you always have to be positive, everything has a solution.",
+    "project": "My Projects",
+    "cards": [
+        {
+        "title": "LOL",
+        "description": "Creation of a website themed around the video game League of Legends.",
+        "link": "https://github.com/Shulkiora8/LOL"
+    },
+    {
+        "title": "Buy Pokemons",
+        "description": "Page to buy Pokemon."
+    }
+    ],
+    "skillsCard": [
+        {
+        "name": "Vue.js",
+        "description": "Mainly used in class.",
+        "img": "/img/vue.png"
+    },
+    {
+        "name": "TypeScript",
+        "description": "Used for class projects.",
+        "img": "/img/ts.png"
+    },
+    {
+        "name": "Kotlin",
+        "description": "Used to make a mobile application.",
+        "img": "/img/kotlin.png"
+    },
+    {
+        "name": "Python",
+        "description": "My first programming language.",
+        "img": "/img/python.png"
+    },
+    {
+        "name": "JavaScript",
+        "description": "Mostly used in class.",
+        "img": "/img/js.png"
+    },
+    {
+        "name": "C#",
+        "description": "Used to create video games.",
+        "img": "/img/c.png"
+    },
+    {
+        "name": "HTML",
+        "description": "Used to create the website of a private institute.",
+        "img": "/img/html.png"
+    },
+    {
+        "name": "CSS",
+        "description": "As a complement to HTML.",
+        "img": "/img/css.png"
+    }
+    ],
+    "habilites": "My Habilites",
+    "contact1": "Name",
+    "contact2": "Email",
+    "contact3": "Message",
+    "experiences": {
+        "title": "Work Experience",
+        "jobTitle": "Web Developer",
+        "company": "St Pauls Secondary School",
+        "dates": "March 2024 - May 2024",
+        "description1": "Developing web applications using HTML and CSS.",
+        "description2": "Implementing scalable frontend solutions."
+    },
+    "downloadButton": "Download as PDF",
+    "contactEmail": "Contact Email: your-email@example.com"
+}

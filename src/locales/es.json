@@ -1,0 +1,79 @@
+{
+    "language": "Idioma",
+    "aboutme": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "greeting": "Hola, soy Samuel",
+    "description1": "Soy un estudiante apasionado por el mundo de los videojuegos, mi meta es dedicar mi vida al desarrollo y creación de videojuegos.",
+    "description2": "Mi lema es que siempre hay que ser positivo, todo tiene solución.",
+    "project": "Mis Proyectos",
+    "cards": [
+        {
+            "title": "League of Legends",
+            "description": "Creación de una página web sobre el videojuego LOL.",
+            "link": "https://github.com/Shulkiora8/LOL"
+        },
+        {
+            "title": "Pokecompras",
+            "description": "Página para comprar Pokémons."
+        }
+    ],
+    "skillsCard": [
+        {
+            "name": "Vue.js",
+            "description": "Usado principalmente en clase.",
+            "img": "/img/vue.png"
+        },
+        {
+            "name": "TypeScript",
+            "description": "Usado para proyectos de clase.",
+            "img": "/img/ts.png"
+        },
+        {
+            "name": "Kotlin",
+            "description": "Usado para hacer una aplicación movil.",
+            "img": "/img/kotlin.png"
+        },
+        {
+            "name": "Python",
+            "description": "Mi primer leguaje de programación.",
+            "img": "/img/python.png"
+        },
+        {
+            "name": "JavaScript",
+            "description": "Usado mayormente en clase.",
+            "img": "/img/js.png"
+        },
+        {
+            "name": "C#",
+            "description": "Usado para crear de videojuegos.",
+            "img": "/img/c.png"
+        },
+        {
+            "name": "HTML",
+            "description": "Usado para crear la página web de un instituto privado.",
+            "img": "/img/html.png"
+        },
+        {
+            "name": "CSS",
+            "description": "Como complemento del HTML.",
+            "img": "/img/css.png"
+        }
+    ],
+    "habilites": "Mis Habilidades",
+    "contact1": "Nombre",
+    "contact2": "Correo Electrónico",
+    "contact3": "Mensaje",
+    "experiences": {
+        "title": "Experiencia Laboral",
+        "jobTitle": "Desarrollador Web",
+        "company": "St Pauls Secondary School",
+        "dates": "Marzo 2024 - Mayo 2024",
+        "description1": "Desarrollo de aplicaciones web usando HTML y CSS.",
+        "description2": "Implementación de soluciones de frontend escalables."
+    },
+    "downloadButton": "Descargar en PDF",
+    "contactEmail": "Correo de contacto: tuemail@dominio.com"
+}
