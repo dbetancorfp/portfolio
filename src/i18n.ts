@@ -10,6 +10,7 @@ const messages = {
       skills: "Skills",
       contact: "Contact",
       projects: "Projects",
+      experience: 'Experience'
     },
     home: {
       title: "Welcome to My Portfolio",
@@ -74,6 +75,7 @@ const messages = {
       skills: "Habilidades",
       contact: "Contacto",
       projects: "Proyectos",
+      experience: 'Experiencia'
     },
     home: {
       title: "Bienvenido a Mi Portfolio",
