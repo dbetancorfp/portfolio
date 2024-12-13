@@ -38,6 +38,12 @@
             >
               {{ $t('about.skills') }}
             </a>
+            <a
+              href="/projects"
+              class="btn btn-warning btn-lg mx-2 animate__animated animate__bounceIn"
+            >
+              {{ $t('about.projects') }}
+            </a>
           </div>
         </div>
       </div>

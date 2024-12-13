@@ -1,7 +1,6 @@
-// src/i18n.ts
 import { createI18n } from 'vue-i18n';
 
-const savedLocale = localStorage.getItem('locale') || 'es'; // Lee el idioma del localStorage (por defecto 'es')
+const savedLocale = localStorage.getItem('locale') || 'es'; 
 
 const messages = {
   en: {
@@ -10,6 +9,7 @@ const messages = {
       about: "About Me",
       skills: "Skills",
       contact: "Contact",
+      projects: "Projects",
     },
     home: {
       title: "Welcome to My Portfolio",
@@ -20,11 +20,38 @@ const messages = {
       title: "About Me",
       content: "I am a passionate 22-year-old developer with a love of programming, who likes to work a lot as a team and above all learn.",
       skills: 'Skills',
-      contact: 'Contact'
+      contact: 'Contact',
+      projects: 'Projects'
     },
     skills: {
       title: "My Skills",
       content: "I specialize in frontend and backend technologies.",
+      skillList: [
+        {
+          name: "JavaScript",
+          description: "Front-end development"
+        },
+        {
+          name: "Python",
+          description: "Coding Language"
+        },
+        {
+          name: "TypeScript",
+          description: "Backend development"
+        },
+        {
+          name: "HTML",
+          description: "Markup Language"
+        },
+        {
+          name: "Django",
+          description: "Back-end development"
+        },
+        {
+          name: "Vue",
+          description: "Front-end development"
+        }
+      ]
     },
     contact: {
       title: "Contact Me",
@@ -35,6 +62,10 @@ const messages = {
       success: "Form submitted successfully.",
       error: "Error submitting the form. Please try again.",
     },
+    projects: {
+      title: 'Projects',
+      content: 'These are my projects',
+    }
   },
   es: {
     navbar: {
@@ -42,6 +73,7 @@ const messages = {
       about: "Sobre Mí",
       skills: "Habilidades",
       contact: "Contacto",
+      projects: "Proyectos",
     },
     home: {
       title: "Bienvenido a Mi Portfolio",
@@ -52,11 +84,38 @@ const messages = {
       title: "Sobre Mí",
       content: "Soy un desarrollador de 22 años apasionado con amor por la programación, que le gusta trabajar mucho en equipo y sobre todo aprender.",
       skills: 'Habilidades',
-      contact: 'Contactame'
+      contact: 'Contáctame',
+      projects: 'Proyectos'
     },
     skills: {
       title: "Mis Habilidades",
       content: "Me especializo en tecnologías frontend y backend.",
+      skillList: [
+        {
+          name: "JavaScript",
+          description: "Desarrollo Front-end"
+        },
+        {
+          name: "Python",
+          description: "Lenguaje de programación"
+        },
+        {
+          name: "TypeScript",
+          description: "Desarrollo Backend"
+        },
+        {
+          name: "HTML",
+          description: "Lenguaje de marcado"
+        },
+        {
+          name: "Django",
+          description: "Desarrollo Back-end"
+        },
+        {
+          name: "Vue",
+          description: "Desarrollo Front-end"
+        }
+      ]
     },
     contact: {
       title: "Contacto",
@@ -67,6 +126,10 @@ const messages = {
       success: "Formulario enviado con éxito.",
       error: "Error al enviar el formulario. Por favor, inténtalo de nuevo.",
     },
+    projects: {
+      title: 'Proyectos',
+      content: 'Estos son mis proyectos'
+    }
   },
 };
 

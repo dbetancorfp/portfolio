@@ -22,7 +22,13 @@
             <router-link class="nav-link" :to="'/about'">{{ $t('navbar.about') }}</router-link>
           </li>
           <li class="nav-item">
+            <router-link class="nav-link" :to="'/projects'">{{ $t('navbar.projects') }}</router-link>
+          </li>
+          <li class="nav-item">
             <router-link class="nav-link" :to="'/skills'">{{ $t('navbar.skills') }}</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" :to="'/contact'">{{ $t('navbar.contact') }}</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" :to="'/contact'">{{ $t('navbar.contact') }}</router-link>
