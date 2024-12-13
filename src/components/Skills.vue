@@ -1,43 +1,66 @@
 <template>
-    <section class="habilidades">
-      <h2>{{ $t('habilites') }}</h2>
-      <div class="grid">
-        <TarjetaHabilidad
-          v-for="(habilidad, index) in habilidades"
-          :key="index"
-          :habilidad="habilidad"
-        />
+  <section class="resume-section" id="skills">
+    <div class="resume-section-content">
+      <h2 class="mb-5">{{ $t('skills') }}</h2>
+      <div class="container">
+        <div class="row g-4">
+          <div v-for="(skill, index) in  skills " :key="index">
+            <SkillCard 
+             :name=skill.name
+           :skill=skill.description
+           :ruta=skill.img
+           />
+          </div>
+        </div>
       </div>
-    </section>
-  </template>
+    </div>
+  </section>
+</template>
+
+<script lang="ts">
+import SkillCard from "./TarjetaHabilidad.vue";
+import dataEn from "../locales/en.json";
+import dataEs from "../locales/es.json";
+import { useI18n } from 'vue-i18n';
+
+
+export default {
+  components: {
+    SkillCard,
+  },
+  data() {
+    const { locale } = useI18n();
+    let skills;
+    if (locale.value == "es") {
+      skills = dataEs.skillsCard;
+    } else {
+      skills = dataEn.skillsCard;
+    }
+    return {
+      skills: skills,
+    };
+  },
+};
+</script>
   
-  <script lang="ts">
-  import { defineComponent } from "vue";
-  import TarjetaHabilidad from "@/components/TarjetaHabilidad.vue";
-  import { Habilidad } from "@/types";
-  import habilidadesData from "@/locales/es/habilidades.json"; 
-  
-  export default defineComponent({
-    name: "Habilidades",
-    components: {
-      TarjetaHabilidad,
-    },
-    data() {
-      return {
-        habilidades: habilidadesData.cards as Habilidad[],
-      };
-    },
-  });
-  </script>
-  
-  <style scoped>
-  .habilidades {
-    padding: 32px;
-  }
-  .grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-  </style>
+<style scoped>
+.dev-icons {
+  font-size: 2rem;
+}
+
+.dev-icons li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+</style>
   

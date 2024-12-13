@@ -17,7 +17,6 @@
 </script>
 
 <style scoped>
-/* Contenedor principal */
 .about-container {
   display: flex;
   justify-content: center;
@@ -31,7 +30,6 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-/* Biografía */
 .bio {
   display: flex;
   flex-direction: column;
@@ -42,7 +40,6 @@
   max-width: 700px;
 }
 
-/* Imagen */
 .bio-image img {
   border-radius: 50%;
   width: 250px;
@@ -52,7 +49,6 @@
   border: 4px solid #fff;
 }
 
-/* Texto */
 .bio-text {
   max-width: 600px;
 }
@@ -76,7 +72,6 @@
   margin-bottom: 0;
 }
 
-/* Responsividad */
 @media (max-width: 768px) {
   .bio {
     padding: 20px;

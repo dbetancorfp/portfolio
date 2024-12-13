@@ -62,7 +62,6 @@
         successMessage.value = "";
   
         try {
-          // Guarda el mensaje en Firestore
           await addDoc(collection(db, "contactMessages"), {
             name: formData.value.name,
             email: formData.value.email,
