@@ -3,5 +3,62 @@
     "projects": "Projects",
     "skills": "Skills",
     "experience": "Experience",
-    "contact": "Contact"
+    "contact": "Contact",
+    "skillCards": [
+        {
+            "logo": "fa-brands fa-java",
+            "name": "Java",
+            "description": "Used in the MasterPCBuilder project",
+            "experience": "+2 years"
+        },
+        {
+            "logo": "fa-brands fa-react",
+            "name": "React",
+            "description": "Used in the MasterPCBuilder project",
+            "experience": "+1 years"
+        },
+        {
+            "logo": "devicon-javascript-plain",
+            "name": "JS",
+            "description": "Used in the MasterPCBuilder project",
+            "experience": "+2 years"
+        },
+        {
+            "logo": "devicon-typescript-plain",
+            "name": "TS",
+            "description": "Used in the MasterPCBuilder project",
+            "experience": "+2 years"
+        },
+        {
+            "logo": "devicon-html5-plain",
+            "name": "HTML",
+            "description": "Used in the MasterPCBuilder project",
+            "experience": "+3 years"
+        },
+        {
+            "logo": "devicon-css3-plain",
+            "name": "CSS",
+            "description": "Used in the MasterPCBuilder project",
+            "experience": "+3 years"
+        },
+        {
+            "logo": "devicon-mysql-original",
+            "name": "MySQL",
+            "description": "Used in the MasterPCBuilder project",
+            "experience": "+3 years"
+        },
+        {
+            "logo": "devicon-mongodb-plain",
+            "name": "MongoDB",
+            "description": "Used in the MasterPCBuilder project",
+            "experience": "+1 years"
+        }
+    ],
+    "projectCards": [
+        {
+            "title": "MasterPCBuilder",
+            "description": "Is a pc builder, but it gets parts from multiple stores",
+            "link": "https://masterpcbuilder.com"
+        }
+    ]
 }

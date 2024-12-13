@@ -16,12 +16,9 @@
 
 <script setup lang="ts">
     import { ProjectCard } from './ProjectCard.ts';
+    import { useI18n } from 'vue-i18n';
 
-    const projectCards: Array<ProjectCard> = [
-        {
-            title: 'MasterPCBuilder',
-            description: 'Es un montador de pcs, pero te coge piezas de multiples tiendas',
-            link: 'https://github.com/OwenHernandez/Master-PCBuilder'
-        },
-    ];
+    const { locale, messages } = useI18n();
+
+    const projectCards = messages.value[locale.value].projectCards as Array<ProjectCard>;
 </script>

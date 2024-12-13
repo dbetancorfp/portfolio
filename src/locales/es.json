@@ -3,5 +3,62 @@
     "projects": "Proyectos",
     "skills": "Habilidades",
     "experience": "Experiencia",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "skillCards": [
+        {
+            "logo": "fa-brands fa-java",
+            "name": "Java",
+            "description": "Usado en el proyecto MasterPCBuilder",
+            "experience": "+2 años"
+        },
+        {
+            "logo": "fa-brands fa-react",
+            "name": "React",
+            "description": "Usado en el proyecto MasterPCBuilder",
+            "experience": "+1 años"
+        },
+        {
+            "logo": "devicon-javascript-plain",
+            "name": "JS",
+            "description": "Usado en el proyecto MasterPCBuilder",
+            "experience": "+2 años"
+        },
+        {
+            "logo": "devicon-typescript-plain",
+            "name": "TS",
+            "description": "Usado en el proyecto MasterPCBuilder",
+            "experience": "+2 años"
+        },
+        {
+            "logo": "devicon-html5-plain",
+            "name": "HTML",
+            "description": "Usado en el proyecto MasterPCBuilder",
+            "experience": "+3 años"
+        },
+        {
+            "logo": "devicon-css3-plain",
+            "name": "CSS",
+            "description": "Usado en el proyecto MasterPCBuilder",
+            "experience": "+3 años"
+        },
+        {
+            "logo": "devicon-mysql-original",
+            "name": "MySQL",
+            "description": "Usado en el proyecto MasterPCBuilder",
+            "experience": "+3 años"
+        },
+        {
+            "logo": "devicon-mongodb-plain",
+            "name": "MongoDB",
+            "description": "Usado en el proyecto MasterPCBuilder",
+            "experience": "+1 años"
+        }
+    ],
+    "projectCards": [
+        {
+            "title": "MasterPCBuilder",
+            "description": "Es un montador de pcs, pero te coge piezas de multiples tiendas",
+            "link": "https://masterpcbuilder.com"
+        }
+    ]
 }

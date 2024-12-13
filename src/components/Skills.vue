@@ -18,55 +18,9 @@
 
 <script setup lang="ts">
     import { SkillCard } from './SkillCard';
+    import { useI18n } from 'vue-i18n';
 
-    const skillCards: Array<SkillCard> = [
-        {
-            logo: 'fa-brands fa-java',
-            name: 'Java',
-            description: 'Usado en el proyecto MasterPCBuilder',
-            experience: '+2 años'
-        },
-        {
-            logo: 'fa-brands fa-react',
-            name: 'React',
-            description: 'Usado en el proyecto MasterPCBuilder',
-            experience: '+1 años'
-        },
-        {
-            logo: 'devicon-javascript-plain',
-            name: 'JS',
-            description: 'Usado en el proyecto MasterPCBuilder',
-            experience: '+2 años'
-        },
-        {
-            logo: 'devicon-typescript-plain',
-            name: 'TS',
-            description: 'Usado en el proyecto MasterPCBuilder',
-            experience: '+2 años'
-        },
-        {
-            logo: 'devicon-html5-plain',
-            name: 'HTML',
-            description: 'Usado en el proyecto MasterPCBuilder',
-            experience: '+3 años'
-        },
-        {
-            logo: 'devicon-css3-plain',
-            name: 'CSS',
-            description: 'Usado en el proyecto MasterPCBuilder',
-            experience: '+3 años'
-        },
-        {
-            logo: 'devicon-mysql-original',
-            name: 'MySQL',
-            description: 'Usado en el proyecto MasterPCBuilder',
-            experience: '+3 años'
-        },
-        {
-            logo: 'devicon-mongodb-plain',
-            name: 'MongoDB',
-            description: 'Usado en el proyecto MasterPCBuilder',
-            experience: '+1 años'
-        }
-    ];
+    const { locale, messages } = useI18n();
+
+    const skillCards = messages.value[locale.value].skillCards as Array<SkillCard>;
 </script>
