@@ -1,35 +1,50 @@
 <template>
-  <section id="skills" class="skills-section d-flex flex-column justify-content-center align-items-center py-5">
+  <section id="skills" class="skills-section py-5 position-relative overflow-hidden">
     <div class="container text-center">
-      <h2 class="display-4 text-warning mb-4 animate__animated animate__fadeInDown">
-        {{ $t('skills.title') }}
-      </h2>
-      <p class="lead text-light animate__animated animate__fadeInUp">
-        {{ $t('skills.content') }}
-      </p>
-      <div class="row mt-4">
-        <SkillCard
-          v-for="skill in skills"
-          :key="skill.name"
-          :skill="skill"
-          class="col-md-4 mb-4 animate__animated animate__zoomIn"
-        />
+      <!-- Section Header -->
+      <div class="mb-5">
+        <h2 class="display-5 fw-bold mb-3 animate__animated animate__fadeInDown">{{ $t('skills.title') }}</h2>
+        <p class="lead text-white-50 animate__animated animate__fadeInUp">{{ $t('skills.content') }}</p>
+      </div>
+
+      <!-- Skills Grid -->
+      <div class="row g-4 justify-content-center">
+        <div 
+          v-for="(skill, index) in skills" 
+          :key="skill.name" 
+          class="col-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div 
+            class="skill-card rounded-circle d-flex flex-column justify-content-center align-items-center p-3 position-relative animate__animated" 
+            :class="getAnimationClass(index)"
+          >
+            <!-- Skill Icon Background -->
+            <div 
+              class="skill-icon rounded-circle position-relative"
+              :style="{ backgroundImage: `url(${skill.image})` }"
+            >
+              <h3 class="skill-title text-center text-white position-absolute w-100">{{ skill.name }}</h3>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import SkillCard from './SkillCard.vue'; // Asegúrate de que la ruta sea correcta
+import { defineComponent, ref } from 'vue';
+
+interface Skill {
+  name: string;
+  description: string;
+  image: string;
+}
 
 export default defineComponent({
   name: "Skills",
-  components: {
-    SkillCard,
-  },
   setup() {
-    const skills = [
+    const skills = ref<Skill[]>([
       { name: "Python", description: "Coding Language", image: "https://skillicons.dev/icons?i=python" },
       { name: "Django", description: "Back-end development", image: "https://skillicons.dev/icons?i=django&theme=light" },
       { name: "Vue", description: "Front-end development", image: "https://skillicons.dev/icons?i=vue" },
@@ -39,39 +54,81 @@ export default defineComponent({
       { name: "Bash", description: "Scripting", image: "https://skillicons.dev/icons?i=bash" },
       { name: "Mysql", description: "Data Base Manager", image: "https://skillicons.dev/icons?i=mysql" },
       { name: "Sqlite", description: "Light Data Base Manager", image: "https://skillicons.dev/icons?i=sqlite&theme=dark" },
-    ];
+    ]);
 
-    return { skills };
+    const getAnimationClass = (index: number): string => {
+      const delayClass = `animate__delay-${index % 2}s`; // Adds delay for staggered animations
+      return `animate__zoomIn ${delayClass}`;
+    };
+
+    return { skills, getAnimationClass };
   },
 });
 </script>
 
 <style scoped>
-.skills-section {
-  background-color: #282c34; /* Color de fondo oscuro */
-  min-height: 100vh;
-  padding-bottom: 0;
-}
-
+/* Section Styling */
 h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  margin-top: 3rem;
   color: #ffc107;
-  margin-top: 30px;
+}
+.skills-section {
+  background-color: #141414;
+  min-height: 100vh;
+  color: #ffffff;
 }
 
-p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.75;
-  color: #e0e0e0;
+/* Card Styling */
+.skill-card {
+  width: 180px;
+  height: 180px;
+  background-color: #2c2b2b;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.274);
+  transition: transform 0.3s, background-color 0.3s;
 }
 
-.row {
-  margin: 0 -15px; /* Ajusta el margen negativo para compensar el padding de las columnas */
+.skill-card:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-.col-md-4 {
-  padding: 15px; /* Espaciado entre las columnas */
+/* Icon Styling */
+.skill-icon {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  position: relative;
+}
+
+.skill-title {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.753);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #ffc107; /* Amarillo inspirado en el botón del componente hero */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .skill-card {
+    width: 150px;
+    height: 150px;
+  }
+
+  .skill-title {
+    font-size: 0.85rem;
+  }
 }
 </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />

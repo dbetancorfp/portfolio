@@ -59,7 +59,7 @@ export default {
 
 <style scoped>
 .about-section {
-  background-color: #333;
+  background-color: #161616;
 }
 
 h2 {

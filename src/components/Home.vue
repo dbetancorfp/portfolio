@@ -20,7 +20,7 @@ export default {
 .hero {
   position: relative;
   height: 100vh; 
-  background-color: #333; 
+  background-color: #131212; 
 }
 
 .hero h1 {
