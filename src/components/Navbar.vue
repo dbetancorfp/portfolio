@@ -28,10 +28,10 @@
             <router-link class="nav-link" :to="'/skills'">{{ $t('navbar.skills') }}</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" :to="'/contact'">{{ $t('navbar.contact') }}</router-link>
+            <router-link class="nav-link" :to="'/experience'">{{ $t('navbar.experience') }}</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" :to="'/experience'">{{ $t('navbar.experience') }}</router-link>
+            <router-link class="nav-link" :to="'/contact'">{{ $t('navbar.contact') }}</router-link>
           </li>
         </ul>
         <button @click="toggleLanguage" class="btn btn-outline-light ms-3">

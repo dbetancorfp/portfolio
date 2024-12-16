@@ -15,44 +15,20 @@ const messages = {
     home: {
       title: "Welcome to My Portfolio",
       description: "This is where you can find my skills and learn more about me.",
-      learnMore: "Learn More"
+      discover: "Learn More",
+      contact:'Contact me',
     },
     about: {
       title: "About Me",
       content: "I am a passionate 22-year-old developer with a love of programming, who likes to work a lot as a team and above all learn.",
       skills: 'Skills',
       contact: 'Contact',
-      projects: 'Projects'
+      projects: 'Projects',
+      overlayText:'David Riccio',
     },
     skills: {
       title: "My Skills",
-      content: "I specialize in frontend and backend technologies.",
-      skillList: [
-        {
-          name: "JavaScript",
-          description: "Front-end development"
-        },
-        {
-          name: "Python",
-          description: "Coding Language"
-        },
-        {
-          name: "TypeScript",
-          description: "Backend development"
-        },
-        {
-          name: "HTML",
-          description: "Markup Language"
-        },
-        {
-          name: "Django",
-          description: "Back-end development"
-        },
-        {
-          name: "Vue",
-          description: "Front-end development"
-        }
-      ]
+      content: "I specialize in frontend and backend technologies."
     },
     contact: {
       title: "Contact Me",
@@ -66,6 +42,15 @@ const messages = {
     projects: {
       title: 'Projects',
       content: 'These are my projects',
+    },
+    experience:{
+      title:'My experience',
+      first_title:'2 years in Front-End Development',
+      first_content:'in projects with high impact in the industry',
+      second_title:'Specialist in Vue.js',
+      second_content:'Experts in dinamic web sites ',
+      third_title:'Continuous support',
+      third_content:'I offer you support and maintenance for your website',
     }
   },
   es: {
@@ -80,44 +65,20 @@ const messages = {
     home: {
       title: "Bienvenido a Mi Portfolio",
       description: "Aquí es donde podrás encontrar mis habilidades y aprender más sobre mí.",
-      learnMore: "Saber más"
+      discover: "Descubre mas",
+      contact:'Contactanos'
     },
     about: {
       title: "Sobre Mí",
       content: "Soy un desarrollador de 22 años apasionado con amor por la programación, que le gusta trabajar mucho en equipo y sobre todo aprender.",
       skills: 'Habilidades',
       contact: 'Contáctame',
-      projects: 'Proyectos'
+      projects: 'Proyectos',
+      overlayText:'David Riccio',
     },
     skills: {
       title: "Mis Habilidades",
       content: "Me especializo en tecnologías frontend y backend.",
-      skillList: [
-        {
-          name: "JavaScript",
-          description: "Desarrollo Front-end"
-        },
-        {
-          name: "Python",
-          description: "Lenguaje de programación"
-        },
-        {
-          name: "TypeScript",
-          description: "Desarrollo Backend"
-        },
-        {
-          name: "HTML",
-          description: "Lenguaje de marcado"
-        },
-        {
-          name: "Django",
-          description: "Desarrollo Back-end"
-        },
-        {
-          name: "Vue",
-          description: "Desarrollo Front-end"
-        }
-      ]
     },
     contact: {
       title: "Contacto",
@@ -133,6 +94,14 @@ const messages = {
       content: 'Estos son mis proyectos'
     }
   },
+  experience:{
+    title:'Mi experiencia',
+    first_title:'2 años en Desarrollo en Front',
+    first_content:'En proyectos de alto impacto para la industria',
+    second_title:'Especialista en Vue.js',
+    second_content:'Expero en realizar sitios web dinamicos y escalables.',
+    third_title:'Soporte continuo',
+    third_content:'Te ofrezco soporte y mantenenimiento para tu sitio web ',   }
 };
 
 const i18n = createI18n({

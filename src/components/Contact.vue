@@ -86,10 +86,15 @@ export default defineComponent({
 <style scoped>
 
 #contact {
-  background-color: #333; 
-  min-height: 100vh; 
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  height: 100vh;
+  padding: 4rem 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../public/assets/wallhaven.png') no-repeat center center/cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 

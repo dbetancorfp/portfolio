@@ -67,22 +67,28 @@ export default defineComponent({
 </script>
 
 <style scoped>
-/* Section Styling */
+
 h2 {
   margin-top: 3rem;
   color: #ffc107;
 }
 .skills-section {
-  background-color: #141414;
-  min-height: 100vh;
-  color: #ffffff;
+  height: 100vh;
+  padding: 4rem 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../public/assets/wallhaven.png') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Card Styling */
+
 .skill-card {
   width: 180px;
   height: 180px;
-  background-color: #2c2b2b;
+  background-color: #0000004b;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.274);
   transition: transform 0.3s, background-color 0.3s;
 }
@@ -92,7 +98,7 @@ h2 {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Icon Styling */
+
 .skill-icon {
   width: 100%;
   height: 100%;
@@ -101,7 +107,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid rgba(255, 255, 255, 0.3);
+  border: 3px solid rgba(36, 95, 105, 0.3);
   position: relative;
 }
 
@@ -112,13 +118,13 @@ h2 {
   background: rgba(0, 0, 0, 0.753);
   padding: 5px 10px;
   border-radius: 5px;
-  color: #ffc107; /* Amarillo inspirado en el botón del componente hero */
+  color: #ffc107; 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
   .skill-card {
     width: 150px;

@@ -80,11 +80,18 @@ export default {
 /* General */
 
 .projects-section {
-  min-height: 100vh;
-  padding: 3rem 0;
-  background-color: #131212;
-  color: #fff;
+  height: 100vh;
+  padding: 4rem 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../public/assets/wallhaven.png') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 /* Títulos */
 h2 {
@@ -103,7 +110,7 @@ p {
 /* Tarjetas */
 .project-card {
   border-radius: 15px;
-  background-color: #444;
+  background-color: #44444486;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }

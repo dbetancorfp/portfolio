@@ -1,13 +1,15 @@
 <template>
-  <section class="hero d-flex justify-content-center align-items-center text-center text-white bg-dark" 
-           style="background-image: url('/path/to/your/image.jpg'); background-size: cover; background-position: center; height: 100vh;">
-    <div class="overlay position-absolute w-100 h-100" style="background: rgba(0, 0, 0, 0.5);"></div>
-    <div class="container position-relative z-index-10">
-      <h1 class="display-3 fw-bold mb-3 animate__animated animate__fadeInDown">{{ $t('home.title') }}</h1>
-      <p class="lead mb-4 animate__animated animate__fadeInUp">{{ $t('home.description') }}</p>
-      <a href="/about" class="btn btn-warning btn-lg animate__animated animate__bounceIn">{{ $t('home.learnMore') }}</a>
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="container animate__animated animate__fadeIn">
+      <h1>{{ $t('home.title') }}</h1>
+      <p>  {{ $t('home.description') }}.</p>
+      <div class="button-group">
+        <a href="#features" class="btn">{{ $t('home.discover') }}</a>
+        <a href="#contact" class="btn">{{ $t('home.contact') }}</a>
+      </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script lang="ts">
@@ -19,52 +21,134 @@ export default {
 <style scoped>
 .hero {
   position: relative;
-  height: 100vh; 
-  background-color: #131212; 
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../public/assets/wallhaven.png') no-repeat center center/cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
 }
 
 .hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
-  color: white;
-  background: url(../../public/assets/wallhaven.png);
-  -webkit-text-fill-color: transparent;
   background-clip: text;
-  background-position: center;
-  background-size:cover;
+  -webkit-background-clip: text;
+    background: url('../../public/assets/wallhaven.png') no-repeat center;
+  background-size: cover;
   -webkit-text-stroke: 1px white;
-
 }
 
 .hero p {
-  font-size: 1.5rem; 
-  animation-duration: 1s;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.hero a {
+.button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
   font-size: 1.2rem;
   padding: 1rem 2rem;
   background-color: #ffc107;
   color: #333;
-  transition: background-color 0.3s;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.hero a:hover {
+.btn:hover {
   background-color: #e0a800;
   color: #fff;
 }
 
-
-.overlay {
-  z-index: 1;
-}
-
-
-.container {
-  z-index: 2;
-  position: relative;
+.features {
+  padding: 4rem 2rem;
+  background-color: #f4f4f4;
   text-align: center;
 }
-</style>
 
-<!-- Asegúrate de incluir Animate.css en tu proyecto para las animaciones -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+.features h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.feature {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.contact {
+  padding: 4rem 2rem;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+  padding: 1rem 2rem;
+  background-color: #ffc107;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #e0a800;
+  color: #fff;
+}
+</style>
