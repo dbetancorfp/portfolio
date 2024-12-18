@@ -93,7 +93,7 @@ const messages = {
       title: 'Proyectos',
       content: 'Estos son mis proyectos'
     }
-  },
+  ,
   experience:{
     title:'Mi experiencia',
     first_title:'2 años en Desarrollo en Front',
@@ -101,8 +101,11 @@ const messages = {
     second_title:'Especialista en Vue.js',
     second_content:'Expero en realizar sitios web dinamicos y escalables.',
     third_title:'Soporte continuo',
-    third_content:'Te ofrezco soporte y mantenenimiento para tu sitio web ',   }
-};
+    third_content:'Te ofrezco soporte y mantenenimiento para tu sitio web ',  
+   }
+}
+}
+;
 
 const i18n = createI18n({
   legacy: false, 

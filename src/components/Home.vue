@@ -5,8 +5,8 @@
       <h1>{{ $t('home.title') }}</h1>
       <p>  {{ $t('home.description') }}.</p>
       <div class="button-group">
-        <a href="#features" class="btn">{{ $t('home.discover') }}</a>
-        <a href="#contact" class="btn">{{ $t('home.contact') }}</a>
+        <a href="/experience" class="btn">{{ $t('home.discover') }}</a>
+        <a href="/contact" class="btn">{{ $t('home.contact') }}</a>
       </div>
     </div>
   </div>
