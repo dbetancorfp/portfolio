@@ -31,16 +31,114 @@
     "CFGS":"CFGS-Senior Technician in Multiplatform Application Development",
     "IES": "IES San Juan de la Rambla | 2023 - 2024",
     "Languages":"Languages",
-    "Castilian":"Castilian",
-    "Download ":"Download CV in PDF",
-    "updated ": "Curriculum updated in 2024",
+    "Castilian":"Spanish",
+    
+    "up": "Curriculum updated in 2024",
 
     "ContactForm":"Contact Form",
     "Affair":"Affair",
     "Message":"Message",
     "SendMessage":"Send Message",
 
-    "feedback":"¡Message sent successfully! We will contact you soon."
+    "feedback":"¡Message sent successfully! We will contact you soon.",
+
+    "habilidades": [
+        {
+          "logo": "/img/html.png",
+          "nombre": "HTML",
+          "descripcion": "Technology that I use for the development of the client side",
+          "nivel": 80
+        },
+        {
+            "logo": "/img/css.png",
+            "nombre": "CSS",
+            "descripcion": "Styling web pages",
+            "nivel": 70
+        },
+        { 
+            "logo": "/img/boostrap.jpg",
+            "nombre": "Bootstrap",
+            "descripcion": "Framework to speed up and reduce web page creation time",
+            "nivel": 60
+        },
+        {
+            "logo": "/img/js.png",
+            "nombre": "JavaScript",
+            "descripcion": "The programming language for the front part of the application",
+            "nivel": 75
+        },
+        {
+            "logo": "/img/tscript.png",
+            "nombre": "TypeScript",
+            "descripcion": "The use of this technology is to give the robustness that JavaScript lacks as a complement to this",
+            "nivel": 55
+          },
+          {
+              "logo": "/img/jquery.png",
+              "nombre": "jQuery",
+              "descripcion": "Ease of navigating a document, selecting DOM elements, creating animations, handling events, and developing applications ",
+              "nivel": 60
+          },
+          {
+              "logo": "/img/mysql.png",
+              "nombre": "MySQL",
+              "descripcion": "An Oracle database system that I regularly use for my projects",
+              "nivel": 90
+          },
+          {
+              "logo": "/img/postgres.png",
+              "nombre": "Postgres",
+              "descripcion": "An object-oriented database management system that I use for a specific project",
+              "nivel": 95
+          },
+          {
+            "logo": "/img/docker.png",
+            "nombre": "Docker",
+            "descripcion": "Where you want to run containers and provides a simple set of commands that you can use to easily create, start, or stop containers for testing in production",
+            "nivel": 88
+          },
+          {
+              "logo": "/img/php.png",
+              "nombre": "PHP",
+              "descripcion": "A programming language for the development of web pages",
+              "nivel": 77
+          },
+          {
+              "logo": "/img/python.png",
+              "nombre": "Python",
+              "descripcion": "Programming language widely used in web applications, software development, data science and machine learning",
+              "nivel": 90
+          },
+          {
+              "logo": "/img/github.png",
+              "nombre": "GitHub",
+              "descripcion": "You can store, share and work together with other users to write code and control versions",
+              "nivel": 70
+          }
+        
+    ],
+    "cards": [
+        {
+            "title": "WCAG y WAI-ARIA",
+            "description": "Accessible pages model",
+            "link": "https://github.com/David-Luis-Mora/WCAG_y_WAI-ARIA.git"
+        },
+        {
+            "title": "Pelican",
+            "description": "Static page generation",
+            "link": "https://github.com/David-Luis-Mora/Pelican"
+        },
+        {
+            "title": "Persona5",
+            "description": "Persona5 website design",
+            "link": "https://github.com/David-Luis-Mora/Persona5"
+        },
+        {
+            "title": "Lol",
+            "description": "League of Legends themed website",
+            "link": "https://github.com/David-Luis-Mora/Lol"
+        }
+    ]
 
 
 }

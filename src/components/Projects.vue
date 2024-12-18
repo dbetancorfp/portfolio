@@ -21,18 +21,29 @@
 
 <script>
 import TarjetaProyecto from "./TarjetaProyecto.vue";
-import data from "@/locales/es.json";
+import Card from "@/locales/es.json";
+import Card2 from "@/locales/en.json";
 
 export default {
   components: {
     TarjetaProyecto,
   },
   data() {
+    const currentLang = this.$i18n.locale;
+    let mensaje = '';
+
+    if (currentLang === 'es') {
+      mensaje = Card.cards
+    } else if (currentLang === 'en') {
+      mensaje = Card2.cards
+    }
+
     return {
-      projects: data.cards,
+      projects: mensaje,
     };
   },
 };
+
 </script>
 
 <style scoped>

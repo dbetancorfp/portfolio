@@ -2,7 +2,8 @@
   <Navbar></Navbar>
   <!-- Semuestra la navegación de router -->
   <main>
-    <router-view /> 
+    <router-view :key="$i18n.locale"></router-view>
+    <!-- <router-view />  -->
   </main>
 </template>
 

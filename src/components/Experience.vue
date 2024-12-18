@@ -50,12 +50,12 @@
       </ul>
     </div>
 
-     <div class="text-center mt-5">
-      <button class="btn btn-primary" @click="downloadPDF">{{ $t("Download") }}</button>
+    <div class="text-center mt-5">
+      <button class="btn btn-primary" @click="downloadPDF">{{ $t("CV") }}   </button>
     </div>
 
     <div class="footer text-center mt-5">
-      <p>{{ $t("updated") }}</p>
+      <p>{{ $t("up") }}</p>
     </div>
   </div>
 </template>

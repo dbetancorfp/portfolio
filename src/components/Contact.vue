@@ -34,13 +34,13 @@
     </div>
 
     <div v-if="submitted" class="alert alert-success mt-4" role="alert">
-      ¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto.
+      {{ $t("feedback") }}
     </div>  
   </div>
 </template>
 
 <script>
-import { db, collection, addDoc,setDoc,doc } from "../firebase.js";
+import { db, collection, addDoc,setDoc,doc } from "../firebase.ts";
 
 export default {
   data() {

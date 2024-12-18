@@ -31,7 +31,7 @@
             "descripcion": "Ponerle el estilo a las paginas web",
             "nivel": 70
         },
-        {
+        { 
             "logo": "/img/boostrap.jpg",
             "nombre": "Bootstrap",
             "descripcion": "Framework para agilizar y disminuir los tiempos de creación de las páginas web",
@@ -102,7 +102,7 @@
         },
         {
             "title": "Pelican",
-            "description": "Generador de paginas estáticas",
+            "description": "Generado de pagina statica",
             "link": "https://github.com/David-Luis-Mora/Pelican"
         },
         {
@@ -130,9 +130,9 @@
     "CFGS":"CFGS-Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
     "IES": "IES San Juan de la Rambla | 2023 - 2024",
     "Languages":"Idiomas",
-    "Castilian":"Castellano",
+    "Castilian":"Español",
     "Download ":"Descargar CV en PDF",
-    "updated ": "Currículum actualizado en 2024",
+    "up": "Currículum actualizado en 2024",
 
     "ContactForm":"Formulario de Contacto",
     "Affair":"Asunto",
