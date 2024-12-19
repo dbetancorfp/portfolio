@@ -10,24 +10,66 @@
   "chinese": "Chino",
   "italian": "Italiano",
   "description": "Soy un desarrollador apasionado por la tecnología, con experiencia en crear soluciones innovadoras y adaptarme rápidamente a nuevos desafíos. Siempre estoy buscando aprender y colaborar en proyectos interesantes.",
+  "ExperienceTitle": "Desarrollador Web Junior",
+  "ExperienceCompany": "Sistemas TechNova",
+  "ExperienceDescription": "Desarrollar soluciones innovadoras para garantizar el éxito colaborativo y mantener un liderazgo proactivo. A medida que avanzamos, el panorama digital en evolución nos impulsa hacia una integración fluida en la nube.",
+  "ExperienceDate": "Abril 2024",
   "name": "Nombre",
-  "name_value": "Samuel Pérez",
   "email": "Correo electrónico",
+  "ContactForm": "Formulario de Contacto",
+  "Affair": "Asunto",
+  "Message": "Mensaje",
+  "SendMessage": "Enviar Mensaje",
+  "feedback": "¡Tu mensaje se ha enviado correctamente! Nos pondremos en contacto contigo en breve.",
+  "name_value": "Samuel Pérez",
   "location": "Ubicación",
   "location_value": "Canarias, España",
   "interests_title": "Mis intereses",
   "interests_description": "Me encanta explorar nuevas tecnologías, desarrollar aplicaciones innovadoras y aprender sobre inteligencia artificial. En mi tiempo libre, disfruto jugando a videojuegos y tocando la guitarra.",
-  "viewMore": "Ver Más",
   "cards": [
     {
-      "title": "Tarjeta 1",
-      "description": "Descripción de la primera tarjeta.",
-      "link": "/ruta1"
+      "title": "Lumino",
+      "description": "Aplicación web educativa, con cientos de asignaturas y miles de temas para aprender sobre cualquier tema, con un servicio de calificación integrado, gestionado por nuestros profesores.",
+      "link": "https://github.com/SamuP14/lumino",
+      "viewMore": "Ver Más"
     },
     {
-      "title": "Tarjeta 2",
-      "description": "Descripción de la segunda tarjeta.",
-      "link": "/ruta2"
+      "title": "Wiki of Legends",
+      "description": "Sitio web estilo wiki sobre los campeones del videojuego League of Legends (LoL), con información sobre cada campeón, sus habilidades, sus skins e incluso su descripción de lore.",
+      "link": "https://github.com/SamuP14/WebLoL",
+      "viewMore": "Ver Más"
+    }
+  ],
+  "skillsCard": [
+    {
+      "description": "HTML5",
+      "img": "../../src/assets/html5.png",
+      "text": "HTML5 es la última versión del lenguaje de marcado de hipertexto, el código que describe las páginas web. Permite incrustar multimedia, hacer los sitios web más interactivos y dinámicos, y es esencial para el desarrollo web moderno."
+    },
+    {
+      "description": "CSS3",
+      "img": "../../src/assets/css3.png",
+      "text": "CSS3 es la última versión del lenguaje de hojas de estilo en cascada. Se utiliza para controlar el diseño, la apariencia y el estilo de las páginas web. Incluye características avanzadas como animaciones, transiciones y capacidades de diseño responsivo."
+    },
+    {
+      "description": "JavaScript",
+      "img": "../../src/assets/javascript.png",
+      "text": "JavaScript es un lenguaje de programación que permite el comportamiento dinámico en las páginas web. Es esencial para funcionalidades del lado del cliente, como formularios interactivos, animaciones y manejo de entradas de usuario. Funciona bien con HTML y CSS para crear sitios web interactivos."
+    },
+    {
+      "description": "Vue.js",
+      "img": "../../src/assets/vue.png",
+      "text": "Vue.js es un framework progresivo de JavaScript utilizado para construir aplicaciones web modernas. Se enfoca en la capa de vista y es conocido por su simplicidad, flexibilidad y facilidad de integración con otras bibliotecas o proyectos existentes."
+    },
+    {
+      "description": "Python",
+      "img": "../../src/assets/python.png",
+      "text": "Python es un lenguaje de programación de alto nivel, interpretado, conocido por su sintaxis fácil de leer y su versatilidad. Se utiliza ampliamente para desarrollo web, análisis de datos, aprendizaje automático y tareas de automatización."
+    },
+    {
+      "description": "Django",
+      "img": "../../src/assets/django.png",
+      "text": "Django es un framework de Python de alto nivel que fomenta un desarrollo rápido y un diseño limpio y pragmático. Se utiliza para construir aplicaciones web robustas, seguras y escalables, siguiendo el principio DRY (Don't Repeat Yourself)."
     }
   ]
 }

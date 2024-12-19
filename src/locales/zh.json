@@ -1,33 +1,75 @@
 {
-    "portfolio": "文件夹",
-    "aboutme": "关于我",
-    "projects": "项目",
-    "skills": "技能",
-    "experience": "经验",
-    "contact": "接触",
-    "english": "英语",
-    "spanish": "西班牙语",
-    "chinese": "中国人",
-    "italian": "简体中文",
-    "description": "我是一名热衷于技术的开发者，擅长创造创新解决方案并快速适应新挑战。我始终渴望学习并参与令人兴奋的项目。",
-    "name": "姓名",
-    "name_value": "Samuel Pérez",
-    "email": "电子邮件",
-    "location": "地点",
-    "location_value": "西班牙加那利群岛",
-    "interests_title": "我的兴趣",
-    "interests_description": "我喜欢探索新技术、开发创新应用程序和学习人工智能。在空闲时间，我喜欢玩电子游戏和弹吉他。",
-    "viewMore": "查看更多",
-    "cards": [
-        {
-            "title": "卡片 1",
-            "description": "第一张卡的描述。",
-            "link": "/ruta1"
-        },
-        {
-            "title": "卡片 2",
-            "description": "第二张卡的描述。",
-            "link": "/ruta2"
-        }
-    ]
+  "portfolio": "文件夹",
+  "aboutme": "关于我",
+  "projects": "项目",
+  "skills": "技能",
+  "experience": "经验",
+  "contact": "接触",
+  "english": "英语",
+  "spanish": "西班牙语",
+  "chinese": "中国人",
+  "italian": "简体中文",
+  "description": "我是一名热衷于技术的开发者，擅长创造创新解决方案并快速适应新挑战。我始终渴望学习并参与令人兴奋的项目。",
+  "ExperienceTitle": "初级Web开发人员",
+  "ExperienceCompany": "科技新星系统",
+  "ExperienceDescription": "开发创新解决方案以确保协作成功并保持积极领导力。随着我们前进，不断发展的数字化趋势推动我们迈向无缝的云集成。",
+  "ExperienceDate": "2024年4月",
+  "name": "姓名",
+  "email": "电子邮件",
+  "ContactForm": "联系表单",
+  "Affair": "主题",
+  "Message": "消息",
+  "SendMessage": "发送消息",
+  "feedback": "您的消息已成功发送！我们将尽快与您取得联系。",
+  "name_value": "Samuel Pérez",
+  "location": "地点",
+  "location_value": "西班牙加那利群岛",
+  "interests_title": "我的兴趣",
+  "interests_description": "我喜欢探索新技术、开发创新应用程序和学习人工智能。在空闲时间，我喜欢玩电子游戏和弹吉他。",
+  "cards": [
+    {
+      "title": "Lumino",
+      "description": "一款教育类网页应用，提供数百个学科和数千个主题，学习任何内容，并且内置评分服务，由我们的教师管理。",
+      "link": "https://github.com/SamuP14/lumino",
+      "viewMore": "查看更多"
+    },
+    {
+      "title": "Wiki of Legends",
+      "description": "关于《英雄联盟》（LoL）游戏冠军的wiki风格网站，提供每个冠军的技能、皮肤以及其故事背景的描述。",
+      "link": "https://github.com/SamuP14/WebLoL",
+      "viewMore": "查看更多"
+    }
+  ],
+  "skillsCard": [
+    {
+      "description": "HTML5",
+      "img": "../../src/assets/html5.png",
+      "text": "HTML5 是超文本标记语言的最新版本，描述网页的代码。它允许嵌入多媒体，使网站更加互动和动态，是现代网页开发的必备工具。"
+    },
+    {
+      "description": "CSS3",
+      "img": "../../src/assets/css3.png",
+      "text": "CSS3 是层叠样式表语言的最新版本。用于控制网站的布局、设计和外观。它包括高级功能，如动画、过渡和响应式设计能力。"
+    },
+    {
+      "description": "JavaScript",
+      "img": "../../src/assets/javascript.png",
+      "text": "JavaScript 是一种编程语言，用于实现网页上的动态行为。它对于客户端功能至关重要，例如交互式表单、动画和处理用户输入。与 HTML 和 CSS 配合使用，可以创建互动式网站。"
+    },
+    {
+      "description": "Vue.js",
+      "img": "../../src/assets/vue.png",
+      "text": "Vue.js 是一个进阶的 JavaScript 框架，用于构建现代网页应用。它专注于视图层，因其简单性、灵活性和与其他库或现有项目的集成易用性而著称。"
+    },
+    {
+      "description": "Python",
+      "img": "../../src/assets/python.png",
+      "text": "Python 是一种高级的、解释型编程语言，因其易于阅读的语法和多功能性而广受欢迎。它广泛用于网页开发、数据分析、机器学习和自动化任务。"
+    },
+    {
+      "description": "Django",
+      "img": "../../src/assets/django.png",
+      "text": "Django 是一个高级的 Python 框架，鼓励快速开发和干净、实用的设计。它用于构建强大、安全、可扩展的网页应用，并遵循 DRY（不要重复自己）原则。"
+    }
+  ]
 }

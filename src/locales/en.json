@@ -10,24 +10,66 @@
   "chinese": "Chinese",
   "italian": "Italian",
   "description": "I am a developer passionate about technology, experienced in creating innovative solutions and adapting quickly to new challenges. I am always eager to learn and collaborate on exciting projects.",
+  "ExperienceTitle": "Junior Web Developer",
+  "ExperienceCompany": "TechNova Systems",
+  "ExperienceDescription": "Develop innovative solutions to ensure collaborative success and maintain proactive leadership. As we move forward, the evolving digital landscape drives us toward seamless cloud integration.",
+  "ExperienceDate": "April 2024",
   "name": "Name",
-  "name_value": "Samuel Pérez",
   "email": "Email",
+  "ContactForm": "Contact Form",
+  "Affair": "Subject",
+  "Message": "Message",
+  "SendMessage": "Send Message",
+  "feedback": "Your message has been successfully sent! We will reach out to you shortly.",
+  "name_value": "Samuel Pérez",
   "location": "Location",
   "location_value": "Canary Islands, Spain",
   "interests_title": "My Interests",
   "interests_description": "I love exploring new technologies, developing innovative applications and learning about artificial intelligence. In my free time, I enjoy playing video games and playing the guitar.",
-  "viewMore": "View More",
   "cards": [
     {
-      "title": "Card 1",
-      "description": "Description of the first card.",
-      "link": "/ruta1"
+      "title": "Lumino",
+      "description": "An educational web application with hundreds of subjects and thousands of topics to learn about anything, with an integrated grading service managed by our teachers.",
+      "link": "https://github.com/SamuP14/lumino",
+      "viewMore": "View More"
     },
     {
-      "title": "Card 2",
-      "description": "Description of the second card.",
-      "link": "/ruta2"
+      "title": "Wiki of Legends",
+      "description": "A wiki-style website about the champions of the game League of Legends (LoL), with information about each champion, their abilities, skins, and even their lore description.",
+      "link": "https://github.com/SamuP14/WebLoL",
+      "viewMore": "View More"
+    }
+  ],
+  "skillsCard": [
+    {
+      "description": "HTML5",
+      "img": "../../src/assets/html5.png",
+      "text": "HTML5 is the latest version of the Hypertext Markup Language, the code that describes web pages. It allows embedding multimedia, making websites more interactive and dynamic, and is essential for modern web development."
+    },
+    {
+      "description": "CSS3",
+      "img": "../../src/assets/css3.png",
+      "text": "CSS3 is the latest version of the Cascading Style Sheets language. It is used to control the layout, design, and appearance of websites. It includes advanced features like animations, transitions, and responsive design capabilities."
+    },
+    {
+      "description": "JavaScript",
+      "img": "../../src/assets/javascript.png",
+      "text": "JavaScript is a programming language that enables dynamic behavior on web pages. It is essential for client-side functionality, such as interactive forms, animations, and handling user input. It works well with HTML and CSS to create interactive websites."
+    },
+    {
+      "description": "Vue.js",
+      "img": "../../src/assets/vue.png",
+      "text": "Vue.js is a progressive JavaScript framework used to build modern web applications. It focuses on the view layer and is known for its simplicity, flexibility, and ease of integration with other libraries or existing projects."
+    },
+    {
+      "description": "Python",
+      "img": "../../src/assets/python.png",
+      "text": "Python is a high-level, interpreted programming language known for its easy-to-read syntax and versatility. It is widely used for web development, data analysis, machine learning, and automation tasks."
+    },
+    {
+      "description": "Django",
+      "img": "../../src/assets/django.png",
+      "text": "Django is a high-level Python framework that encourages rapid development and clean, pragmatic design. It is used to build robust, secure, and scalable web applications and follows the DRY (Don't Repeat Yourself) principle."
     }
   ]
 }
