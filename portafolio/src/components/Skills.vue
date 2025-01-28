@@ -1,70 +1,66 @@
 <template>
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
-    rel="stylesheet"
-  />
-  <section>
-    <h2>{{ $t('skills.title') }}</h2>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <TarjetaHabilidad
-        v-for="(tecnologia, index) in habilidades"
-        :key="index"
-        :habilidad="tecnologia.nombre"
-        :descripcion="tecnologia.descripcion"
-        :icono="tecnologia.icono"
-      />
+  <section class="resume-section" id="skills">
+    <div class="resume-section-content">
+      <h2 class="mb-5">{{ $t('skills') }}</h2>
+      <div class="row g-4">
+        <div v-for="(skill, index) in skills" :key="index" class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img :src="skill.img" alt="skill image" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">{{ skill.description }}</h5>
+              <p class="card-text">{{ skill.text }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from 'vue'
-import TarjetaHabilidad from './TarjetaHabilidad.vue'
-import { useI18n } from 'vue-i18n'
+import SkillCard from "./SkillCard.vue";
+import dataEn from "../locales/en.json";
+import dataEs from "../locales/es.json";
+import { useI18n } from 'vue-i18n';
 
-export default defineComponent({
-  name: 'Habilidades',
+export default {
   components: {
-    TarjetaHabilidad,
+    SkillCard,
   },
-  setup() {
-    const { t } = useI18n()
-
-    const habilidades = computed(() => [
-      {
-        nombre: t('skills.MySQL.name'),
-        descripcion: t('skills.MySQL.description'),
-        icono: t('skills.MySQL.icon'),
-      },
-      {
-        nombre: t('skills.Python.name'),
-        descripcion: t('skills.Python.description'),
-        icono: t('skills.Python.icon'),
-      },
-      {
-        nombre: t('skills.HTML.name'),
-        descripcion: t('skills.HTML.description'),
-        icono: t('skills.HTML.icon'),
-      },
-    ])
-
+  data() {
+    const { locale } = useI18n();
+    let skills;
+    if (locale.value == "es") {
+      skills = dataEs.skills;
+    } else if (locale.value == "en") {
+      skills = dataEn.skills;}
     return {
-      habilidades,
-      t,
-    }
+      skills: skills,
+    };
   },
-})
+};
 </script>
 
 <style scoped>
-h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 2rem;
-  font-weight: bold;
+.row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
-.row {
-  margin-top: 20px;
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
 }
 </style>
