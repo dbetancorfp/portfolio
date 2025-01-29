@@ -1,4 +1,5 @@
 <template>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
   <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
@@ -37,7 +38,7 @@
             <li class="nav-item dropdown ms-auto">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                <b-icon-globe />
+                <i class="bi bi-globe"></i>
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
                 <li>
