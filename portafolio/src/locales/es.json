@@ -2,6 +2,7 @@
   "about": "Sobre mí",
   "skills": {
     "title": "Habilidades",
+    "skill": {
     "MySQL": {
       "name": "MySQL",
       "icon": "bi bi-database",
@@ -17,6 +18,7 @@
       "icon": "bi bi-filetype-html",
       "description": "Tengo una sólida base en HTML, utilizándolo para estructurar páginas web y garantizar un contenido semántico y accesible para los usuarios en diversos dispositivos."
     }
+  }
   },
   "experience": "Experiencia",
   "contact": "Contacto",

@@ -2,6 +2,7 @@
   "about": "About Me",
   "skills": {
     "title": "Skills",
+    "skill": {
     "MySQL": {
       "name": "MySQL",
       "icon": "bi bi-database",
@@ -17,6 +18,7 @@
       "icon": "bi bi-filetype-html",
       "description": "I have a solid foundation in HTML, using it to structure web pages and ensure semantic and accessible content for users across devices."
     }
+  }
   },
   "experience": "Experience",
   "contact": "Contact",
